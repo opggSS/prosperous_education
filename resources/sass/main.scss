@@ -1,0 +1,84 @@
+$color-green: #00a396;
+$color-orange: #FFA200;
+$color-white: #FFFFFF;
+$color-gray: #444444;
+
+//主用字体
+@font-face{
+  font-family: 'lanting';
+  src : url('../fonts/lanting.TTF');
+}
+
+//Nav字体
+@font-face{
+  font-family: 'kaiti';
+  src : url('../fonts/kaiti.ttf');
+}
+
+//title用字体
+@font-face{
+  font-family: 'heijianti';
+  src : url('../fonts/shishangzhongheijianti.ttf');
+}
+
+//card内部字体
+@font-face{
+  font-family: 'jianshoujinshu';
+  src : url('../fonts/minijianshoujinshu.ttf');
+}
+
+body{
+  font-family: 'lanting';
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'heijianti';
+}
+
+#menu{
+
+  #contact-bar{
+    background-color: $color-green;
+    color: $color-white;
+    display: block;
+    width: 100%;
+    font-family: 'kaiti';
+    padding: 15px 60px 10px 30px;
+    vertical-align: middle;
+
+    img{
+      max-width: 20px;
+      max-height: 16px;
+      margin: 0 2px;
+    }
+
+    #contact-top-bar>img{
+      max-width: 13px;
+      margin: 0 4px;
+    }
+  }
+
+  #menu-bar{
+    padding: 10px 0;
+    width: 100%;
+    vertical-align: bottom;
+
+    .nav{
+      li{
+        a{
+          color: $color-gray;
+          font-family: 'kaiti';
+          font-size: 20px;
+
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .active{
+      color: $color-orange !important;
+    }
+  }
+}

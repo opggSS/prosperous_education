@@ -36,6 +36,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #menu{
+  z-index: 1000;
+  background-color: white;
 
   #contact-bar{
     background-color: $color-green;
@@ -108,17 +110,28 @@ h1,h2,h3,h4,h5,h6{
 
 #home{
   .swiper-container{
+    overflow:hidden;
+
     .swiper-wrapper {
-      min-height: 100%;
+      height: 100%;
+
       .swiper-slide{
         height: auto !important;
         img{
-          max-width: 100%;
+          width: 100%;
         }
       }
     }
-  }
 
+    .swiper-pagination{
+      .swiper-pagination-bullet{
+        background-color: $color-orange !important;
+        width: 15px;
+        height: 15px;
+        margin: 0 8px;
+      }
+    }
+  }
 
 
 }

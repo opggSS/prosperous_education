@@ -29,5 +29,22 @@
             el: '.swiper-pagination',
         },
     });
+    $(window).on('load',function () {
+        let smallestImageSize = 10000;
+        for(let i=0;i<$('.swiper-slide img').length; i++){
+            let height = $('.swiper-slide img')[i].height;
+            height<smallestImageSize ? smallestImageSize = height : smallestImageSize;
+        }
+        $('.swiper-container').css('height', smallestImageSize);
+    })
+
+    $(window).on('resize', function () {
+        let smallestImageSize = 10000;
+        for(let i=0;i<$('.swiper-slide img').length; i++){
+            let height = $('.swiper-slide img')[i].height;
+            height<smallestImageSize ? smallestImageSize = height : smallestImageSize;
+        }
+        $('.swiper-container').css('height', smallestImageSize);
+    })
 </script>
 @stop

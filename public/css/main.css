@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "heijianti";
 }
 
+#menu {
+  z-index: 1000;
+  background-color: white;
+}
 #menu #contact-bar {
   background-color: #00a396;
   color: #FFFFFF;
@@ -74,12 +78,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFA200 !important;
 }
 
+#home .swiper-container {
+  overflow: hidden;
+}
 #home .swiper-container .swiper-wrapper {
-  min-height: 100%;
+  height: 100%;
 }
 #home .swiper-container .swiper-wrapper .swiper-slide {
   height: auto !important;
 }
 #home .swiper-container .swiper-wrapper .swiper-slide img {
-  max-width: 100%;
+  width: 100%;
+}
+#home .swiper-container .swiper-pagination .swiper-pagination-bullet {
+  background-color: #FFA200 !important;
+  width: 15px;
+  height: 15px;
+  margin: 0 8px;
 }

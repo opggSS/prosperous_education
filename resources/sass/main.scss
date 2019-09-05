@@ -1,6 +1,7 @@
 $color-green: #00a396;
 $color-orange: #FFA200;
 $color-white: #FFFFFF;
+$color-gray: #444444;
 
 //主用字体
 @font-face{
@@ -34,8 +35,7 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'heijianti';
 }
 
-#menu-bar{
-
+#menu{
 
   #contact-bar{
     background-color: $color-green;
@@ -55,6 +55,30 @@ h1,h2,h3,h4,h5,h6{
     #contact-top-bar>img{
       max-width: 13px;
       margin: 0 4px;
+    }
+  }
+
+  #menu-bar{
+    padding: 10px 0;
+    width: 100%;
+    vertical-align: bottom;
+
+    .nav{
+      li{
+        a{
+          color: $color-gray;
+          font-family: 'kaiti';
+          font-size: 20px;
+
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .active{
+      color: $color-orange !important;
     }
   }
 }

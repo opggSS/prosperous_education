@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "heijianti";
 }
 
-#menu-bar #contact-bar {
+#menu #contact-bar {
   background-color: #00a396;
   color: #FFFFFF;
   display: block;
@@ -31,12 +31,28 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 60px 10px 30px;
   vertical-align: middle;
 }
-#menu-bar #contact-bar img {
+#menu #contact-bar img {
   max-width: 20px;
   max-height: 16px;
   margin: 0 2px;
 }
-#menu-bar #contact-bar #contact-top-bar > img {
+#menu #contact-bar #contact-top-bar > img {
   max-width: 13px;
   margin: 0 4px;
+}
+#menu #menu-bar {
+  padding: 10px 0;
+  width: 100%;
+  vertical-align: bottom;
+}
+#menu #menu-bar .nav li a {
+  color: #444444;
+  font-family: "kaiti";
+  font-size: 20px;
+}
+#menu #menu-bar .nav li a:hover {
+  text-decoration: none;
+}
+#menu #menu-bar .active {
+  color: #FFA200 !important;
 }

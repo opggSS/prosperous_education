@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'lanting';
+  src: url("../fonts/lanting.TTF"); }
+@font-face {
+  font-family: 'kaiti';
+  src: url("../fonts/kaiti.ttf"); }
+@font-face {
+  font-family: 'heijianti';
+  src: url("../fonts/shishangzhongheijianti.ttf"); }
+@font-face {
+  font-family: 'jianshoujinshu';
+  src: url("../fonts/minijianshoujinshu.ttf"); }
+body {
+  font-family: 'lanting'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'heijianti'; }
+
+#menu #contact-bar {
+  background-color: #00a396;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  font-family: 'kaiti';
+  padding: 15px 80px 10px 30px;
+  vertical-align: middle; }
+  #menu #contact-bar img {
+    max-width: 20px;
+    max-height: 16px;
+    margin: 0 2px; }
+  #menu #contact-bar #contact-top-bar > img {
+    max-width: 13px;
+    margin: 0 4px; }
+#menu #menu-bar {
+  padding: 10px 0;
+  width: 100%;
+  align-items: flex-end; }
+  #menu #menu-bar #menu-logo img {
+    width: 100%; }
+  #menu #menu-bar .nav li a {
+    color: #444444;
+    font-family: 'kaiti';
+    font-size: 22px;
+    padding: 0 8px; }
+    #menu #menu-bar .nav li a:hover {
+      text-decoration: none; }
+  #menu #menu-bar .nav li:not(:first-child) {
+    position: relative; }
+  #menu #menu-bar .nav li .border-left:before {
+    background-color: #444444;
+    position: absolute;
+    content: '';
+    height: 50%;
+    top: 25%;
+    bottom: auto;
+    left: 0;
+    width: 1px; }
+  #menu #menu-bar .active {
+    color: #FFA200 !important; }
+
+#home .swiper-container .swiper-wrapper {
+  min-height: 100%; }
+  #home .swiper-container .swiper-wrapper .swiper-slide {
+    height: auto !important; }
+    #home .swiper-container .swiper-wrapper .swiper-slide img {
+      max-width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

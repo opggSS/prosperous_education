@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "hanyi";
-  src: url("../fonts/hanyi.ttf");
+  font-family: "lanting";
+  src: url("../fonts/lanting.TTF");
 }
 @font-face {
   font-family: "kaiti";
@@ -9,4 +9,34 @@
 @font-face {
   font-family: "heijianti";
   src: url("../fonts/shishangzhongheijianti.ttf");
+}
+@font-face {
+  font-family: "jianshoujinshu";
+  src: url("../fonts/minijianshoujinshu.ttf");
+}
+body {
+  font-family: "lanting";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "heijianti";
+}
+
+#menu-bar #contact-bar {
+  background-color: #00a396;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  font-family: "kaiti";
+  padding: 15px 60px 10px 30px;
+  vertical-align: middle;
+}
+#menu-bar #contact-bar img {
+  max-width: 20px;
+  max-height: 16px;
+  margin: 0 2px;
+}
+#menu-bar #contact-bar #contact-top-bar > img {
+  max-width: 13px;
+  margin: 0 4px;
 }

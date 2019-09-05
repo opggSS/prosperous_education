@@ -25,29 +25,36 @@
 <body>
 
 {{--****************************************** Content **************************************************--}}
-<div id="menubar" class="row">
-    <div class="col-2 mt-2 mt-sm-0" id="menu-logo">
-        <a href="{{url('/')}}"><img src="{{url('/images/foundation-logo.png')}}" alt="logo" width="150"></a>
+<div id="menu-bar" class="row sticky-top">
+    <div class="row text-right" id="contact-bar">
+        <span>加拿大服务热线：604-957-5877</span>
+        <span id="subscribe-wechat"><img src="{{asset('images/wechat-logo.png')}}">关注微信</span>
+        <span id="contact-top-bar"><img src="{{asset('images/address-pin.png')}}">联系我们</span>
     </div>
-    <div class="col-10 d-none d-lg-inline-block">
-            <ul class="nav nav-tabs">
-                <li><a class="{{Request::is('home') ? 'active' : ''}}" href="{{url('/')}}">HOME</a></li>
-                <li class="dropdown"><a class="{{Request::is('about_us') ? 'active' : ''}}" data-toggle="dropdown" href="#" onclick="switchActive(this)">ABOUT US</a>
-                    <ul class="dropdown-menu">
-                        <li class="mt-2"><a href="{{url('/about_us')}}">OUR JOURNEY</a></li>
-                        <li class="mt-2"><a href="{{url('/about_us')}}">CONTACT US</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a data-toggle="dropdown" href="#" onclick="switchActive(this)">PROJECTS</a>
-                    <ul class="dropdown-menu">
-                        <li class="mt-2"><a href="{{url('/projects')}}">SCHOOL</a></li>
-                        <li class="mt-2"><a href="{{url('/projects')}}">COMMUNITY</a></li>
-                        <li class="mt-2"><a href="{{url('/newslist')}}">News</a></li>
-                    </ul>
-                </li>
-                <li><a class="{{Request::is('gallery') ? 'active' : ''}}" href="{{url('/gallery')}}">GALLERY</a></li>
-                <li><a class="{{Request::is('public_info') ? 'active' : ''}}" href="{{url('/public_info')}}">PUBLIC INFO</a></li>
-                <li><a id="menu-donate" href="{{url('/donate')}}">DONATE</a></li>
-            </ul>
+    <div class="row">
+        <div class="col-2 mt-2 mt-sm-0" id="menu-logo">
+            <a href="{{url('/')}}"><img src="{{url('/images/logo.png')}}" alt="logo" width="150"></a>
+        </div>
+        <div class="col-10 d-none d-lg-inline-block">
+                <ul class="nav nav-tabs">
+                    <li><a class="{{Request::is('home') ? 'active' : ''}}" href="{{url('/')}}">HOME</a></li>
+                    <li class="dropdown"><a class="{{Request::is('about_us') ? 'active' : ''}}" data-toggle="dropdown" href="#" onclick="switchActive(this)">ABOUT US</a>
+                        <ul class="dropdown-menu">
+                            <li class="mt-2"><a href="{{url('/about_us')}}">OUR JOURNEY</a></li>
+                            <li class="mt-2"><a href="{{url('/about_us')}}">CONTACT US</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a data-toggle="dropdown" href="#" onclick="switchActive(this)">PROJECTS</a>
+                        <ul class="dropdown-menu">
+                            <li class="mt-2"><a href="{{url('/projects')}}">SCHOOL</a></li>
+                            <li class="mt-2"><a href="{{url('/projects')}}">COMMUNITY</a></li>
+                            <li class="mt-2"><a href="{{url('/newslist')}}">News</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="{{Request::is('gallery') ? 'active' : ''}}" href="{{url('/gallery')}}">GALLERY</a></li>
+                    <li><a class="{{Request::is('public_info') ? 'active' : ''}}" href="{{url('/public_info')}}">PUBLIC INFO</a></li>
+                    <li><a id="menu-donate" href="{{url('/donate')}}">DONATE</a></li>
+                </ul>
+        </div>
     </div>
 </div>

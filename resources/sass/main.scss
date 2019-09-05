@@ -61,18 +61,41 @@ h1,h2,h3,h4,h5,h6{
   #menu-bar{
     padding: 10px 0;
     width: 100%;
-    vertical-align: bottom;
+    align-items: flex-end;
+
+    #menu-logo{
+      //padding: ;
+      img{
+        width: 100%;
+      }
+    }
 
     .nav{
       li{
         a{
           color: $color-gray;
           font-family: 'kaiti';
-          font-size: 20px;
+          font-size: 22px;
+          padding: 0 8px;
 
           &:hover{
             text-decoration: none;
           }
+        }
+
+        &:not(:first-child){
+          position: relative;
+        }
+
+        .border-left:before{
+          background-color: $color-gray;
+          position: absolute;
+          content: '';
+          height: 50%;
+          top: 25%;
+          bottom: auto;
+          left: 0;
+          width: 1px;
         }
       }
     }

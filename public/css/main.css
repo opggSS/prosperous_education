@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #home .swiper-container {
   overflow: hidden;
+  border-bottom: 4px solid #FFA200;
 }
 #home .swiper-container .swiper-wrapper {
   height: 100%;
@@ -95,4 +96,55 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   margin: 0 8px;
+}
+#home .congratulation-container {
+  background-image: url("../images/home/green-bar.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+  margin-bottom: 50px;
+}
+#home .congratulation-container h4 {
+  color: #FFFFFF;
+  font-size: 26px;
+}
+#home .congratulation-container h4:first-child {
+  color: #FFA200;
+  font-size: 35px;
+}
+#home .prosperous-services-container .prosperous-services-title {
+  color: #00a396;
+  margin-bottom: 40px;
+}
+#home .prosperous-services-container .prosperous-services-title h1, #home .prosperous-services-container .prosperous-services-title h5 {
+  font-family: "kaiti";
+}
+#home .prosperous-services-container .prosperous-services-title h5 {
+  letter-spacing: 2px;
+}
+#home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap {
+  margin-top: 15px;
+  position: relative;
+}
+#home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:before {
+  position: absolute;
+  left: 10%;
+  top: 45%;
+  content: "";
+  width: 30%;
+  background-color: #00a396;
+  height: 4px;
+}
+#home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:after {
+  position: absolute;
+  right: 10%;
+  top: 45%;
+  content: "";
+  width: 30%;
+  background-color: #00a396;
+  height: 4px;
+}
+#home .prosperous-services-container .prosperous-services-box {
+  background-color: #00a396;
 }

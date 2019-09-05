@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 100%;
   font-family: "kaiti";
-  padding: 15px 60px 10px 30px;
+  padding: 15px 80px 10px 30px;
   vertical-align: middle;
 }
 #menu #contact-bar img {
@@ -72,4 +72,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #menu #menu-bar .active {
   color: #FFA200 !important;
+}
+
+#home .swiper-container .swiper-wrapper {
+  min-height: 100%;
+}
+#home .swiper-container .swiper-wrapper .swiper-slide {
+  height: auto !important;
+}
+#home .swiper-container .swiper-wrapper .swiper-slide img {
+  max-width: 100%;
 }

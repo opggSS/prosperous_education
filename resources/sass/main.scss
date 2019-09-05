@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
     display: block;
     width: 100%;
     font-family: 'kaiti';
-    padding: 15px 60px 10px 30px;
+    padding: 15px 80px 10px 30px;
     vertical-align: middle;
 
     img{
@@ -104,4 +104,21 @@ h1,h2,h3,h4,h5,h6{
       color: $color-orange !important;
     }
   }
+}
+
+#home{
+  .swiper-container{
+    .swiper-wrapper {
+      min-height: 100%;
+      .swiper-slide{
+        height: auto !important;
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+
+
 }

@@ -2,6 +2,7 @@ $color-green: #00a396;
 $color-orange: #FFA200;
 $color-white: #FFFFFF;
 $color-gray: #444444;
+$color-light-gray: #cccccc;
 
 //主用字体
 @font-face{
@@ -367,8 +368,38 @@ h1,h2,h3,h4,h5,h6{
 
   .steward-service-container{
     background-color: $color-green;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    margin-bottom: 70px;
+    position: relative;
+
+    .steward-service-title{
+      position: absolute;
+      background-color: $color-orange;
+      border-radius: 30px;
+      border: 6px solid $color-white;
+      padding: 2px 0 2px 30px;
+      top: -26px;
+      left: 50%;
+      margin-left: -275px;
+      color: $color-white;
+
+      h3{
+        letter-spacing: 10px;
+      }
+
+      span{
+        background-color: $color-green;
+        border-radius: 26px;
+        padding: 4px 30px 6px 30px;
+        border: 6px solid $color-white;
+        letter-spacing: 1px;
+      }
+    }
+
+    .row{
+      margin: 25px 0;
+    }
 
     *>div{
       justify-content: space-around;
@@ -378,19 +409,61 @@ h1,h2,h3,h4,h5,h6{
       background-color: $color-white;
       border-radius: 10px;
       width: 20%;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      text-align: center;
+
+
+      div{
+        margin: auto;
+      }
+
+      .card-detail{
+        width: auto;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: left;
+      }
 
       h5{
         text-align: center;
         font-family: 'kaiti';
+        color: $color-green;
+        font-size: 25px;
+        margin-bottom: 4px;
       }
       p{
         font-family: 'jianshoujinshu';
         font-size: 12px;
+        margin-bottom: 4px;
+        display: inline-block;
+
         .fa-star{
           color: $color-orange;
         }
+
+        .icon-rightside{
+          margin-left: 20px;
+        }
       }
 
+    }
+  }
+
+  .six-level-title-container{
+    color: $color-green;
+    margin-bottom: 50px;
+
+    h1{
+      margin-bottom: 20px;
+      span{
+        color: $color-orange;
+        font-size: 50px;
+        letter-spacing: 10px;
+      }
+    }
+    h5{
+      font-family: 'kaiti';
     }
   }
 

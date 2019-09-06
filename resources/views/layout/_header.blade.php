@@ -24,8 +24,8 @@
 <body>
 
 {{--****************************************** Menu Content **************************************************--}}
-<div id="menu" class="row sticky-top">
-    <div class="row text-right" id="contact-bar">
+<div id="menu" class="row no-gutters sticky-top">
+    <div class="row no-gutters text-right" id="contact-bar">
         <span>加拿大服务热线：604-957-5877</span>
         <span id="subscribe-wechat"><img src="{{asset('images/wechat-logo.png')}}">关注微信</span>
         <span id="contact-top-bar"><img src="{{asset('images/address-pin.png')}}">联系我们</span>

@@ -3,15 +3,17 @@
 
 @section('content')
 <div id="home">
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="{{asset('images/home/banner1.png')}}" alt="banner1"></div>
-            <div class="swiper-slide"><img src="{{asset('images/home/banner2.png')}}" alt="banner1"></div>
-            <div class="swiper-slide"><img src="{{asset('images/home/banner3.png')}}" alt="banner1"></div>
-            <div class="swiper-slide"><img src="{{asset('images/home/banner4.png')}}" alt="banner1"></div>
+    <div class="banner-swiper">
+        <div class="swiper-container s1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="{{asset('images/home/banner1.png')}}" alt="banner1"></div>
+                <div class="swiper-slide"><img src="{{asset('images/home/banner2.png')}}" alt="banner1"></div>
+                <div class="swiper-slide"><img src="{{asset('images/home/banner3.png')}}" alt="banner1"></div>
+                <div class="swiper-slide"><img src="{{asset('images/home/banner4.png')}}" alt="banner1"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
     </div>
     <div class="congratulation-container text-center">
         <h4>Congratulations</h4>
@@ -160,8 +162,24 @@
             服务模块服务流程的专业化让每个人做最擅长的工作，严格的每日沟通和跟进控制体系保证了团队合作效率<br>
             “六极管理体系”大大提高了名校录取率</h5>
     </div>
-    <div>
+    <div class="six-level-swiper">
         {{--<i class="far fa-check-square"></i>--}}
+        <div class="swiper-container s2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="row no-gutters">
+                        <div>1</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="row no-gutters">
+                        <div>2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
     </div>
 </div>
 @stop
@@ -169,7 +187,7 @@
 
 @section('js')
 <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper1 = new Swiper('.s1', {
         autoplay: {
             delay: 4000,
             disableOnInteraction: false,
@@ -179,13 +197,19 @@
             el: '.swiper-pagination',
         },
     });
+    var swiper2 = new Swiper('.s2', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
     $(window).on('load',function () {
         let smallestImageSize = 10000;
         for(let i=0;i<$('.swiper-slide img').length; i++){
             let height = $('.swiper-slide img')[i].height;
             height<smallestImageSize ? smallestImageSize = height : smallestImageSize;
         }
-        $('.swiper-container').css('height', smallestImageSize);
+        $('.s1').css('height', smallestImageSize);
     })
 
     $(window).on('resize', function () {
@@ -194,7 +218,7 @@
             let height = $('.swiper-slide img')[i].height;
             height<smallestImageSize ? smallestImageSize = height : smallestImageSize;
         }
-        $('.swiper-container').css('height', smallestImageSize);
+        $('.s1').css('height', smallestImageSize);
     })
 </script>
 @stop

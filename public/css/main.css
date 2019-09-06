@@ -113,6 +113,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFA200;
   font-size: 35px;
 }
+#home .prosperous-services-container {
+  margin-bottom: 75px;
+}
 #home .prosperous-services-container .prosperous-services-title {
   color: #00a396;
   margin-bottom: 40px;
@@ -147,7 +150,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home .prosperous-services-container .prosperous-services-box {
   background-color: #00a396;
-  margin-bottom: 50px;
 }
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp {
   margin-bottom: -4px;
@@ -261,4 +263,100 @@ h1, h2, h3, h4, h5, h6 {
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-rightbot-box a div p {
   display: inline-block;
   font-size: 12px;
+}
+#home .steward-title-container {
+  color: #00a396;
+  margin-bottom: 70px;
+}
+#home .steward-title-container h1 {
+  margin-bottom: 15px;
+}
+#home .steward-title-container h4 {
+  font-family: "kaiti";
+  padding: 0 14%;
+}
+#home .steward-service-container {
+  background-color: #00a396;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin-bottom: 70px;
+  position: relative;
+}
+#home .steward-service-container .steward-service-title {
+  position: absolute;
+  background-color: #FFA200;
+  border-radius: 30px;
+  border: 6px solid #FFFFFF;
+  padding: 2px 0 2px 30px;
+  top: -26px;
+  left: 50%;
+  margin-left: -275px;
+  color: #FFFFFF;
+}
+#home .steward-service-container .steward-service-title h3 {
+  letter-spacing: 10px;
+}
+#home .steward-service-container .steward-service-title span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+#home .steward-service-container .row {
+  margin: 25px 0;
+}
+#home .steward-service-container * > div {
+  justify-content: space-around;
+}
+#home .steward-service-container * > * > div {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 20%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+#home .steward-service-container * > * > div div {
+  margin: auto;
+}
+#home .steward-service-container * > * > div .card-detail {
+  width: auto;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+}
+#home .steward-service-container * > * > div h5 {
+  text-align: center;
+  font-family: "kaiti";
+  color: #00a396;
+  font-size: 25px;
+  margin-bottom: 4px;
+}
+#home .steward-service-container * > * > div p {
+  font-family: "jianshoujinshu";
+  font-size: 12px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+#home .steward-service-container * > * > div p .fa-star {
+  color: #FFA200;
+}
+#home .steward-service-container * > * > div p .icon-rightside {
+  margin-left: 20px;
+}
+#home .six-level-title-container {
+  color: #00a396;
+  margin-bottom: 50px;
+}
+#home .six-level-title-container h1 {
+  margin-bottom: 20px;
+}
+#home .six-level-title-container h1 span {
+  color: #FFA200;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+#home .six-level-title-container h5 {
+  font-family: "kaiti";
 }

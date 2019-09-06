@@ -113,6 +113,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFA200;
   font-size: 35px;
 }
+#home .prosperous-services-container {
+  margin-bottom: 75px;
+}
 #home .prosperous-services-container .prosperous-services-title {
   color: #00a396;
   margin-bottom: 40px;
@@ -147,7 +150,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home .prosperous-services-container .prosperous-services-box {
   background-color: #00a396;
-  margin-bottom: 50px;
 }
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp {
   margin-bottom: -4px;
@@ -261,4 +263,39 @@ h1, h2, h3, h4, h5, h6 {
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-rightbot-box a div p {
   display: inline-block;
   font-size: 12px;
+}
+#home .steward-title-container {
+  color: #00a396;
+  margin-bottom: 70px;
+}
+#home .steward-title-container h1 {
+  margin-bottom: 15px;
+}
+#home .steward-title-container h4 {
+  font-family: "kaiti";
+  padding: 0 14%;
+}
+#home .steward-service-container {
+  background-color: #00a396;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#home .steward-service-container * > div {
+  justify-content: space-around;
+}
+#home .steward-service-container * > * > div {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 20%;
+}
+#home .steward-service-container * > * > div h5 {
+  text-align: center;
+  font-family: "kaiti";
+}
+#home .steward-service-container * > * > div p {
+  font-family: "jianshoujinshu";
+  font-size: 12px;
+}
+#home .steward-service-container * > * > div p .fa-star {
+  color: #FFA200;
 }

@@ -74,6 +74,47 @@
             </div>
         </div>
     </div>
+    <div class="steward-title-container text-center">
+        <h1>一站式“菁英教育留学”服务商</h1>
+        <h4>宏图教育经过15年一站式“菁英教育留学”服务经验累积，拥有完备的教育留学服务体系，
+            包括了留学申请、升学规划、语言培训、学科辅导、课外活动、职业培训、签证服务等丰富的产品线，可满足学员的不同需求。
+            宏图教育“菁英计划”以加拿大名校申请为基本出发点，在更全面维度上关注孩子的素质提升和健康成长。</h4>
+    </div>
+    <div class="steward-service-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <h5>留学申请</h5>
+                    <p><i class="fas fa-star"></i> 低龄留学申请</p>
+                    <p><i class="fas fa-star"></i> 高中留学申请辅导</p>
+                    <p><i class="fas fa-star"></i> 本科留学申请</p>
+                    <p><i class="fas fa-star"></i> 硕士留学申请</p>
+                    <p><i class="fas fa-star"></i> 宏图菁英计划</p>
+                </div>
+                <div class="col-md-3">
+                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <h5>升学规划</h5>
+                    <p><i class="fas fa-star"></i> 低龄留学申请</p>
+                    <p><i class="fas fa-star"></i> 高中留学申请辅导</p>
+                    <p><i class="fas fa-star"></i> 本科留学申请</p>
+                    <p><i class="fas fa-star"></i> 硕士留学申请</p>
+                    <p><i class="fas fa-star"></i> 宏图菁英计划</p>
+                </div>
+                <div class="col-md-3">
+                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <h5>签证服务</h5>
+                    <p><i class="fas fa-star"></i> 低龄留学申请</p>
+                    <p><i class="fas fa-star"></i> 高中留学申请辅导</p>
+                    <p><i class="fas fa-star"></i> 本科留学申请</p>
+                    <p><i class="fas fa-star"></i> 硕士留学申请</p>
+                    <p><i class="fas fa-star"></i> 宏图菁英计划</p>
+                </div>
+            </div>
+            <div class="row">
+        </div>
+        </div>
+    </div>
 </div>
 @stop
 

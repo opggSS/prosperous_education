@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/animate.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/swiper.min.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/all.css')}}" />
     <!-- Style CSS -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
     @yield('css')

@@ -155,6 +155,8 @@ h1,h2,h3,h4,h5,h6{
   }
 
   .prosperous-services-container{
+    margin-bottom: 75px;
+
     .prosperous-services-title{
       color: $color-green;
       margin-bottom: 40px;
@@ -195,7 +197,6 @@ h1,h2,h3,h4,h5,h6{
 
     .prosperous-services-box{
       background-color: $color-green;
-      margin-bottom: 50px;
 
       .prosperous-services-box-wrap{
 
@@ -350,5 +351,48 @@ h1,h2,h3,h4,h5,h6{
       }
     }
   }
+
+  .steward-title-container{
+    color: $color-green;
+    margin-bottom: 70px;
+
+    h1{
+      margin-bottom: 15px;
+    }
+    h4{
+      font-family: 'kaiti';
+      padding: 0 14%;
+    }
+  }
+
+  .steward-service-container{
+    background-color: $color-green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    *>div{
+      justify-content: space-around;
+    }
+
+    *>*>div{
+      background-color: $color-white;
+      border-radius: 10px;
+      width: 20%;
+
+      h5{
+        text-align: center;
+        font-family: 'kaiti';
+      }
+      p{
+        font-family: 'jianshoujinshu';
+        font-size: 12px;
+        .fa-star{
+          color: $color-orange;
+        }
+      }
+
+    }
+  }
+
 
 }

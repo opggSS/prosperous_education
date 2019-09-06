@@ -174,7 +174,7 @@ h1,h2,h3,h4,h5,h6{
         &:before{
           position: absolute;
           left: 10%;
-          top: 45%;
+          top: 46%;
           content: '';
           width: 30%;
           background-color: $color-green;
@@ -184,7 +184,7 @@ h1,h2,h3,h4,h5,h6{
         &:after{
           position: absolute;
           right: 10%;
-          top: 45%;
+          top: 46%;
           content: '';
           width: 30%;
           background-color: $color-green;
@@ -195,6 +195,159 @@ h1,h2,h3,h4,h5,h6{
 
     .prosperous-services-box{
       background-color: $color-green;
+      margin-bottom: 50px;
+
+      .prosperous-services-box-wrap{
+
+        .prosperous-services-top-warp{
+          margin-bottom: -4px;
+
+          .prosperous-services-lefttop-box{
+            height: 100%;
+          }
+          .prosperous-services-righttop-box{
+            a{
+              color: $color-white;
+
+              &:hover{
+                text-decoration: none;
+                h6,p{
+                  border-bottom: 1px solid white;
+                }
+              }
+
+              div{
+                height: 33.3%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 50px 0 0 35px;
+
+                h6{
+                  display: inline-block;
+                  font-family: 'kaiti';
+                  margin-bottom: 0;
+                  font-size: 18px;
+
+                  span{
+                    font-size: 32px;
+                  }
+                }
+
+                p{
+                  display: inline-block;
+                  font-size: 12px;
+                }
+              }
+
+              &:first-child{
+                div{
+                  background-image: url("../images/home/orange-bar.png");
+                }
+              }
+
+              &:nth-child(2){
+                div{
+                  background-image: url("../images/home/2.png");
+                }
+              }
+
+              &:last-child{
+                div{
+                  background-image: url("../images/home/3.png");
+                  height: 32.9%;
+                }
+              }
+            }
+          }
+
+        }
+
+        .prosperous-services-buttom-box{
+          .prosperous-services-leftbot-box{
+            a {
+              color: $color-white;
+
+              &:hover {
+                text-decoration: none;
+                h6, p {
+                  border-bottom: 1px solid white;
+                }
+              }
+              div {
+                background-image: url("../images/home/orange-bar-long.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 60px 0 60px 35px;
+                position: relative;
+
+                h6 {
+                  display: inline-block;
+                  font-family: 'kaiti';
+                  margin-bottom: 0;
+                  font-size: 18px;
+
+                  span {
+                    font-size: 32px;
+                  }
+                }
+
+                #elite-service-description{
+                  position: absolute;
+                  right: 15%;
+                  width: 55%;
+                  top: 30%;
+                  font-size: 14px;
+                }
+
+                p{
+                  display: inline-block;
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+
+          .prosperous-services-rightbot-box{
+            a {
+              color: $color-white;
+
+              &:hover {
+                text-decoration: none;
+                h6, p {
+                  border-bottom: 1px solid white;
+                }
+              }
+              div {
+                text-align: right;
+                height: 100%;
+                background-image: url("../images/home/4.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 50px 60px 0 0;
+
+                h6 {
+                  display: inline-block;
+                  font-family: 'kaiti';
+                  margin-bottom: 0;
+                  font-size: 18px;
+
+                  span {
+                    font-size: 32px;
+                  }
+                }
+
+                p{
+                  display: inline-block;
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 

@@ -24,21 +24,51 @@
             <div class="prosperous-services-title-wrap"><h4>PROSPEROUS</h4></div>
         </div>
         <div class="prosperous-services-box row no-gutters">
-            <div class="prosperous-services-box-wrap col-offset-1 col-md-10">
-                <div class="row">
-                    <div class="col-md-8">
-
+            <div class="prosperous-services-box-wrap offset-md-1 col-md-10">
+                <div class="row prosperous-services-top-warp">
+                    <div class="col-md-8 p-0 prosperous-services-lefttop-box">
+                        <img src="{{asset('images/home/1.png')}}" width="100%">
                     </div>
-                    <div class="col-md-4">
-
+                    <div class="col-md-4 p-0 prosperous-services-righttop-box">
+                        <a href="{{url('/application?type=kid')}}">
+                            <div>
+                                <h6><span>低龄</span>留学</h6><br>
+                                <p> &#8227; learn more </p>
+                            </div>
+                        </a>
+                        <a href="{{url('/application?type=secondary')}}">
+                            <div>
+                                <h6><span>高中</span>留学</h6><br>
+                                <p> &#8227; learn more </p>
+                            </div>
+                        </a>
+                        <a href="{{url('/application?type=bachelor')}}">
+                            <div>
+                                <h6><span>本科</span>留学</h6><br>
+                                <p> &#8227; learn more </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-8">
-
+                <div class="row prosperous-services-buttom-box">
+                    <div class="col-md-8 p-0 prosperous-services-leftbot-box">
+                        <a href="{{url('/application?type=elite')}}">
+                            <div>
+                                <h6><span>菁英</span>计划</h6><br>
+                                <p> &#8227; learn more </p>
+                                <span id="elite-service-description">宏图菁英计划通过VIP升学规划、语培、学科全方位
+                                    辅导、背景提升，为菁英学子提供全程个性化定
+                                    制教育服务，旨在“名校申请”和“学生成长”。</span>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4">
-
+                    <div class="col-md-4 p-0 prosperous-services-rightbot-box">
+                        <a href="{{url('/application?type=master')}}">
+                            <div>
+                                <h6><span>研究生</span>留学</h6><br>
+                                <p> &#8227; learn more </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

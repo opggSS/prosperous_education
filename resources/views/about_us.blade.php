@@ -13,6 +13,7 @@
 
   </div>
 </div>
+@include('layout._congradulation')
 
 <div id="intro-block" class="section">
   <div class="tit-block container text-center pt-5 position-relative">

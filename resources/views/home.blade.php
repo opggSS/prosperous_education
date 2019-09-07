@@ -216,17 +216,18 @@
     });
     $(window).on('load',function () {
         let smallestImageSize = 10000;
-        for(let i=0;i<$('.swiper-slide img').length; i++){
-            let height = $('.swiper-slide img')[i].height;
+        for(let i=0;i<$('.s1 .swiper-slide img').length; i++){
+            let height = $('.s1 .swiper-slide img')[i].height;
             height<smallestImageSize ? smallestImageSize = height : smallestImageSize;
         }
         $('.s1').css('height', smallestImageSize);
+        console.log(smallestImageSize);
     })
 
     $(window).on('resize', function () {
         let smallestImageSize = 10000;
-        for(let i=0;i<$('.swiper-slide img').length; i++){
-            let height = $('.swiper-slide img')[i].height;
+        for(let i=0;i<$('.s1 .swiper-slide img').length; i++){
+            let height = $('.s1 .swiper-slide img')[i].height;
             height<smallestImageSize ? smallestImageSize = height : smallestImageSize;
         }
         $('.s1').css('height', smallestImageSize);

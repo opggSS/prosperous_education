@@ -15,10 +15,7 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
-    <div class="congratulation-container text-center">
-        <h4>Congratulations</h4>
-        <h4>恭喜 Gao Yawen 同学被西安大略 (UWO) 工程和科学系录取</h4>
-    </div>
+    @include('layout._congradulation')
     <div class="prosperous-services-container">
         <div class="prosperous-services-title text-center">
             <h1>成就梦想 大展宏图</h1>
@@ -177,8 +174,10 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div>
+                <div class="swiper-next"><i class="fas fa-caret-square-right"></i></div>
+                <div class="swiper-prev"><i class="fas fa-caret-square-left"></i></div>
+            </div>
         </div>
     </div>
 </div>
@@ -199,8 +198,8 @@
     });
     var swiper2 = new Swiper('.s2', {
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.swiper-next',
+            prevEl: '.swiper-prev',
         },
     });
     $(window).on('load',function () {

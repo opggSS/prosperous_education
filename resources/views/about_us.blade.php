@@ -37,13 +37,17 @@
   </div>
 </div>
 
-<div id="banner-2-block" class="section py-5">
+<div id="banner-2-block" class="section py-5 position-relative">
+  <img class="w-100 invisible" id="banner-2" src="../images/about_us/banner-2-about.png" alt="">
+</div>
+
+<div id="banner-2-back-block" class="section w-100 position-fixed">
   <div class="container">
     <img class="w-100" id="banner-2" src="../images/about_us/banner-2-about.png" alt="">
   </div>
 </div>
 
-<div id="banner-3-block" class="section text-center">
+<div id="banner-3-block" class="section text-center pt-5">
   <div class="container">
     <div class="tit public w-100 d-block mt-5 mb-3">
       <span class="tit-y d-inline-block pl-4">
@@ -127,6 +131,54 @@
       </div>
     </div>
 
+    <div class="row mt-5">
+      <div class="col col-12 p-0">
+        <img class="w-100" src="../images/about_us/banner-10-about.png" alt="">
+      </div>
+    </div>
   </div>
 </div>
+
+<div id="banner-11-block" class="section py-5">
+  <div class="container text-center">
+    <div class="tit public w-100 d-block mt-5 mb-3">
+      <span class="tit-y d-inline-block pl-4">
+        宏图优势
+        <span class="tit-g d-inline-block py-2 px-4">OUR ADVANTAGE</span>
+      </span>
+    </div>
+    <img class="w-100 mt-5" id="banner-11" src="../images/about_us/banner-11-about.png" alt="">
+  </div>
+</div>
+
+<div id="hezuo-block" class="section py-5">
+  <div class="container text-center">
+    <div class="tit public w-100 d-block mt-5 mb-3">
+      <span class="tit-y d-inline-block pl-4">
+        战略合作
+        <span class="tit-g d-inline-block py-2 px-4">STRATEGIC COOPERATION</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div id="slider-block" class="section py-5">
+  <div class="container text-center">
+    <div class="tit public w-100 d-block mt-5 mb-3">
+      <span class="tit-y d-inline-block pl-4">
+        专家团队
+        <span class="tit-g d-inline-block py-2 px-4">OUR TEAM</span>
+      </span>
+    </div>
+  </div>
+</div>
+@stop
+@section('js')
+<!-- <script type="text/javascript">
+  $(function(){
+    var height = $(window).height();
+    console.log(height);
+    $('#banner-2-block').height(height);
+  });
+</script> -->
 @stop

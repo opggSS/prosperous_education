@@ -164,20 +164,41 @@
         <div class="swiper-container s2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="row no-gutters text-center">
-                        <div class="col-md-3">
-                            <h5><span>1</span><span>级</span> 咨询及留学测评</h5>
-                            <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
-                            <h4>定位申请学校及专业</h4>
-                            <div class="card-detail">
-                                <p><i class="far fa-check-square"></i> 性格测评</p><br>
-                                <p><i class="far fa-check-square"></i> 兴趣测评</p><br>
-                                <p><i class="far fa-check-square"></i> 语言能力评估</p><br>
-                                <p><i class="far fa-check-square"></i> 多元化智能评估</p>
+                    <div class="container">
+                        <div class="row no-gutters text-center">
+                            <div class="col-md-3">
+                                <h5><span>1</span><span>级</span> 咨询及留学测评</h5>
+                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <h4>定位申请学校及专业</h4>
+                                <div class="card-detail">
+                                    <p><i class="far fa-check-square"></i> 性格测评</p><br>
+                                    <p><i class="far fa-check-square"></i> 兴趣测评</p><br>
+                                    <p><i class="far fa-check-square"></i> 语言能力评估</p><br>
+                                    <p><i class="far fa-check-square"></i> 多元化智能评估</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <h5><span>2</span><span>级</span> 留学方案定制</h5>
+                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <h4>一对一方案设计<br>提高申请效率</ba></h4>
+                                <div class="card-detail">
+                                    <p><i class="far fa-check-square"></i> 加拿大留学方案</p><br>
+                                    <p><i class="far fa-check-square"></i> 留学费用预估</p><br>
+                                    <p><i class="far fa-check-square"></i> 背景提升</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <h5><span>3</span><span>级</span> 留学背景提升</h5>
+                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <h4>提升学术实践软实力背景<br>挖掘自身独特竞争力和价值</h4>
+                                <div class="card-detail">
+                                    <p><i class="far fa-check-square"></i> 学科竞赛 <i class="far fa-check-square icon-rightside"></i> 学术类夏令营 </p><br>
+                                    <p><i class="far fa-check-square"></i> 体育比赛 <i class="far fa-check-square icon-rightside"></i> 社团活动 </p><br>
+                                    <p><i class="far fa-check-square"></i> 艺术创作 <i class="far fa-check-square icon-rightside"></i> 工作实习 </p><br>
+                                    <p><i class="far fa-check-square"></i> 义工活动 <i class="far fa-check-square icon-rightside"></i> 志愿者活动 </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3">2222222</div>
-                        <div class="col-md-3">3333333</div>
                     </div>
                 </div>
                 <div class="swiper-slide">

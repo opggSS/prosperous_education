@@ -22,61 +22,79 @@
         background: #00a396;
         border: 6px solid #fff; }
 
-.section#banner-main-block #banner-main {
-  top: 0;
-  right: 0;
-  background-color: #fff;
-  width: 70.8%;
-  left: 14.6%; }
-.section#intro-block .tit-block {
-  color: #00a396; }
-  .section#intro-block .tit-block .tit-main {
-    font-size: 1.7rem;
-    font-family: 'kaiti';
-    letter-spacing: .5rem; }
-  .section#intro-block .tit-block .tit-sub {
-    font-size: 1rem;
-    font-family: 'kaiti';
-    letter-spacing: .2rem; }
-  .section#intro-block .tit-block .tit-third {
-    font-size: 1.3rem;
-    letter-spacing: .2rem;
-    width: 30%;
-    left: 35%;
-    background: #fff;
-    z-index: 10; }
-  .section#intro-block .tit-block .underline {
-    border-bottom: 2px #00a396 solid;
-    left: 0;
-    bottom: 44.6%; }
-.section#intro-block .content-block {
-  background: #f3f3f3; }
-  .section#intro-block .content-block .container p {
-    text-indent: 2rem;
-    line-height: 2rem;
-    color: #00a396;
-    font-weight: 100; }
-.section#banner-2-block {
+body {
   background: #00a396; }
-.section#banner-4-block {
-  background: #00a396; }
-  .section#banner-4-block .container .content {
-    top: 35%;
-    font-size: 2rem;
-    line-height: 1.6rem;
-    color: #DEAB7B; }
-  .section#banner-4-block .container .content-block {
-    background: url(../images/about_us/banner-9-about.png) no-repeat;
-    background-size: cover;
-    background-position: center; }
-    .section#banner-4-block .container .content-block p {
-      color: #333;
-      font-size: 1.5rem; }
-      .section#banner-4-block .container .content-block p:nth-of-type(1) {
-        border-bottom: 2px solid #333;
-        padding-bottom: 1rem; }
-      .section#banner-4-block .container .content-block p span {
-        background: #FFA200;
-        color: #fff; }
+
+.section {
+  background-color: #fff; }
+  .section#banner-main-block #banner-main {
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 70.8%;
+    left: 14.6%; }
+  .section#intro-block .tit-block {
+    color: #00a396; }
+    .section#intro-block .tit-block .tit-main {
+      font-size: 1.7rem;
+      font-family: 'kaiti';
+      letter-spacing: .5rem; }
+    .section#intro-block .tit-block .tit-sub {
+      font-size: 1rem;
+      font-family: 'kaiti';
+      letter-spacing: .2rem; }
+    .section#intro-block .tit-block .tit-third {
+      font-size: 1.3rem;
+      letter-spacing: .2rem;
+      width: 30%;
+      left: 35%;
+      background: #fff;
+      z-index: 10; }
+    .section#intro-block .tit-block .underline {
+      border-bottom: 2px #00a396 solid;
+      left: 0;
+      bottom: 44.6%; }
+  .section#intro-block .content-block {
+    background: #f3f3f3; }
+    .section#intro-block .content-block .container p {
+      text-indent: 2rem;
+      line-height: 2rem;
+      color: #00a396;
+      font-weight: 100; }
+  .section#banner-2-block {
+    background: none;
+    z-index: 100; }
+  .section#banner-2-back-block {
+    top: 40%;
+    background-color: #00a396;
+    z-index: -1; }
+  .section#banner-4-block {
+    background: #00a396; }
+    .section#banner-4-block .container .content {
+      top: 35%;
+      font-size: 2rem;
+      line-height: 1.6rem;
+      color: #DEAB7B; }
+    .section#banner-4-block .container .content-block {
+      background: url(../images/about_us/banner-9-about.png) no-repeat;
+      background-size: cover;
+      background-position: center; }
+      .section#banner-4-block .container .content-block p {
+        color: #333;
+        font-size: 1.5rem; }
+        .section#banner-4-block .container .content-block p:nth-of-type(1) {
+          border-bottom: 2px solid #333;
+          padding-bottom: 1rem; }
+        .section#banner-4-block .container .content-block p span {
+          background: #FFA200;
+          color: #fff; }
+  .section#hezuo-block {
+    background: #f3f3f3; }
+    .section#hezuo-block .tit-g {
+      border-color: #f3f3f3; }
+  .section#slider-block {
+    background: #f3f3f3; }
+    .section#slider-block .tit-g {
+      border-color: #f3f3f3; }
 
 /*# sourceMappingURL=about_us.css.map */

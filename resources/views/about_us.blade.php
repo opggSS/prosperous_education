@@ -244,9 +244,9 @@
 </div>
 
 
-<div id="map-block" class="section">
+<div id="map-block" class="section py-5">
   <div class="container text-center">
-    <div class="tit public w-100 d-block mt-5 mb-3">
+    <div class="tit public w-100 d-block">
       <span class="tit-y d-inline-block pl-4">
         战略合作
         <span class="tit-g d-inline-block py-2 px-4">STRATEGIC COOPERATION</span>

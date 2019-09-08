@@ -287,21 +287,33 @@ h1, h2, h3, h4, h5, h6 {
   #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row {
     justify-content: space-around; }
     #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div {
-      background-color: #00a396;
+      background: #FFFFFF;
+      border-radius: .5rem;
+      box-shadow: 0 10px 13px rgba(0, 0, 0, 0.15);
       color: #FFFFFF; }
       #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div .img-div {
         width: 20%;
         margin: auto; }
+      #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div h4 {
+        color: #00a396; }
+      #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div h5 {
+        background-color: #FFA200;
+        color: #FFFFFF; }
       #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div .card-detail {
         text-align: left;
         display: inline-block;
         margin: 10px auto;
-        background-color: white;
+        box-shadow: none;
         padding: 8px 20px; }
         #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div .card-detail p {
           color: #444444;
-          margin-bottom: 4px; }
+          margin-bottom: 4px;
+          font-family: 'jianshoujinshu';
+          font-size: 12px;
+          display: inline-block; }
           #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div .card-detail p .fa-check-square {
             color: #FFA200; }
+          #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div .card-detail p .icon-rightside {
+            margin-left: 20px; }
 
 /*# sourceMappingURL=main.css.map */

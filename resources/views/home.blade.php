@@ -180,7 +180,7 @@
                             <div class="col-md-3">
                                 <h5><span>2</span><span>级</span> 留学方案定制</h5>
                                 <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
-                                <h4>一对一方案设计<br>提高申请效率</ba></h4>
+                                <h4>一对一方案设计<br>提高申请效率</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 加拿大留学方案</p><br>
                                     <p><i class="far fa-check-square"></i> 留学费用预估</p><br>
@@ -202,14 +202,102 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="row no-gutters">
-                        <div>2</div>
+                    <div class="container">
+                        <div class="row no-gutters text-center">
+                            <div class="col-md-3">
+                                <h5><span>4</span><span>级</span> 升学规划陪伴</h5>
+                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <h4>长期规划陪伴学生成长</h4>
+                                <div class="card-detail">
+                                    <p><i class="far fa-check-square"></i> 专属教育培养计划</p><br>
+                                    <p><i class="far fa-check-square"></i> 提高标化考试成绩</p><br>
+                                    <p><i class="far fa-check-square"></i> 定制背景提升计划</p><br>
+                                    <p><i class="far fa-check-square"></i> 陪伴学生成长</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <h5><span>5</span><span>级</span> 个性化课程培训</h5>
+                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <h4>私人定制提高学习成绩</h4>
+                                <div class="card-detail">
+                                    <p><i class="far fa-check-square"></i> ESL</p><br>
+                                    <p><i class="far fa-check-square"></i> 出国语言考试</p><br>
+                                    <p><i class="far fa-check-square"></i> 北美中学课程</p><br>
+                                    <p><i class="far fa-check-square"></i> 其他</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <h5><span>6</span><span>级</span> 招生官审案把关</h5>
+                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <h4>确保100%申请成功率</h4>
+                                <div class="card-detail">
+                                    <p><i class="far fa-check-square"></i> 丰富的招生官资源</p><br>
+                                    <p><i class="far fa-check-square"></i> 熟知高校录取规律</p><br>
+                                    <p><i class="far fa-check-square"></i> 最新招生咨询</p><br>
+                                    <p><i class="far fa-check-square"></i> 专业升学辅导</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="swiper-next"><i class="fas fa-caret-square-right"></i></div>
+            <div class="swiper-switch text-center">
                 <div class="swiper-prev"><i class="fas fa-caret-square-left"></i></div>
+                <div class="swiper-next"><i class="fas fa-caret-square-right"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="process-container text-center">
+        <div class="process-title">
+            <h3>服务流程 <span>Our Process</span></h3>
+        </div>
+        <div class="process-graph">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="{{asset('images/home/5.png')}}" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="promise-container">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <img src="{{asset('images/home/6.png')}}" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partnership-container container">
+        <h4 class="text-center">合作伙伴</h4>
+        <div class="swiper-container s3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="row no-gutters">
+                        <div class="col-md-2">
+                            <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -233,6 +321,12 @@
         navigation: {
             nextEl: '.swiper-next',
             prevEl: '.swiper-prev',
+        },
+    });
+    var swiper3 = new Swiper('.s3', {
+        autoplay: {
+            delay: 8000,
+            disableOnInteraction: true,
         },
     });
     $(window).on('load',function () {

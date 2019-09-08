@@ -109,6 +109,25 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
+#footer{
+  background-color: $color-green;
+  padding: 20px 0;
+  color: $color-white;
+
+  h4{
+    margin-bottom: 8px;
+  }
+
+  p{
+    font-family: 'kaiti';
+    font-size: 14px;
+  }
+
+  img{
+    width: 50%;
+  }
+}
+
 //public congratulation slider
 .congratulation-container{
   background-image: url("../images/home/green-bar.png");
@@ -473,6 +492,7 @@ h1,h2,h3,h4,h5,h6{
   .six-level-swiper{
     background-color: $color-light-gray;
     padding: 30px 0;
+    margin-bottom: 50px;
 
     .s2{
       .swiper-wrapper{
@@ -493,11 +513,26 @@ h1,h2,h3,h4,h5,h6{
 
               h4{
                 color: $color-green;
+                margin: 15px auto 0 auto;
+                font-size: 16px;
+                min-height: 30px;
               }
 
               h5{
                 background-color: $color-orange;
                 color: $color-white;
+                font-size: 16px;
+                padding: 5px 0;
+                border-radius: .5rem;
+                align-content: center;
+                margin-bottom: 10px;
+
+                span{
+                  background-color: $color-orange;
+                  border-radius: 50%;
+                  font-size: 25px;
+                  padding: 2px;
+                }
               }
 
               .card-detail{
@@ -526,6 +561,68 @@ h1,h2,h3,h4,h5,h6{
             }
           }
         }
+      }
+
+      .swiper-switch{
+        div{
+          display: inline-block;
+          margin: 20px 20px 0 20px;
+
+          .fa-caret-square-left,.fa-caret-square-right{
+            color: $color-orange;
+            font-size: 30px;
+          }
+        }
+
+        .swiper-button-disabled{
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  .process-container{
+    margin-bottom: 50px;
+
+    .process-title{
+      color: $color-white;
+
+      h3{
+        letter-spacing: 10px;
+        background-color: $color-orange;
+        border-radius: 30px;
+        display: inline-block;
+        padding: 4px 0 4px 30px;
+      }
+
+      span{
+        background-color: $color-green;
+        border-radius: 26px;
+        padding: 4px 30px 6px 30px;
+        border: 6px solid $color-white;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .promise-container{
+    background-color: $color-green;
+    margin-bottom: 50px;
+  }
+
+  .partnership-container{
+    margin-bottom: 50px;
+
+    h4{
+      color: $color-green;
+      font-size: 'kaiti';
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
+
+    .row{
+      .col-md-2{
+        padding: 0 14px;
       }
     }
   }

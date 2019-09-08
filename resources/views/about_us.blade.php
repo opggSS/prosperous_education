@@ -45,10 +45,6 @@
 </div>
 
 <div id="banner-2-block" class="section py-5 position-relative">
-  <img class="w-100 invisible" id="banner-2" src="../images/about_us/banner-2-about.png" alt="">
-</div>
-
-<div id="banner-2-back-block" class="section w-100 position-fixed">
   <div class="container">
     <img class="w-100" id="banner-2" src="../images/about_us/banner-2-about.png" alt="">
   </div>
@@ -271,7 +267,8 @@
         navigation: {
             nextEl: '.swiper-next',
             prevEl: '.swiper-prev',
-            slidesPerView: 1
+            slidesPerView: 1,
+            delay: 1000
         },
     });
   });

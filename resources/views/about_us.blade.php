@@ -2,6 +2,12 @@
 @section('title','About Us')
 @section('css')
 <link rel="stylesheet" href="../css/about_us.css">
+<link rel="stylesheet" href="../css/swiper.min.css">
+<style>
+  .congratulation-container {
+    margin-bottom: 0;
+  }
+</style>
 @stop
 
 @section('content')
@@ -60,9 +66,9 @@
   </div>
 </div>
 
-<div id="banner-4-block" class="section py-5">
-  <div class="container text-center position-relative pt-5 w-75">
-    <img class="w-100 position-relative" id="banner-2" src="../images/about_us/banner-4-about.png" alt="">
+<div id="banner-4-block" class="section pb-5">
+  <div class="w-100 text-center position-relative w-75 pb-5">
+    <img class="w-100 position-relative" id="banner-2" src="../images/about_us/banner-4-about.jpg" alt="">
     <div class="content position-absolute w-100 text-center">
       <p>“</p>
       <p>做有温度的教育者</p>
@@ -172,14 +178,102 @@
       </span>
     </div>
   </div>
+
+  <div class="s3 swiper-container mt-5">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="row">
+            <div class="col col-3 text-center">
+                  <img class="w-100" src="../images/about_us/persona-1-about.png" alt="">
+                  <p class="mt-3 mb-0">宏图教育总监</p>
+                  <p class="mt-1">Tommy Yao</p>
+            </div>
+
+            <div class="col col-3 text-center">
+                  <img class="w-100" src="../images/about_us/persona-2-about.png" alt="">
+                  <p class="mt-3 mb-0">宏图教育主管</p>
+                  <p class="mt-1">Jessica Yen</p>
+            </div>
+
+            <div class="col col-3 text-center">
+                  <img class="w-100" src="../images/about_us/persona-3-about.png" alt="">
+                  <p class="mt-3 mb-0">宏图高级顾问</p>
+                  <p class="mt-1">Angel Yeh</p>
+            </div>
+
+            <div class="col col-3 text-center">
+                  <img class="w-100" src="../images/about_us/persona-4-about.png" alt="">
+                  <p class="mt-3 mb-0">宏图高级顾问</p>
+                  <p class="mt-1">Vivian Hou</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="swiper-slide">
+        <div class="container">
+          <div class="row">
+            <div class="col col-3 text-center">
+                  <img class="w-100" src="../images/about_us/persona-1-about.png" alt="">
+                  <p class="mt-3 mb-0">宏图教育总监</p>
+                  <p class="mt-1">Tommy Yao</p>
+            </div>
+
+            <div class="col col-3 text-center">
+                  <img class="w-100" src="../images/about_us/persona-2-about.png" alt="">
+                  <p class="mt-3 mb-0">宏图教育主管</p>
+                  <p class="mt-1">Jessica Yen</p>
+            </div>
+
+            <div class="col col-3 text-center">
+                  <img class="w-100" src="../images/about_us/persona-3-about.png" alt="">
+                  <p class="mt-3 mb-0">宏图高级顾问</p>
+                  <p class="mt-1">Angel Yeh</p>
+            </div>
+
+            <div class="col col-3 text-center">
+                  <img class="w-100" src="../images/about_us/persona-4-about.png" alt="">
+                  <p class="mt-3 mb-0">宏图高级顾问</p>
+                  <p class="mt-1">Vivian Hou</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<div id="map-block" class="section">
+  <div class="container text-center">
+    <div class="tit public w-100 d-block mt-5 mb-3">
+      <span class="tit-y d-inline-block pl-4">
+        战略合作
+        <span class="tit-g d-inline-block py-2 px-4">STRATEGIC COOPERATION</span>
+      </span>
+    </div>
+  </div>
 </div>
 @stop
 @section('js')
-<!-- <script type="text/javascript">
+<script src="../js/swiper.min.js"></script>
+<script type="text/javascript">
   $(function(){
-    var height = $(window).height();
-    console.log(height);
-    $('#banner-2-block').height(height);
+    // var height = $(window).height();
+    // console.log(height);
+    // $('#banner-2-block').height(height);
+
+    var swiper2 = new Swiper('.s3', {
+        navigation: {
+            nextEl: '.swiper-next',
+            prevEl: '.swiper-prev',
+            slidesPerView: 1
+        },
+    });
   });
-</script> -->
+</script>
 @stop

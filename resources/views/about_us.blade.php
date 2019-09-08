@@ -2,6 +2,11 @@
 @section('title','About Us')
 @section('css')
 <link rel="stylesheet" href="../css/about_us.css">
+<style>
+  .congratulation-container {
+    margin-bottom: 0;
+  }
+</style>
 @stop
 
 @section('content')
@@ -60,9 +65,9 @@
   </div>
 </div>
 
-<div id="banner-4-block" class="section py-5">
-  <div class="container text-center position-relative pt-5 w-75">
-    <img class="w-100 position-relative" id="banner-2" src="../images/about_us/banner-4-about.png" alt="">
+<div id="banner-4-block" class="section pb-5">
+  <div class="w-100 text-center position-relative w-75 pb-5">
+    <img class="w-100 position-relative" id="banner-2" src="../images/about_us/banner-4-about.jpg" alt="">
     <div class="content position-absolute w-100 text-center">
       <p>“</p>
       <p>做有温度的教育者</p>

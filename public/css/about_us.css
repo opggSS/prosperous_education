@@ -70,22 +70,22 @@ body {
     z-index: -1; }
   .section#banner-4-block {
     background: #00a396; }
-    .section#banner-4-block .container .content {
+    .section#banner-4-block .content {
       top: 35%;
       font-size: 2rem;
       line-height: 1.6rem;
       color: #DEAB7B; }
-    .section#banner-4-block .container .content-block {
+    .section#banner-4-block .content-block {
       background: url(../images/about_us/banner-9-about.png) no-repeat;
       background-size: cover;
       background-position: center; }
-      .section#banner-4-block .container .content-block p {
+      .section#banner-4-block .content-block p {
         color: #333;
         font-size: 1.5rem; }
-        .section#banner-4-block .container .content-block p:nth-of-type(1) {
+        .section#banner-4-block .content-block p:nth-of-type(1) {
           border-bottom: 2px solid #333;
           padding-bottom: 1rem; }
-        .section#banner-4-block .container .content-block p span {
+        .section#banner-4-block .content-block p span {
           background: #FFA200;
           color: #fff; }
   .section#hezuo-block {

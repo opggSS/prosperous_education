@@ -1,0 +1,70 @@
+$color-green: #00a396;
+$color-orange: #FFA200;
+$color-white: #FFFFFF;
+$color-gray: #444444;
+
+//主用字体
+@font-face{
+  font-family: 'lanting';
+  src : url('../fonts/lanting.TTF');
+}
+
+//Nav字体
+@font-face{
+  font-family: 'kaiti';
+  src : url('../fonts/kaiti.ttf');
+}
+
+//title用字体
+@font-face{
+  font-family: 'heijianti';
+  src : url('../fonts/shishangzhongheijianti.ttf');
+}
+
+//card内部字体
+@font-face{
+  font-family: 'jianshoujinshu';
+  src : url('../fonts/minijianshoujinshu.ttf');
+}
+
+.public {
+
+  &.tit {
+    letter-spacing: .5rem;
+    font-size: 1.2rem;
+    color: #fff;
+
+    span {
+      border-radius: 3rem;
+
+      &.tit-y {
+        background: $color-orange;
+
+        .tit-g {
+          background: $color-green;
+          border: 6px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+body {
+  background: $color-green;
+}
+
+.section {
+  background-color: #fff;
+
+  &#banner-main-block {
+
+    #banner-main {
+      top: 0;
+      right: 0;
+      background-color: #fff;
+      width: 70.8%;
+      left: 14.6%;
+    }
+  }
+  
+}

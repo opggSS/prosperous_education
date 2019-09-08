@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'lanting';
+  src: url("../fonts/lanting.TTF"); }
+@font-face {
+  font-family: 'kaiti';
+  src: url("../fonts/kaiti.ttf"); }
+@font-face {
+  font-family: 'heijianti';
+  src: url("../fonts/shishangzhongheijianti.ttf"); }
+@font-face {
+  font-family: 'jianshoujinshu';
+  src: url("../fonts/minijianshoujinshu.ttf"); }
+.public.tit {
+  letter-spacing: .5rem;
+  font-size: 1.2rem;
+  color: #fff; }
+  .public.tit span {
+    border-radius: 3rem; }
+    .public.tit span.tit-y {
+      background: #FFA200; }
+      .public.tit span.tit-y .tit-g {
+        background: #00a396;
+        border: 6px solid #fff; }
+
+body {
+  background: #00a396; }
+
+.section {
+  background-color: #fff; }
+  .section#banner-main-block #banner-main {
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 70.8%;
+    left: 14.6%; }
+
+/*# sourceMappingURL=visa.css.map */

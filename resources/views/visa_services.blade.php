@@ -164,7 +164,7 @@
 
             <div class="col col-4">
               <div class="board container p-3">
-                <h3>加拿大入境签证申请</h3>
+                <h3>加拿大学签和学签续签？</h3>
                 <div class="content mt-3">
                   <p>大签（Study Permit）或学习签证，就是你合法居留在加拿大的一个身份凭证（即学生身份），
                     也是学校给你入（学）籍的依据（一张A4左右的大纸）。
@@ -185,7 +185,7 @@
 
             <div class="col col-4">
               <div class="board container p-3">
-                <h3>加拿大入境签证申请</h3>
+                <h3>加拿大留学毕业后工签</h3>
                 <div class="content mt-3">
                   <p>毕业工签（Post Graduate Work Permit）是指在加拿大获得公立专科及所有获得本科、
                     研究生或博士学位的学生持学签即可拿到8个月到3年的工签，

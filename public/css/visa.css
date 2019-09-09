@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'lanting';
+  src: url("../fonts/lanting.TTF"); }
+@font-face {
+  font-family: 'kaiti';
+  src: url("../fonts/kaiti.ttf"); }
+@font-face {
+  font-family: 'heijianti';
+  src: url("../fonts/shishangzhongheijianti.ttf"); }
+@font-face {
+  font-family: 'jianshoujinshu';
+  src: url("../fonts/minijianshoujinshu.ttf"); }
+@media (min-width: 768px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 100%;
+    *width: 100%; } }
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+    flex: none !important; } }
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+    flex: none !important; } }
+body ul li {
+  list-style: none; }
+
+.public.tit {
+  letter-spacing: .5rem;
+  font-size: 1.2rem;
+  color: #fff; }
+  .public.tit span {
+    border-radius: 3rem; }
+    .public.tit span.tit-y {
+      background: #FFA200; }
+      .public.tit span.tit-y .tit-g {
+        background: #00a396;
+        border: 6px solid #fff; }
+
+body {
+  background: #00a396; }
+
+.tit-block {
+  background: #fff; }
+
+.section {
+  background-color: #fff; }
+  .section#banner-main-block #banner-main {
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 70.8%;
+    left: 14.6%; }
+  .section#banner-2-block {
+    background: #00a396; }
+    .section#banner-2-block .col .container {
+      height: 100%; }
+      .section#banner-2-block .col .container.board {
+        background: #fff;
+        box-shadow: 0 10px 13px rgba(0, 0, 0, 0.15);
+        border-radius: 10px; }
+      .section#banner-2-block .col .container .content {
+        height: 50%; }
+      .section#banner-2-block .col .container h3 {
+        color: #FFA200; }
+      .section#banner-2-block .col .container .img-container {
+        height: 30%;
+        overflow: hidden; }
+    .section#banner-2-block a {
+      color: #FFA200; }
+  .section#banner-3-block .img-container {
+    position: relative;
+    width: 6rem;
+    margin: auto;
+    height: 6rem;
+    border: 2px solid #FFA200;
+    overflow: hidden;
+    border-radius: 50%; }
+  .section#banner-3-block h3 {
+    color: #FFA200; }
+
+.congratulation-container {
+  margin-bottom: 0; }
+
+.swiper-switch div {
+  display: inline-block;
+  margin: 20px 20px 0 20px; }
+  .swiper-switch div .fa-caret-square-left, .swiper-switch div .fa-caret-square-right {
+    color: #FFA200;
+    font-size: 30px; }
+.swiper-switch .swiper-button-disabled {
+  opacity: 0.5; }
+
+/*# sourceMappingURL=visa.css.map */

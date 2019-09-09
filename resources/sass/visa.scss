@@ -1,0 +1,185 @@
+$color-green: #00a396;
+$color-orange: #FFA200;
+$color-white: #FFFFFF;
+$color-gray: #444444;
+
+//主用字体
+@font-face{
+  font-family: 'lanting';
+  src : url('../fonts/lanting.TTF');
+}
+
+//Nav字体
+@font-face{
+  font-family: 'kaiti';
+  src : url('../fonts/kaiti.ttf');
+}
+
+//title用字体
+@font-face{
+  font-family: 'heijianti';
+  src : url('../fonts/shishangzhongheijianti.ttf');
+}
+
+//card内部字体
+@font-face{
+  font-family: 'jianshoujinshu';
+  src : url('../fonts/minijianshoujinshu.ttf');
+}
+
+@media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+flex:none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+flex:none !important;
+  }
+}
+
+
+body {
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.public {
+
+  &.tit {
+    letter-spacing: .5rem;
+    font-size: 1.2rem;
+    color: #fff;
+
+    span {
+      border-radius: 3rem;
+
+      &.tit-y {
+        background: $color-orange;
+
+        .tit-g {
+          background: $color-green;
+          border: 6px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+body {
+  background: $color-green;
+}
+
+.tit-block {
+  background: #fff;
+}
+
+.section {
+  background-color: #fff;
+
+  &#banner-main-block {
+
+    #banner-main {
+      top: 0;
+      right: 0;
+      background-color: #fff;
+      width: 70.8%;
+      left: 14.6%;
+    }
+  }
+
+  &#banner-2-block {
+    background: $color-green;
+
+    .col {
+      .container {
+        height: 100%;
+
+        &.board {
+          background: #fff;
+          box-shadow: 0 10px 13px rgba(0,0,0,.15);
+          border-radius: 10px;
+        }
+
+        .content {
+          height: 50%;
+        }
+
+        h3 {
+          color: $color-orange;
+        }
+
+        .img-container {
+          height: 30%;
+          overflow: hidden;
+        }
+
+      }
+
+    }
+
+    a {
+      color: $color-orange
+    }
+  }
+
+  &#banner-3-block {
+    .img-container {
+      position: relative;
+      width: 6rem;
+      margin: auto;
+      height: 6rem;
+      border: 2px solid $color-orange;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    h3 {
+      color: $color-orange;
+    }
+  }
+
+
+}
+
+.congratulation-container {
+  margin-bottom: 0;
+}
+
+.swiper-switch{
+  div{
+    display: inline-block;
+    margin: 20px 20px 0 20px;
+
+    .fa-caret-square-left,.fa-caret-square-right{
+      color: $color-orange;
+      font-size: 30px;
+    }
+  }
+
+  .swiper-button-disabled{
+    opacity: 0.5;
+  }
+}

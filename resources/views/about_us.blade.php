@@ -45,10 +45,6 @@
 </div>
 
 <div id="banner-2-block" class="section py-5 position-relative">
-  <img class="w-100 invisible" id="banner-2" src="../images/about_us/banner-2-about.png" alt="">
-</div>
-
-<div id="banner-2-back-block" class="section w-100 position-fixed">
   <div class="container">
     <img class="w-100" id="banner-2" src="../images/about_us/banner-2-about.png" alt="">
   </div>
@@ -248,9 +244,9 @@
 </div>
 
 
-<div id="map-block" class="section">
+<div id="map-block" class="section py-5">
   <div class="container text-center">
-    <div class="tit public w-100 d-block mt-5 mb-3">
+    <div class="tit public w-100 d-block">
       <span class="tit-y d-inline-block pl-4">
         战略合作
         <span class="tit-g d-inline-block py-2 px-4">STRATEGIC COOPERATION</span>
@@ -271,7 +267,8 @@
         navigation: {
             nextEl: '.swiper-next',
             prevEl: '.swiper-prev',
-            slidesPerView: 1
+            slidesPerView: 1,
+            delay: 1000
         },
     });
   });

@@ -51,7 +51,7 @@
                 </div>
                 <div class="row prosperous-services-buttom-box">
                     <div class="col-md-8 p-0 prosperous-services-leftbot-box">
-                        <a href="{{url('/application?type=elite')}}">
+                        <a href="{{url('/elite_program')}}">
                             <div>
                                 <h6><span>菁英</span>计划</h6><br>
                                 <p> &#8227; learn more </p>

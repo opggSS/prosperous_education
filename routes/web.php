@@ -43,4 +43,8 @@ Route::get('/summer_camp', function () {
     return view('summer_camp'); //特色夏令营
 });
 
+Route::get('/elite_program', function () {
+    return view('elite_program'); //特色夏令营
+});
+
 

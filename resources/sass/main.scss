@@ -111,7 +111,8 @@ h1,h2,h3,h4,h5,h6{
 
 #footer{
   background-color: $color-green;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: $color-white;
 
   h4{
@@ -125,6 +126,14 @@ h1,h2,h3,h4,h5,h6{
 
   img{
     width: 50%;
+  }
+
+  a{
+    color: $color-white;
+  }
+
+  .footer-hightlight{
+    color: $color-orange;
   }
 }
 

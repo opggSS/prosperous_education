@@ -2,25 +2,25 @@
     <div class="row text-center">
         <div class="col-md-2 offset-md-1">
             <h6>关于我们</h6>
-            <a><p>公司介绍</p></a>
-            <a><p>银行账号</p></a>
+            <a href="/"><p>公司介绍</p></a>
+            <a href="/"><p>银行账号</p></a>
         </div>
         <div class="col-md-2">
             <h6>学习规划</h6>
-            <a><p>雅思学习</p></a>
-            <a><p>学科补习</p></a>
+            <a href="/"><p>雅思学习</p></a>
+            <a href="/"><p>学科补习</p></a>
         </div>
         <div class="col-md-2">
             <h6>相关平台</h6>
-            <a><p>微信公众号</p></a>
-            <a><p>领英招聘</p></a>
+            <a href="/"><p>微信公众号</p></a>
+            <a href="/"><p>领英招聘</p></a>
         </div>
         <div class="col-md-2">
             <h6>服务热线:</h6>
-            <p>Tel: 604-957-5877</p>
-            <p>Tel: 604-303-5879</p>
+            <a href="tel:6049575877"><p class="footer-hightlight">Tel: 604-957-5877</p></a>
+            <p class="footer-hightlight">Fax: 604-303-5879</p>
             <h6>邮箱:</h6>
-            <p>jessica@pici.ca</p>
+            <a href="mailto:jessica@pici.ca"><p class="footer-hightlight">jessica@pici.ca</p></a>
         </div>
         <div class="col-md-2">
             <img src="{{asset('images/qrcode.png')}}" width="100%">

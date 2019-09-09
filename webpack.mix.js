@@ -19,7 +19,7 @@ mix.sass('resources/sass/main.scss','public/css')
         processCssUrls: false,
     });
 
-mix.sass('resources/sass/elite.scss', 'public/css')
-    .options({
-        processCssUrls: false,
-    });
+// mix.sass('resources/sass/elite.scss', 'public/css')
+//     .options({
+//         processCssUrls: false,
+//     });

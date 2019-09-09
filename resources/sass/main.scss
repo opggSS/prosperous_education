@@ -107,6 +107,42 @@ h1,h2,h3,h4,h5,h6{
       color: $color-orange !important;
     }
   }
+
+  .menu-hover-detail{
+    color: $color-orange;
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    padding: 0 10%;
+    position: absolute;
+    top: 100%;
+    z-index: 999;
+
+    div{
+      padding: 10px 0;
+
+      h5{
+        display: inline-block;
+        margin: 8px 0;
+      }
+
+      img{
+        width: 30px;
+      }
+
+      h6{
+        font-family: 'kaiti';
+      }
+
+      p{
+        display: inline-block;
+        color: white;
+        font-family: 'kaiti';
+        .fa-canadian-maple-leaf{
+          color: $color-orange;
+        }
+      }
+    }
+  }
 }
 
 #footer{
@@ -153,6 +189,38 @@ h1,h2,h3,h4,h5,h6{
     &:first-child{
       color: $color-orange;
       font-size: 35px;
+    }
+  }
+}
+
+//public contact form apply for multiple pages
+.contact-form{
+  background: url("../images/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .row{
+    background-color: rgba(0,0,0,.25);
+
+    div{
+      color: $color-white;
+
+      form{
+        input, select{
+          margin: 10px 0;
+        }
+
+        button{
+          background-color: $color-orange;
+          border: none;
+          color: white;
+          width: 100%;
+          border-radius: 30px;
+          font-size: 20px;
+        }
+      }
+
     }
   }
 }
@@ -635,4 +703,211 @@ h1,h2,h3,h4,h5,h6{
       }
     }
   }
+}
+
+/****************************************************************************/
+/*******************     ELITE PROGRAM CSS         **************************/
+/****************************************************************************/
+#elite-program{
+  p{
+    font-family: 'kaiti';
+    font-size: 18px;
+  }
+
+  .section {
+    background-color: #fff;
+
+    &#banner-main-block {
+
+      #banner-main {
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 70.8%;
+        left: 14.6%;
+      }
+    }
+  }
+
+  .project-mission-container{
+    background-color: $color-green;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    position: relative;
+
+    .project-mission-title{
+      position: absolute;
+      background-color: $color-orange;
+      border-radius: 30px;
+      border: 6px solid $color-white;
+      padding: 2px 0 2px 30px;
+      top: -26px;
+      left: 50%;
+      margin-left: -275px;
+      color: $color-white;
+
+      h3{
+        letter-spacing: 10px;
+      }
+
+      span{
+        background-color: $color-green;
+        border-radius: 26px;
+        padding: 4px 30px 6px 30px;
+        border: 6px solid $color-white;
+        letter-spacing: 1px;
+      }
+    }
+    .container-fluid{
+      h2{
+        color: $color-white;
+      }
+      h4{
+        color: $color-white;
+        text-shadow: 5px 5px 5px $color-gray;
+      }
+      .row{
+        text-align: center;
+
+        .icon-div{
+          img{
+            border-radius: 50%;
+            width: 70px;
+            height: 70px !important;
+            padding: auto;
+          }
+          h6{
+            text-align: center;
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+
+  .training-container{
+    margin-bottom: 50px;
+
+    .training-title{
+      color: $color-white;
+
+      h3{
+        letter-spacing: 10px;
+        background-color: $color-orange;
+        border-radius: 30px;
+        display: inline-block;
+        padding: 4px 0 4px 30px;
+      }
+
+      span{
+        background-color: $color-green;
+        border-radius: 26px;
+        padding: 4px 30px 6px 30px;
+        border: 6px solid $color-white;
+        letter-spacing: 1px;
+      }
+    }
+
+    .info-boxes{
+      .container{
+        .row{
+          justify-content: space-around;
+
+          .col-md-3{
+            color: $color-white;
+            padding: 10px;
+
+            &:first-child{
+              background: url("../images/elite/banner-4-elite.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+            }
+            &:nth-child(2){
+              background: url("../images/elite/banner-5-elite.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+            }
+            &:last-child{
+              background: url("../images/elite/banner-6-elite.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+            }
+
+            .inner-bg{
+              background-color: rgba(255, 162, 0, .8);
+              padding: 15px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .target-container{
+    h1{
+      color: $color-green;
+      span{
+        color: $color-orange;
+        font-size: 60px;
+      }
+    }
+    h5{
+      font-family: 'kaiti';
+    }
+  }
+
+  .elite-case-container{
+    .case-title{
+      color: $color-white;
+
+      h3{
+        letter-spacing: 10px;
+        background-color: $color-orange;
+        border-radius: 30px;
+        display: inline-block;
+        padding: 4px 0 4px 30px;
+      }
+
+      span{
+        background-color: $color-green;
+        border-radius: 26px;
+        padding: 4px 30px 6px 30px;
+        border: 6px solid $color-white;
+        letter-spacing: 1px;
+      }
+    }
+
+    .case-detail{
+      background-color: $color-green;
+
+      .container{
+        .row{
+          padding: 20px;
+
+          div{
+            color: $color-white;
+
+            &:first-child{
+              padding: auto;
+
+              img{
+                width: 50%;
+              }
+            }
+
+            &:last-child{
+              p{
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }

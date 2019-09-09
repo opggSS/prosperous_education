@@ -27,6 +27,14 @@ $color-gray: #444444;
   src : url('../fonts/minijianshoujinshu.ttf');
 }
 
+body {
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+
 .public {
 
   &.tit {
@@ -53,6 +61,10 @@ body {
   background: $color-green;
 }
 
+.tit-block {
+  background: #fff;
+}
+
 .section {
   background-color: #fff;
 
@@ -66,5 +78,65 @@ body {
       left: 14.6%;
     }
   }
-  
+
+  &#banner-2-block {
+    background: $color-green;
+
+    .col {
+      .container {
+        height: 100%;
+
+        &.board {
+          background: #fff;
+          box-shadow: 0 10px 13px rgba(0,0,0,.15);
+          border-radius: 10px;
+        }
+
+        .content {
+          height: 50%;
+        }
+
+        h3 {
+          color: $color-orange;
+        }
+
+        .img-container {
+          height: 30%;
+          overflow: hidden;
+        }
+
+      }
+
+    }
+
+    a {
+      color: $color-orange
+    }
+  }
+
+  #banner-3-block {
+    
+  }
+
+
+}
+
+.congratulation-container {
+  margin-bottom: 0;
+}
+
+.swiper-switch{
+  div{
+    display: inline-block;
+    margin: 20px 20px 0 20px;
+
+    .fa-caret-square-left,.fa-caret-square-right{
+      color: $color-orange;
+      font-size: 30px;
+    }
+  }
+
+  .swiper-button-disabled{
+    opacity: 0.5;
+  }
 }

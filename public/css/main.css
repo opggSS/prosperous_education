@@ -514,3 +514,21 @@ h1, h2, h3, h4, h5, h6 {
 #home .partnership-container .row .col-md-2 {
   padding: 0 14px;
 }
+
+/****************************************************************************/
+/*******************     ELITE PROGRAM CSS         **************************/
+/****************************************************************************/
+#elite-program p {
+  font-family: "kaiti";
+  font-size: 18px;
+}
+#elite-program .section {
+  background-color: #fff;
+}
+#elite-program .section#banner-main-block #banner-main {
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 70.8%;
+  left: 14.6%;
+}

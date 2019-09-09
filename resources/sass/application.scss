@@ -10,7 +10,7 @@ $color-gray: #444444;
 }
 
 //Nav字体
-@font-face{
+@font-face {
   font-family: 'kaiti';
   src : url('../fonts/kaiti.ttf');
 }
@@ -21,7 +21,7 @@ $color-gray: #444444;
   src : url('../fonts/shishangzhongheijianti.ttf');
 }
 
-//card内部字体
+// card内部字体
 @font-face{
   font-family: 'jianshoujinshu';
   src : url('../fonts/minijianshoujinshu.ttf');
@@ -31,7 +31,7 @@ $color-gray: #444444;
 
   &.tit {
     letter-spacing: .5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #fff;
 
     span {
@@ -42,13 +42,187 @@ $color-gray: #444444;
 
         .tit-g {
           background: $color-green;
-          border: 6px solid #fff;
+          /*border-left: 3px solid #fff;*/
         }
       }
     }
   }
 }
 
+
+.study {
+
+  p{
+    margin: 30px auto;
+
+  }
+  @media screen and (min-width: 1024px) {
+    p{
+      width: 70%;
+
+    }
+  }
+  .row {
+    .col-special{
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+    p{
+      margin-top: 10px;
+      color: $color-green;
+    }
+  }
+
+}
+
+.third {
+  background-color:$color-green;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .container{
+    border-radius: 15px;
+    background-color: rgba(255,255,255,.7);
+    padding: 50px 30px;
+    #myModal{
+      padding: 20px 1rem;
+      .modal-content{
+        padding: 10px 1rem;
+        .modal-header{
+          border-bottom-style: none;
+        }
+        .modal-footer{
+          border-top-style: none;
+        }
+        .modal-body{
+
+          h6{
+            background: $color-orange;
+            color: white;
+            display: inline-block;
+            border-radius: 14px;
+            padding: 5px 20px; 
+            margin: 20px auto 30px;
+          }
+          .sub-title{
+            color:black;
+            font-weight: bold;
+          }
+          .inline{
+            display: inline-block;
+          }
+          p{
+            text-indent: 1rem;
+            margin-bottom: 10px;
+          }
+
+        }
+      }
+      
+    }
+    .row{
+      .title{
+        color: $color-orange;
+        font-size: 26px;
+        margin-bottom: 5px;
+      }
+      button{
+        font-size: 20px;
+        background-color: $color-orange;
+        border-radius: 15px ;
+        display: inline-block;
+        padding: 5px 10px;
+        color: white;
+        font-weight: bold;
+        border: none;
+      }
+
+      .sub-title{
+        color: $color-orange;
+        span{
+          padding:0 10px; 
+        }
+      }
+      .col-special4{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        padding: 0 20px;
+      }
+      .col-special6{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+      }
+      p{
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+.fourth{
+  .container{
+
+    p{
+      margin: 30px auto;
+      color:$color-green;
+    }
+    @media screen and (min-width: 1024px) {
+      p{
+        width: 70%;
+      }
+    }
+
+    h3{
+      font-size:25px;
+      color: $color-green;
+      margin-bottom: 25px;
+    }
+  }
+
+
+}
+.fifth{
+  background-color: $color-green;
+  padding-bottom: 40px;
+  .container{
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .row{
+      img{
+       max-width: 200px;
+       margin-bottom: 20px;
+      }
+      .col-special-center{
+        margin: 0 auto;
+      }
+      @media screen and (max-width: 1024px) {
+        .padding-col{
+          display: none;
+        }
+      }
+      
+      @media screen and (min-width: 1024px) {
+      .col-special-center{
+        width: 40%;
+        }
+      }
+
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.sixth{
+  padding: 30px 0;
+}
 .section {
   &#banner-main-block {
     background-image: url('../images/about_us/bg-gallery.png');

@@ -23,3 +23,8 @@ mix.sass('resources/sass/elite.scss', 'public/css')
     .options({
         processCssUrls: false,
     });
+
+mix.sass('resources/sass/application.scss', 'public/css')
+    .options({
+        processCssUrls: false,
+    });

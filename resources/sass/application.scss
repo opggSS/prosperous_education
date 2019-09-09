@@ -1,0 +1,172 @@
+$color-green: #00a396;
+$color-orange: #FFA200;
+$color-white: #FFFFFF;
+$color-gray: #444444;
+
+//主用字体
+@font-face{
+  font-family: 'lanting';
+  src : url('../fonts/lanting.TTF');
+}
+
+//Nav字体
+@font-face{
+  font-family: 'kaiti';
+  src : url('../fonts/kaiti.ttf');
+}
+
+//title用字体
+@font-face{
+  font-family: 'heijianti';
+  src : url('../fonts/shishangzhongheijianti.ttf');
+}
+
+//card内部字体
+@font-face{
+  font-family: 'jianshoujinshu';
+  src : url('../fonts/minijianshoujinshu.ttf');
+}
+
+.public {
+
+  &.tit {
+    letter-spacing: .5rem;
+    font-size: 1.2rem;
+    color: #fff;
+
+    span {
+      border-radius: 3rem;
+
+      &.tit-y {
+        background: $color-orange;
+
+        .tit-g {
+          background: $color-green;
+          border: 6px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+.section {
+  &#banner-main-block {
+    background-image: url('../images/about_us/bg-gallery.png');
+    background-position: top;
+    background-size: 100%;
+    .container{
+        position: relative;
+        .center-center{
+            width: 60%;
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+            h2{
+                font-size: 2.5rem;
+                text-align: center;
+                letter-spacing: 1rem;
+                color: $color-orange;
+            }
+            .divider{
+                margin: 10px 0;
+                width: 100%;
+                border-top: 1px solid $color-orange;
+            }
+        }
+    }
+    
+    
+  }
+
+  &#intro-block {
+
+    .tit-block {
+      color: $color-green;
+
+      .tit-main {
+        font-size: 1.7rem;
+        font-family: 'kaiti';
+        letter-spacing: .5rem;
+      }
+
+      .tit-sub {
+        font-size: 1rem;
+        font-family: 'kaiti';
+        letter-spacing: .2rem;
+      }
+
+      .tit-third {
+        font-size: 1.3rem;
+        letter-spacing: .2rem;
+        width: 30%;
+        left: 35%;
+        background: #fff;
+        z-index: 10;
+      }
+
+      .underline {
+        border-bottom: 2px $color-green solid;
+        left: 0;
+        bottom: 44.6%;
+      }
+    }
+
+    .content-block {
+      background: #f3f3f3;
+
+      .container {
+        p {
+          text-indent: 2rem;
+          line-height: 2rem;
+          color: $color-green;
+          font-weight: 100;
+        }
+      }
+
+    }
+  }
+
+  &#banner-2-block {
+    background: $color-green;
+  }
+
+  &#banner-4-block {
+    background: $color-green;
+
+    .container {
+
+      .content {
+        top: 35%;
+        font-size: 2rem;
+        line-height: 1.6rem;
+        color: #DEAB7B;
+      }
+
+      .content-block {
+        background: url(../images/about_us/banner-9-about.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        p {
+          color: #333;
+          font-size: 1.5rem;
+
+          &:nth-of-type(1) {
+            border-bottom: 2px solid #333;
+            padding-bottom: 1rem;
+          }
+
+          span {
+            background: $color-orange;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

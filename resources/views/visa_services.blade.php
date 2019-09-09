@@ -226,17 +226,60 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col ">
-
+  <div class="container text-center mt-5">
+    <div class="row seven-cols">
+      <div class="col col-md-1">
+        <div class="img-container mb-3">
+          <img class="h-50 mt-4" src="../images/visa/ico-1-visa.png" alt="">
+        </div>
+        <h3>咨询预约</h3>
+        <p>面对面或电话咨询，与宏图签证项目经理沟通确认预约办理业务。</p>
+      </div>
+      <div class="col col-md-1">
+        <div class="img-container mb-3">
+          <img class="h-50 mt-4" src="../images/visa/ico-2-visa.png" alt="">
+        </div>
+        <h3>签证启动</h3>
+        <p>宏图签证主管对客户签证申请难易程度进行评估，并安排一对一签证专员与客户直接沟通，
+          签证办理正式启动。</p>
+      </div>
+      <div class="col col-md-1">
+        <div class="img-container mb-3">
+          <img class="h-50 mt-4" src="../images/visa/ico-3-visa.png" alt="">
+        </div>
+        <h3>材料准备</h3>
+        <p>宏图签证专员与客户沟通准备申请材料，并交由签证主管进行指导审核。</p>
+      </div>
+      <div class="col col-md-1">
+        <div class="img-container mb-3">
+          <img class="h-50 mt-4" src="../images/visa/ico-4-visa.png" alt="">
+        </div>
+        <h3>文案准备</h3>
+        <p>签证材料准备完善后，由签证文案专员进行文案创作，以及申请表格填写、申请材料翻译。</p>
+      </div>
+      <div class="col col-md-1">
+        <div class="img-container mb-3">
+          <img class="h-50 mt-4" src="../images/visa/ico-5-visa.png" alt="">
+        </div>
+        <h3>审核递表</h3>
+        <p>申请文件与材料备齐后，VPEA签证办理专员前往签证中心，提交签证材料。</p>
+      </div>
+      <div class="col col-md-1">
+        <div class="img-container mb-3">
+          <img class="h-50 mt-4" src="../images/visa/ico-6-visa.png" alt="">
+        </div>
+        <h3>等待审批</h3>
+        <p>提交签证申请后，宏图签证办理专员会随时跟进签证办理进度，并及时告知客户。</p>
+      </div>
+      <div class="col col-md-1">
+        <div class="img-container mb-3">
+          <img class="h-50 mt-4" src="../images/visa/ico-7-visa.png" alt="">
+        </div>
+        <h3>获得签证</h3>
+        <p>审批通过获签后,VPEA将在第一时间将签证邮递给客户。</p>
       </div>
     </div>
-    <div class="img-container">
-      <img src="../images/visa/ico-1-visa.png" alt="">
-    </div>
-    <h3>咨询预约</h3>
-    <p>面对面或电话咨询，与宏图签证项目经理沟通确认预约办理业务。</p>
+
   </div>
 </div>
 

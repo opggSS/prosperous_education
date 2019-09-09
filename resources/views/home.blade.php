@@ -160,7 +160,6 @@
             “六极管理体系”大大提高了名校录取率</h5>
     </div>
     <div class="six-level-swiper">
-        {{--<i class="far fa-check-square"></i>--}}
         <div class="swiper-container s2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">

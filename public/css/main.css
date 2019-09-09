@@ -532,3 +532,145 @@ h1, h2, h3, h4, h5, h6 {
   width: 70.8%;
   left: 14.6%;
 }
+#elite-program .project-mission-container {
+  background-color: #00a396;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 60px;
+  position: relative;
+}
+#elite-program .project-mission-container .project-mission-title {
+  position: absolute;
+  background-color: #FFA200;
+  border-radius: 30px;
+  border: 6px solid #FFFFFF;
+  padding: 2px 0 2px 30px;
+  top: -26px;
+  left: 50%;
+  margin-left: -275px;
+  color: #FFFFFF;
+}
+#elite-program .project-mission-container .project-mission-title h3 {
+  letter-spacing: 10px;
+}
+#elite-program .project-mission-container .project-mission-title span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+#elite-program .project-mission-container .container-fluid h2 {
+  color: #FFFFFF;
+}
+#elite-program .project-mission-container .container-fluid h4 {
+  color: #FFFFFF;
+  text-shadow: 5px 5px 5px #444444;
+}
+#elite-program .project-mission-container .container-fluid .row {
+  text-align: center;
+}
+#elite-program .project-mission-container .container-fluid .row .icon-div img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px !important;
+  padding: auto;
+}
+#elite-program .project-mission-container .container-fluid .row .icon-div h6 {
+  text-align: center;
+  color: #FFFFFF;
+}
+#elite-program .training-container {
+  margin-bottom: 50px;
+}
+#elite-program .training-container .training-title {
+  color: #FFFFFF;
+}
+#elite-program .training-container .training-title h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+#elite-program .training-container .training-title span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+#elite-program .training-container .info-boxes .container .row {
+  justify-content: space-around;
+}
+#elite-program .training-container .info-boxes .container .row .col-md-3 {
+  color: #FFFFFF;
+  padding: 10px;
+}
+#elite-program .training-container .info-boxes .container .row .col-md-3:first-child {
+  background: url("../images/elite/banner-4-elite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#elite-program .training-container .info-boxes .container .row .col-md-3:nth-child(2) {
+  background: url("../images/elite/banner-5-elite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#elite-program .training-container .info-boxes .container .row .col-md-3:last-child {
+  background: url("../images/elite/banner-6-elite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#elite-program .training-container .info-boxes .container .row .col-md-3 .inner-bg {
+  background-color: rgba(255, 162, 0, 0.8);
+  padding: 15px 10px;
+}
+#elite-program .target-container h1 {
+  color: #00a396;
+}
+#elite-program .target-container h1 span {
+  color: #FFA200;
+  font-size: 60px;
+}
+#elite-program .target-container h5 {
+  font-family: "kaiti";
+}
+#elite-program .elite-case-container .case-title {
+  color: #FFFFFF;
+}
+#elite-program .elite-case-container .case-title h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+#elite-program .elite-case-container .case-title span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+#elite-program .elite-case-container .case-detail {
+  background-color: #00a396;
+}
+#elite-program .elite-case-container .case-detail .container .row {
+  padding: 20px;
+}
+#elite-program .elite-case-container .case-detail .container .row div {
+  color: #FFFFFF;
+}
+#elite-program .elite-case-container .case-detail .container .row div:first-child {
+  padding: auto;
+}
+#elite-program .elite-case-container .case-detail .container .row div:first-child img {
+  width: 50%;
+}
+#elite-program .elite-case-container .case-detail .container .row div:last-child p {
+  text-align: left;
+}

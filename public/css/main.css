@@ -80,7 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer {
   background-color: #00a396;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #FFFFFF;
 }
 #footer h4 {
@@ -92,6 +93,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #footer img {
   width: 50%;
+}
+#footer a {
+  color: #FFFFFF;
+}
+#footer .footer-hightlight {
+  color: #FFA200;
 }
 
 .congratulation-container {

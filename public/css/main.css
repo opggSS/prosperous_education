@@ -77,6 +77,36 @@ h1, h2, h3, h4, h5, h6 {
 #menu #menu-bar .active {
   color: #FFA200 !important;
 }
+#menu .menu-hover-detail {
+  color: #FFA200;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 0 10%;
+  position: absolute;
+  top: 100%;
+  z-index: 999;
+}
+#menu .menu-hover-detail div {
+  padding: 10px 0;
+}
+#menu .menu-hover-detail div h5 {
+  display: inline-block;
+  margin: 8px 0;
+}
+#menu .menu-hover-detail div img {
+  width: 30px;
+}
+#menu .menu-hover-detail div h6 {
+  font-family: "kaiti";
+}
+#menu .menu-hover-detail div p {
+  display: inline-block;
+  color: white;
+  font-family: "kaiti";
+}
+#menu .menu-hover-detail div p .fa-canadian-maple-leaf {
+  color: #FFA200;
+}
 
 #footer {
   background-color: #00a396;

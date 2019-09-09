@@ -7,6 +7,7 @@
 
 @section('content')
 
+
     @include('layout._contact_form')
 @stop
 

@@ -157,6 +157,38 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
+//public contact form apply for multiple pages
+.contact-form{
+  background: url("../images/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .row{
+    background-color: rgba(0,0,0,.25);
+
+    div{
+      color: $color-white;
+
+      form{
+        input, select{
+          margin: 10px 0;
+        }
+
+        button{
+          background-color: $color-orange;
+          border: none;
+          color: white;
+          width: 100%;
+          border-radius: 30px;
+          font-size: 20px;
+        }
+      }
+
+    }
+  }
+}
+
 #home{
   //Swiper CSS with pagination change
   .banner-swiper{

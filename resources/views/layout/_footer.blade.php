@@ -37,6 +37,67 @@
 <script type="text/javascript" src="{{URL::asset('js/swiper.min.js')}}"></script>
 <script type="text/javascript" src="{{URL::asset('js/all.js')}}"></script>
 
+{{--This is the script for home menu hover effect--}}
+<script>
+    $('.menu-about-us').hover(
+        function () {
+            $('#hover-about-us').prop('hidden', false)
+        },
+        function () {
+            $('#hover-about-us').prop('hidden', true)
+        }
+    )
+    $('.menu-application').hover(
+        function () {
+            $('#hover-application').prop('hidden', false)
+        },
+        function () {
+            $('#hover-application').prop('hidden', true)
+        }
+    )
+    $('.menu-planning').hover(
+        function () {
+            $('#hover-planning').prop('hidden', false)
+        },
+        function () {
+            $('#hover-planning').prop('hidden', true)
+        }
+    )
+    $('.menu-visa').hover(
+        function () {
+            $('#hover-visa').prop('hidden', false)
+        },
+        function () {
+            $('#hover-visa').prop('hidden', true)
+        }
+    )
+    $('.menu-overseas').hover(
+        function () {
+            $('#hover-overseas').prop('hidden', false)
+        },
+        function () {
+            $('#hover-overseas').prop('hidden', true)
+        }
+    )
+    $('.menu-job').hover(
+        function () {
+            $('#hover-job').prop('hidden', false)
+        },
+        function () {
+            $('#hover-job').prop('hidden', true)
+        }
+    )
+    $('.menu-summer').hover(
+        function () {
+            $('#hover-summer').prop('hidden', false)
+        },
+        function () {
+            $('#hover-summer').prop('hidden', true)
+        }
+    )
+</script>
+
+{{--This is the script for home menu wechat scrolldown--}}
 <script>
     $('#subscribe-wechat').on('click', function () {
         $("html, body").animate({ scrollTop: $(document).height() }, 1500);

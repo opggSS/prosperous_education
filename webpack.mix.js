@@ -19,6 +19,7 @@ mix.sass('resources/sass/main.scss','public/css')
         processCssUrls: false,
     });
 
+<<<<<<< HEAD
 mix.sass('resources/sass/elite.scss', 'public/css')
     .options({
         processCssUrls: false,
@@ -28,3 +29,9 @@ mix.sass('resources/sass/application.scss', 'public/css')
     .options({
         processCssUrls: false,
     });
+=======
+// mix.sass('resources/sass/elite.scss', 'public/css')
+//     .options({
+//         processCssUrls: false,
+//     });
+>>>>>>> c70b87604d4b6cb809d2f2c0682c0986e7e6c97d

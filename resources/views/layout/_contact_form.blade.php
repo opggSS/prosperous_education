@@ -1,6 +1,6 @@
 <div class="contact-form container-fluid">
     <div class="row">
-        <div class="col-md-4 offset-md-4 text-center pt-4 pb-4">
+        <div class="col-md-4 offset-md-4 text-center pt-4 pb-5">
             <h1>在线预约</h1>
             <h3 class="mb-4">免费获得个性升学规划方案</h3>
             <form>

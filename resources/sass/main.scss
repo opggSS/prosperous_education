@@ -972,6 +972,13 @@ h1,h2,h3,h4,h5,h6{
 
         .content {
           height: 50%;
+
+          p{
+            .fa-canadian-maple-leaf{
+              color: $color-orange;
+              margin-right: 5px;
+            }
+          }
         }
 
         h3 {

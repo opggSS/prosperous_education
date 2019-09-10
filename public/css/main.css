@@ -753,6 +753,10 @@ h1, h2, h3, h4, h5, h6 {
 #summer-camp #banner-2-block .col .container .content {
   height: 50%;
 }
+#summer-camp #banner-2-block .col .container .content p .fa-canadian-maple-leaf {
+  color: #FFA200;
+  margin-right: 5px;
+}
 #summer-camp #banner-2-block .col .container h3 {
   color: #FFA200;
   text-align: center;

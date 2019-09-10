@@ -38,15 +38,17 @@
                         <div class="row">
                             <div class="col col-4">
                                 <div class="board container p-3">
-                                    <h3>加拿大入境签证申请</h3>
+                                    <h3>雅思训练营</h3>
                                     <div class="content mt-3">
-                                        <p>小签（RE-ENTRY VISA）或出入境VISA，可用于在一定时期内多次出入加拿大国境；
-                                            小签过期将无法正常出入境加拿大国境。对于小签的续签，成绩单和出勤率很重要，
-                                            太多门功课F（不及格）或者出勤率不够，都会影响续签。只要正常学习、正常考试，续签都不会出现问题。</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>优质的环境，军事化管理</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>强大师资，正规管理</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>独家研发教材，丰富课程体系</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>浸泡式学习，提高学习兴趣</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>专业、专心、专注</p>
                                     </div>
 
                                     <div class="img-container">
-                                        <img class="w-100" src="../images/visa/banner-2-visa.png" alt="">
+                                        <img class="w-100" src="{{asset('images/feature/banner-1-feature.png')}}" alt="">
                                     </div>
                                     <div class="container text-center mt-3">
                                         <a href="javascript:;">Learn More ></a>
@@ -57,17 +59,17 @@
 
                             <div class="col col-4">
                                 <div class="board container p-3">
-                                    <h3>加拿大入境签证申请</h3>
+                                    <h3>学术夏令营</h3>
                                     <div class="content mt-3">
-                                        <p>大签（Study Permit）或学习签证，就是你合法居留在加拿大的一个身份凭证（即学生身份），
-                                            也是学校给你入（学）籍的依据（一张A4左右的大纸）。
-                                            需要注意的是：这张纸不能当进入加拿大国境的许可凭证。
-                                            大签的续签，成绩单和出勤率很重要，太多门功课F（不及格）或者出勤率不够，都会影响续签。
-                                            只要正常学习、正常考试，续签都不会出现问题。</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>筛选美国、加拿大最优质的夏令营</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>真正 “国际化” 的学习生活环境</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>验最正宗的英式教育</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>统一定价，价格透明，“去中介费” </p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>免费分析对比最适合的夏校项目</p>
                                     </div>
 
                                     <div class="img-container">
-                                        <img class="w-100" src="../images/visa/banner-3-visa.png" alt="">
+                                        <img class="w-100" src="{{asset('images/feature/banner-2-feature.png')}}" alt="">
                                     </div>
                                     <div class="container text-center mt-3">
                                         <a href="javascript:;">Learn More ></a>
@@ -78,16 +80,15 @@
 
                             <div class="col col-4">
                                 <div class="board container p-3">
-                                    <h3>加拿大入境签证申请</h3>
+                                    <h3>世界行者</h3>
                                     <div class="content mt-3">
-                                        <p>毕业工签（Post Graduate Work Permit）是指在加拿大获得公立专科及所有获得本科、
-                                            研究生或博士学位的学生持学签即可拿到8个月到3年的工签，
-                                            是openwork permit的一种，是属于不限制雇主的一种工作许可。
-                                            这对于留学生来说是个非常利好的政策，也对将来移民申请有非常大的帮助。</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>Assesment，测评</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>Discovery，探索工坊</p>
+                                        <p><i class="fab fa-canadian-maple-leaf"></i>Planning，综合升学规划</p>
                                     </div>
 
                                     <div class="img-container">
-                                        <img class="w-100" src="../images/visa/banner-4-visa.png" alt="">
+                                        <img class="w-100" src="{{asset('images/feature/banner-3-feature.png')}}" alt="">
                                     </div>
                                     <div class="container text-center mt-3">
                                         <a href="javascript:;">Learn More ></a>

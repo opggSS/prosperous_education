@@ -164,28 +164,6 @@ $color-gray: #444444;
   }
 }
 
-.fourth{
-  .container{
-
-    p{
-      margin: 30px auto;
-      color:$color-green;
-    }
-    @media screen and (min-width: 1024px) {
-      p{
-        width: 70%;
-      }
-    }
-
-    h3{
-      font-size:25px;
-      color: $color-green;
-      margin-bottom: 25px;
-    }
-  }
-
-
-}
 .fifth{
   background-color: $color-green;
   padding-bottom: 40px;

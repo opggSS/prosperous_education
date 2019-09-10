@@ -49370,17 +49370,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/elite.scss":
-/*!***********************************!*\
-  !*** ./resources/sass/elite.scss ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, open '/home/vagrant/prosperous_education/resources/sass/elite.scss'\n    at /home/vagrant/prosperous_education/node_modules/webpack/lib/NormalModule.js:313:20\n    at /home/vagrant/prosperous_education/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /home/vagrant/prosperous_education/node_modules/loader-runner/lib/LoaderRunner.js:203:19\n    at /home/vagrant/prosperous_education/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:73:15\n    at processTicksAndRejections (internal/process/task_queues.js:72:11)");
-
-/***/ }),
-
 /***/ "./resources/sass/main.scss":
 /*!**********************************!*\
   !*** ./resources/sass/main.scss ***!
@@ -49393,17 +49382,16 @@ throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\
 /***/ }),
 
 /***/ 0:
-/*!******************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main.scss ./resources/sass/elite.scss ./resources/sass/application.scss ***!
-  \******************************************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/main.scss ./resources/sass/application.scss ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/vagrant/prosperous_education/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /home/vagrant/prosperous_education/resources/sass/app.scss */"./resources/sass/app.scss");
-__webpack_require__(/*! /home/vagrant/prosperous_education/resources/sass/main.scss */"./resources/sass/main.scss");
-__webpack_require__(/*! /home/vagrant/prosperous_education/resources/sass/elite.scss */"./resources/sass/elite.scss");
-module.exports = __webpack_require__(/*! /home/vagrant/prosperous_education/resources/sass/application.scss */"./resources/sass/application.scss");
+__webpack_require__(/*! /home/vagrant/code/Prosperous-education/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /home/vagrant/code/Prosperous-education/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/vagrant/code/Prosperous-education/resources/sass/main.scss */"./resources/sass/main.scss");
+module.exports = __webpack_require__(/*! /home/vagrant/code/Prosperous-education/resources/sass/application.scss */"./resources/sass/application.scss");
 
 
 /***/ })

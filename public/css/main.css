@@ -131,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFA200;
 }
 
+/*public congratulation slider*/
 .congratulation-container {
   background-image: url("../images/home/green-bar.png");
   background-position: bottom;
@@ -148,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
 }
 
+/*public contact form apply for multiple pages*/
 .contact-form {
   background: url("../images/contact-bg.jpg");
   background-repeat: no-repeat;
@@ -172,6 +174,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 
+#home {
+  /*Swiper CSS with pagination change*/
+}
 #home .banner-swiper .swiper-container {
   overflow: hidden;
   border-bottom: 4px solid #FFA200;
@@ -725,57 +730,58 @@ h1, h2, h3, h4, h5, h6 {
 #summer-camp .summer-camp-intro .camp-intro-title {
   color: #FFFFFF;
 }
-#summer-camp .summer-camp-intro .camp-intro-title h3 {
+#summer-camp .summer-camp-intro h3 {
   letter-spacing: 10px;
   background-color: #FFA200;
   border-radius: 30px;
   display: inline-block;
   padding: 4px 0 4px 30px;
 }
-#summer-camp .summer-camp-intro .camp-intro-title span {
+#summer-camp .summer-camp-intro span {
   background-color: #00a396;
   border-radius: 26px;
   padding: 4px 30px 6px 30px;
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
 }
-#summer-camp #banner-2-block {
+
+#banner-2-block {
   background: #00a396;
 }
-#summer-camp #banner-2-block .col .container {
+#banner-2-block .col .container {
   height: 100%;
 }
-#summer-camp #banner-2-block .col .container.board {
+#banner-2-block .col .container.board {
   background: #fff;
   box-shadow: 0 10px 13px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
-#summer-camp #banner-2-block .col .container .content {
+#banner-2-block .col .container .content {
   height: 50%;
 }
-#summer-camp #banner-2-block .col .container .content p .fa-canadian-maple-leaf {
+#banner-2-block .col .container .content p .fa-canadian-maple-leaf {
   color: #FFA200;
   margin-right: 5px;
 }
-#summer-camp #banner-2-block .col .container h3 {
+#banner-2-block .col .container h3 {
   color: #FFA200;
   text-align: center;
 }
-#summer-camp #banner-2-block .col .container .img-container {
+#banner-2-block .col .container .img-container {
   height: 30%;
   overflow: hidden;
 }
-#summer-camp #banner-2-block a {
+#banner-2-block a {
   color: #FFA200;
 }
-#summer-camp #banner-2-block .swiper-switch div {
+#banner-2-block .swiper-switch div {
   display: inline-block;
   margin: 20px 20px 0 20px;
 }
-#summer-camp #banner-2-block .swiper-switch div .fa-caret-square-left, #summer-camp #banner-2-block .swiper-switch div .fa-caret-square-right {
+#banner-2-block .swiper-switch div .fa-caret-square-left, #banner-2-block .swiper-switch div .fa-caret-square-right {
   color: #FFA200;
   font-size: 30px;
 }
-#summer-camp #banner-2-block .swiper-switch .swiper-button-disabled {
+#banner-2-block .swiper-switch .swiper-button-disabled {
   opacity: 0.5;
 }

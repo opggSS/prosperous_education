@@ -1,0 +1,252 @@
+$color-green: #00a396;
+$color-orange: #FFA200;
+$color-white: #FFFFFF;
+$color-gray: #444444;
+
+//主用字体
+@font-face{
+  font-family: 'lanting';
+  src : url('../fonts/lanting.TTF');
+}
+
+//Nav字体
+@font-face{
+  font-family: 'kaiti';
+  src : url('../fonts/kaiti.ttf');
+}
+
+//title用字体
+@font-face{
+  font-family: 'heijianti';
+  src : url('../fonts/shishangzhongheijianti.ttf');
+}
+
+//card内部字体
+@font-face{
+  font-family: 'jianshoujinshu';
+  src : url('../fonts/minijianshoujinshu.ttf');
+}
+
+.public {
+
+  &.tit {
+    letter-spacing: .5rem;
+    font-size: 1.2rem;
+    color: #fff;
+
+    span {
+      border-radius: 3rem;
+
+      &.tit-y {
+        background: $color-orange;
+
+        .tit-g {
+          background: $color-green;
+          border: 6px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+body {
+  background: $color-green;
+}
+
+.section {
+  background-color: #fff;
+
+  &#banner-main-block {
+
+    #banner-main {
+      top: 0;
+      right: 0;
+      background-color: #fff;
+      width: 70.8%;
+      left: 14.6%;
+    }
+  }
+
+  &#intro-block {
+
+    .tit-block {
+      color: $color-green;
+
+      .tit-main {
+        font-size: 1.7rem;
+        font-family: 'kaiti';
+        letter-spacing: .5rem;
+      }
+
+      .tit-sub {
+        font-size: 1rem;
+        font-family: 'kaiti';
+        letter-spacing: .2rem;
+      }
+
+      .tit-third {
+        font-size: 1.3rem;
+        letter-spacing: .2rem;
+        width: 30%;
+        left: 35%;
+        background: #fff;
+        z-index: 10;
+      }
+
+      .underline {
+        border-bottom: 2px $color-green solid;
+        left: 0;
+        bottom: 44.6%;
+      }
+    }
+
+    .content-block {
+      background: #fff;
+
+      .container {
+        p {
+          text-indent: 2rem;
+          line-height: 2rem;
+          color: #000;
+          font-weight: 100;
+        }
+      }
+
+    }
+  }
+
+  &#banner-4-block {
+    background: $color-green;
+
+      .content {
+        top: 35%;
+        font-size: 2rem;
+        line-height: 1.6rem;
+        color: #DEAB7B;
+      }
+
+      .content-block {
+        background: url(../images/about_us/banner-9-about.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        p {
+          color: #333;
+          font-size: 1.5rem;
+
+          &:nth-of-type(1) {
+            border-bottom: 2px solid #333;
+            padding-bottom: 1rem;
+          }
+
+          span {
+            background: $color-orange;
+            color: #fff;
+          }
+        }
+    }
+  }
+
+  &#hezuo-block {
+    background: #f3f3f3;
+
+    .tit-g {
+      border-color: #f3f3f3;
+    }
+  }
+
+  &#slider-block {
+    background: #f3f3f3;
+
+    .tit-g {
+      border-color: #f3f3f3;
+    }
+  }
+}
+
+.third {
+  background-color:$color-green;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .container{
+    border-radius: 15px;
+    background-color: rgba(255,255,255,.7);
+    padding: 50px 30px;
+    #myModal{
+      padding: 20px 1rem;
+      .modal-content{
+        padding: 10px 1rem;
+        .modal-header{
+          border-bottom-style: none;
+        }
+        .modal-footer{
+          border-top-style: none;
+        }
+        .modal-body{
+
+          h6{
+            background: $color-orange;
+            color: white;
+            display: inline-block;
+            border-radius: 14px;
+            padding: 5px 20px;
+            margin: 20px auto 30px;
+          }
+          .sub-title{
+            color:black;
+            font-weight: bold;
+          }
+          .inline{
+            display: inline-block;
+          }
+          p{
+            text-indent: 1rem;
+            margin-bottom: 10px;
+          }
+
+        }
+      }
+
+    }
+    .row{
+      .title{
+        color: $color-orange;
+        font-size: 26px;
+        margin-bottom: 5px;
+      }
+      button{
+        font-size: 20px;
+        background-color: $color-orange;
+        border-radius: 15px ;
+        display: inline-block;
+        padding: 5px 10px;
+        color: white;
+        font-weight: bold;
+        border: none;
+      }
+
+      .sub-title{
+        color: $color-orange;
+        span{
+          padding:0 10px;
+        }
+      }
+      .col-special4{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        padding: 0 20px;
+      }
+      .col-special6{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+      }
+      p{
+        margin-top: 15px;
+      }
+    }
+  }
+}

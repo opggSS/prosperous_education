@@ -32,6 +32,30 @@
     <div>
 
     </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="{{asset('images/training/six-banner-1.png')}}" alt="" width="100%">
+            </div>
+            <div class="col-md-2">
+                <img src="{{asset('images/training/six-banner-2.png')}}" alt="" width="100%">
+            </div>
+            <div class="col-md-2">
+                <img src="{{asset('images/training/six-banner-3.png')}}" alt="" width="100%">
+            </div>
+            <div class="col-md-2">
+                <img src="{{asset('images/training/six-banner-4.png')}}" alt="" width="100%">
+            </div>
+            <div class="col-md-2">
+                <img src="{{asset('images/training/six-banner-5.png')}}" alt="" width="100%">
+            </div>
+            <div class="col-md-2">
+                <img src="{{asset('images/training/six-banner-6.png')}}" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+
+    @include('layout._contact_form')
 </div>
 @stop
 

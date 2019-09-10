@@ -551,4 +551,62 @@ h1, h2, h3, h4, h5, h6 {
       #elite-program .elite-case-container .case-detail .container .row div:last-child p {
         text-align: left; }
 
+/****************************************************************************/
+/*********************     SUMMER CAMP CSS         **************************/
+/****************************************************************************/
+#summer-camp p {
+  font-family: 'kaiti';
+  font-size: 18px; }
+#summer-camp .section {
+  background-color: #fff; }
+  #summer-camp .section#banner-main-block #banner-main {
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 70.8%;
+    left: 14.6%; }
+#summer-camp .summer-camp-intro .camp-intro-title {
+  color: #FFFFFF; }
+  #summer-camp .summer-camp-intro .camp-intro-title h3 {
+    letter-spacing: 10px;
+    background-color: #FFA200;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 4px 0 4px 30px; }
+  #summer-camp .summer-camp-intro .camp-intro-title span {
+    background-color: #00a396;
+    border-radius: 26px;
+    padding: 4px 30px 6px 30px;
+    border: 6px solid #FFFFFF;
+    letter-spacing: 1px; }
+#summer-camp #banner-2-block {
+  background: #00a396; }
+  #summer-camp #banner-2-block .col .container {
+    height: 100%; }
+    #summer-camp #banner-2-block .col .container.board {
+      background: #fff;
+      box-shadow: 0 10px 13px rgba(0, 0, 0, 0.15);
+      border-radius: 10px; }
+    #summer-camp #banner-2-block .col .container .content {
+      height: 50%; }
+      #summer-camp #banner-2-block .col .container .content p .fa-canadian-maple-leaf {
+        color: #FFA200;
+        margin-right: 5px; }
+    #summer-camp #banner-2-block .col .container h3 {
+      color: #FFA200;
+      text-align: center; }
+    #summer-camp #banner-2-block .col .container .img-container {
+      height: 30%;
+      overflow: hidden; }
+  #summer-camp #banner-2-block a {
+    color: #FFA200; }
+  #summer-camp #banner-2-block .swiper-switch div {
+    display: inline-block;
+    margin: 20px 20px 0 20px; }
+    #summer-camp #banner-2-block .swiper-switch div .fa-caret-square-left, #summer-camp #banner-2-block .swiper-switch div .fa-caret-square-right {
+      color: #FFA200;
+      font-size: 30px; }
+  #summer-camp #banner-2-block .swiper-switch .swiper-button-disabled {
+    opacity: 0.5; }
+
 /*# sourceMappingURL=main.css.map */

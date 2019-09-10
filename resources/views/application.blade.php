@@ -31,7 +31,7 @@
       </span>
     </div>
     <p>宏图教育 15 年来专注加拿大教育留学申请，开发出独具特色的加拿大名校申请“六极管理体系”，涵盖了从学龄前到硕博留学申请全阶段服务，对不同阶段的学生匹配与之最适合的团队和服务项目，确保每个学生都得到 “6:1” 以上团队的呵护。</p>
-
+    
     <div class="row">
         <div class="col col-special text-center">
             <img src="../images/application/ico-figure.png"  width="70%" >

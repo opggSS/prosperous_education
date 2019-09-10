@@ -122,21 +122,6 @@
   margin-top: 15px;
 }
 
-.fourth .container p {
-  margin: 30px auto;
-  color: #00a396;
-}
-@media screen and (min-width: 1024px) {
-  .fourth .container p {
-    width: 70%;
-  }
-}
-.fourth .container h3 {
-  font-size: 25px;
-  color: #00a396;
-  margin-bottom: 25px;
-}
-
 .fifth {
   background-color: #00a396;
   padding-bottom: 40px;

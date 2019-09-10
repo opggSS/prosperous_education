@@ -173,7 +173,7 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
-//public congratulation slider
+/*public congratulation slider*/
 .congratulation-container{
   background-image: url("../images/home/green-bar.png");
   background-position: bottom;
@@ -193,7 +193,7 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
-//public contact form apply for multiple pages
+/*public contact form apply for multiple pages*/
 .contact-form{
   background: url("../images/contact-bg.jpg");
   background-repeat: no-repeat;
@@ -226,7 +226,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #home{
-  //Swiper CSS with pagination change
+  /*Swiper CSS with pagination change*/
   .banner-swiper{
     .swiper-container{
       overflow:hidden;
@@ -938,6 +938,8 @@ h1,h2,h3,h4,h5,h6{
   .summer-camp-intro {
     .camp-intro-title{
       color: $color-white;
+  }
+
 
       h3{
         letter-spacing: 10px;

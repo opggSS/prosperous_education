@@ -131,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFA200;
 }
 
+/*public congratulation slider*/
 .congratulation-container {
   background-image: url("../images/home/green-bar.png");
   background-position: bottom;
@@ -148,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
 }
 
+/*public contact form apply for multiple pages*/
 .contact-form {
   background: url("../images/contact-bg.jpg");
   background-repeat: no-repeat;
@@ -172,6 +174,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 
+#home {
+  /*Swiper CSS with pagination change*/
+}
 #home .banner-swiper .swiper-container {
   overflow: hidden;
   border-bottom: 4px solid #FFA200;
@@ -725,14 +730,14 @@ h1, h2, h3, h4, h5, h6 {
 #summer-camp .summer-camp-intro .camp-intro-title {
   color: #FFFFFF;
 }
-#summer-camp .summer-camp-intro .camp-intro-title h3 {
+#summer-camp .summer-camp-intro h3 {
   letter-spacing: 10px;
   background-color: #FFA200;
   border-radius: 30px;
   display: inline-block;
   padding: 4px 0 4px 30px;
 }
-#summer-camp .summer-camp-intro .camp-intro-title span {
+#summer-camp .summer-camp-intro span {
   background-color: #00a396;
   border-radius: 26px;
   padding: 4px 30px 6px 30px;
@@ -778,4 +783,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 #summer-camp #banner-2-block .swiper-switch .swiper-button-disabled {
   opacity: 0.5;
+}
+
+/****************************************************************************/
+/********************    CAREER TRAINING CSS         ************************/
+/****************************************************************************/
+#career-training p {
+  font-family: "kaiti";
+  font-size: 18px;
+}
+#career-training .section {
+  background-color: #fff;
+}
+#career-training .section#banner-main-block #banner-main {
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 70.8%;
+  left: 14.6%;
+}
+#career-training .training-intro .training-title {
+  color: #FFFFFF;
+}
+#career-training .training-intro h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+#career-training .training-intro span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
 }

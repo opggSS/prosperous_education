@@ -938,24 +938,23 @@ h1,h2,h3,h4,h5,h6{
   .summer-camp-intro {
     .camp-intro-title{
       color: $color-white;
-  }
+    }
 
 
-      h3{
-        letter-spacing: 10px;
-        background-color: $color-orange;
-        border-radius: 30px;
-        display: inline-block;
-        padding: 4px 0 4px 30px;
-      }
+    h3{
+      letter-spacing: 10px;
+      background-color: $color-orange;
+      border-radius: 30px;
+      display: inline-block;
+      padding: 4px 0 4px 30px;
+    }
 
-      span{
-        background-color: $color-green;
-        border-radius: 26px;
-        padding: 4px 30px 6px 30px;
-        border: 6px solid $color-white;
-        letter-spacing: 1px;
-      }
+    span{
+      background-color: $color-green;
+      border-radius: 26px;
+      padding: 4px 30px 6px 30px;
+      border: 6px solid $color-white;
+      letter-spacing: 1px;
     }
   }
 
@@ -1015,6 +1014,55 @@ h1,h2,h3,h4,h5,h6{
       .swiper-button-disabled{
         opacity: 0.5;
       }
+    }
+  }
+}
+
+
+/****************************************************************************/
+/********************    CAREER TRAINING CSS         ************************/
+/****************************************************************************/
+#career-training{
+  p{
+    font-family: 'kaiti';
+    font-size: 18px;
+  }
+
+  .section {
+    background-color: #fff;
+
+    &#banner-main-block {
+
+      #banner-main {
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 70.8%;
+        left: 14.6%;
+      }
+    }
+  }
+
+  .training-intro {
+    .training-title{
+      color: $color-white;
+    }
+
+
+    h3{
+      letter-spacing: 10px;
+      background-color: $color-orange;
+      border-radius: 30px;
+      display: inline-block;
+      padding: 4px 0 4px 30px;
+    }
+
+    span{
+      background-color: $color-green;
+      border-radius: 26px;
+      padding: 4px 30px 6px 30px;
+      border: 6px solid $color-white;
+      letter-spacing: 1px;
     }
   }
 }

@@ -744,46 +744,109 @@ h1, h2, h3, h4, h5, h6 {
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
 }
-
-#banner-2-block {
+#summer-camp #banner-2-block {
   background: #00a396;
 }
-#banner-2-block .col .container {
+#summer-camp #banner-2-block .col .container {
   height: 100%;
 }
-#banner-2-block .col .container.board {
+#summer-camp #banner-2-block .col .container.board {
   background: #fff;
   box-shadow: 0 10px 13px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
-#banner-2-block .col .container .content {
+#summer-camp #banner-2-block .col .container .content {
   height: 50%;
 }
-#banner-2-block .col .container .content p .fa-canadian-maple-leaf {
+#summer-camp #banner-2-block .col .container .content p .fa-canadian-maple-leaf {
   color: #FFA200;
   margin-right: 5px;
 }
-#banner-2-block .col .container h3 {
+#summer-camp #banner-2-block .col .container h3 {
   color: #FFA200;
   text-align: center;
 }
-#banner-2-block .col .container .img-container {
+#summer-camp #banner-2-block .col .container .img-container {
   height: 30%;
   overflow: hidden;
 }
-#banner-2-block a {
+#summer-camp #banner-2-block a {
   color: #FFA200;
 }
-#banner-2-block .swiper-switch div {
+#summer-camp #banner-2-block .swiper-switch div {
   display: inline-block;
   margin: 20px 20px 0 20px;
 }
-#banner-2-block .swiper-switch div .fa-caret-square-left, #banner-2-block .swiper-switch div .fa-caret-square-right {
+#summer-camp #banner-2-block .swiper-switch div .fa-caret-square-left, #summer-camp #banner-2-block .swiper-switch div .fa-caret-square-right {
   color: #FFA200;
   font-size: 30px;
 }
-#banner-2-block .swiper-switch .swiper-button-disabled {
+#summer-camp #banner-2-block .swiper-switch .swiper-button-disabled {
   opacity: 0.5;
+}
+
+/****************************************************************************/
+/********************    CAREER TRAINING CSS         ************************/
+/****************************************************************************/
+#career-training p {
+  font-family: "kaiti";
+  font-size: 18px;
+}
+#career-training .section {
+  background-color: #fff;
+}
+#career-training .section#banner-main-block #banner-main {
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 70.8%;
+  left: 14.6%;
+}
+#career-training .training-intro .training-title {
+  color: #FFFFFF;
+}
+#career-training .training-intro h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+#career-training .training-intro span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+#career-training .four-steps-control .four-steps-button {
+  background-color: #FFA200;
+  display: inline-block;
+  color: white;
+  padding: 10px 60px 10px 70px;
+  position: relative;
+  border-radius: 30px;
+  margin-left: -20px;
+}
+#career-training .four-steps-control .four-steps-button img {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  position: absolute;
+  left: 10px;
+  height: 30px;
+  top: 50%;
+  padding: 8px;
+  margin-top: -15px;
+}
+#career-training .four-steps-control .four-steps-button .cro_right {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 25px;
+  right: 0;
+  top: 0;
 }
 
 /****************************************************************************/
@@ -921,3 +984,27 @@ h1, h2, h3, h4, h5, h6 {
 /****************************************************************************/
 /*********************  End of  case studies and application block CSS         **************************/
 /****************************************************************************/
+.training-four-steps {
+  background-color: #00a396;
+  padding: 50px 0;
+}
+.training-four-steps .row {
+  background-color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+}
+.training-four-steps .row h3 {
+  color: #FFA200;
+}
+.training-four-steps .row p {
+  color: #00a396;
+}
+.training-four-steps .row p .fa-canadian-maple-leaf {
+  color: #FFA200;
+}
+.training-four-steps .row button {
+  background-color: #FFA200;
+  border: none;
+  color: white;
+}

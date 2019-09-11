@@ -957,65 +957,150 @@ h1,h2,h3,h4,h5,h6{
       letter-spacing: 1px;
     }
   }
-}
 
-#banner-2-block {
-  background: $color-green;
+  #banner-2-block {
+    background: $color-green;
 
-  .col {
-    .container {
-      height: 100%;
+    .col {
+      .container {
+        height: 100%;
 
-      &.board {
-        background: #fff;
-        box-shadow: 0 10px 13px rgba(0,0,0,.15);
-        border-radius: 10px;
+        &.board {
+          background: #fff;
+          box-shadow: 0 10px 13px rgba(0,0,0,.15);
+          border-radius: 10px;
+        }
+
+        .content {
+          height: 50%;
+
+          p{
+            .fa-canadian-maple-leaf{
+              color: $color-orange;
+              margin-right: 5px;
+            }
+          }
+        }
+
+        h3 {
+          color: $color-orange;
+          text-align: center;
+        }
+
+        .img-container {
+          height: 30%;
+          overflow: hidden;
+        }
+
       }
 
-      .content {
-        height: 50%;
+    }
 
-        p{
-          .fa-canadian-maple-leaf{
-            color: $color-orange;
-            margin-right: 5px;
-          }
+    a {
+      color: $color-orange
+    }
+
+    .swiper-switch{
+      div{
+        display: inline-block;
+        margin: 20px 20px 0 20px;
+
+        .fa-caret-square-left,.fa-caret-square-right{
+          color: $color-orange;
+          font-size: 30px;
         }
       }
 
-      h3 {
-        color: $color-orange;
-        text-align: center;
+      .swiper-button-disabled{
+        opacity: 0.5;
       }
+    }
+  }
+}
 
-      .img-container {
-        height: 30%;
-        overflow: hidden;
+
+/****************************************************************************/
+/********************    CAREER TRAINING CSS         ************************/
+/****************************************************************************/
+#career-training{
+  p{
+    font-family: 'kaiti';
+    font-size: 18px;
+  }
+
+  .section {
+    background-color: #fff;
+
+    &#banner-main-block {
+
+      #banner-main {
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 70.8%;
+        left: 14.6%;
       }
+    }
+  }
 
+  .training-intro {
+    .training-title{
+      color: $color-white;
     }
 
-  }
 
-  a {
-    color: $color-orange
-  }
-
-  .swiper-switch{
-    div{
+    h3{
+      letter-spacing: 10px;
+      background-color: $color-orange;
+      border-radius: 30px;
       display: inline-block;
-      margin: 20px 20px 0 20px;
-
-      .fa-caret-square-left,.fa-caret-square-right{
-        color: $color-orange;
-        font-size: 30px;
-      }
+      padding: 4px 0 4px 30px;
     }
 
-    .swiper-button-disabled{
-      opacity: 0.5;
+    span{
+      background-color: $color-green;
+      border-radius: 26px;
+      padding: 4px 30px 6px 30px;
+      border: 6px solid $color-white;
+      letter-spacing: 1px;
     }
   }
+
+  .four-steps-control{
+    .four-steps-button{
+      background-color: $color-orange;
+      display: inline-block;
+      color: white;
+      padding: 10px 60px 10px 70px;
+      position: relative;
+      border-radius: 30px;
+      margin-left: -20px;
+
+      img{
+        background-color: white;
+        border-radius: 50%;
+        width: 30px;
+        position: absolute;
+        left: 10px;
+        height: 30px;
+        top: 50%;
+        padding: 8px;
+        margin-top: -15px;
+
+      }
+
+      .cro_right{
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        height: 100%;
+        width: 25px;
+        right: 0;
+        top:0;
+      }
+    }
+  }
+
 
 }
 
@@ -1169,3 +1254,34 @@ h1,h2,h3,h4,h5,h6{
 /****************************************************************************/
 /*********************  End of  case studies and application block CSS         **************************/
 /****************************************************************************/ 
+
+  .training-four-steps{
+    background-color: $color-green;
+    padding: 50px 0;
+
+    .row{
+      background-color: $color-white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-radius: 40px;
+
+      h3{
+        color: $color-orange;
+      }
+
+      p{
+        color: $color-green;
+        .fa-canadian-maple-leaf{
+          color: $color-orange;
+        }
+      }
+
+      button{
+        background-color: $color-orange;
+        border: none;
+        color: white;
+
+      }
+    }
+  }
+

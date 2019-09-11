@@ -314,6 +314,7 @@
         loop: true,
         pagination: {
             el: '.swiper-pagination',
+            clickable: true,
         },
     });
     var swiper2 = new Swiper('.s2', {

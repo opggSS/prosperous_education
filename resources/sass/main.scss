@@ -1101,6 +1101,160 @@ h1,h2,h3,h4,h5,h6{
     }
   }
 
+
+}
+
+/****************************************************************************/
+/*********************    case studies and application block CSS         **************************/
+/****************************************************************************/ 
+
+.case-study{
+  padding-bottom: 20px;
+  h3{
+    color:$color-green;
+  }
+  p{
+    color:$color-green;
+  }
+}
+
+.case{
+  background-color: $color-green;
+  padding-bottom: 40px;
+  .container{
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .row{
+      img{
+       max-width: 200px;
+       margin-bottom: 20px;
+      }
+      .col-special-center{
+        margin: 0 auto;
+      }
+      @media screen and (max-width: 1024px) {
+        .padding-col{
+          display: none;
+        }
+      }
+      
+      @media screen and (min-width: 1024px) {
+      .col-special-center{
+        width: 40%;
+        }
+      }
+
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+.application-block {
+  background-color:$color-green;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .container{
+    border-radius: 15px;
+    background-color: rgba(255,255,255,.7);
+    padding: 50px 30px;
+    #myModal{
+      padding: 20px 1rem;
+      .modal-content{
+        padding: 10px 1rem;
+        .modal-header{
+          border-bottom-style: none;
+        }
+        .modal-footer{
+          border-top-style: none;
+        }
+        .modal-body{
+
+          h6{
+            background: $color-orange;
+            color: white;
+            font-size: 20px;
+            display: inline-block;
+            border-radius: 14px;
+            padding: 5px 40px; 
+            margin: 20px auto 30px;
+          }
+          .sub-title{
+            color:black;
+            font-weight: bold;
+          }
+          .inline{
+            display: inline-block;
+          }
+          p{
+            text-indent: 1rem;
+            margin-bottom: 10px;
+          }
+
+        }
+      }
+      
+    }
+    .row{
+      .title{
+        color: $color-orange;
+        font-size: 26px;
+        margin-bottom: 5px;
+      }
+      button{
+        font-size: 20px;
+        background-color: $color-orange;
+        border-radius: 15px ;
+        display: inline-block;
+        padding: 5px 10px;
+        color: white;
+        font-weight: bold;
+        border: none;
+      }
+
+      .sub-title{
+        color: $color-orange;
+        span{
+          padding:0 10px; 
+        }
+      }
+      .col-special4{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        padding: 0 20px;
+      }
+      .col-special6{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+      }
+      p{
+        margin-top: 15px;
+      }
+    }
+  }
+}
+.icon-maple {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url('../images/planning/ico-2-planning.png') no-repeat;
+  background-size: cover;
+  width: 15px; /* Width of new image */
+  height: 15px; /* Height of new image */
+  padding-left: 15px; /* Equal to width of new image */
+  margin-right: 10px;
+}
+
+/****************************************************************************/
+/*********************  End of  case studies and application block CSS         **************************/
+/****************************************************************************/ 
+
   .training-four-steps{
     background-color: $color-green;
     padding: 50px 0;
@@ -1130,4 +1284,4 @@ h1,h2,h3,h4,h5,h6{
       }
     }
   }
-}
+

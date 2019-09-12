@@ -848,26 +848,162 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   top: 0;
 }
-#career-training .training-four-steps {
+
+/****************************************************************************/
+/*********************    case studies and application block CSS         **************************/
+/****************************************************************************/
+.case-study {
+  padding-bottom: 20px;
+}
+.case-study h3 {
+  color: #00a396;
+}
+.case-study p {
+  color: #00a396;
+}
+
+.case {
+  background-color: #00a396;
+  padding-bottom: 40px;
+}
+.case .container {
+  background: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.case .container .row img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+.case .container .row .col-special-center {
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .case .container .row .padding-col {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .case .container .row .col-special-center {
+    width: 40%;
+  }
+}
+.case .container .row p {
+  font-size: 14px;
+}
+
+.application-block {
+  background-color: #00a396;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.application-block .container {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px 30px;
+}
+.application-block .container #myModal {
+  padding: 20px 1rem;
+}
+.application-block .container #myModal .modal-content {
+  padding: 10px 1rem;
+}
+.application-block .container #myModal .modal-content .modal-header {
+  border-bottom-style: none;
+}
+.application-block .container #myModal .modal-content .modal-footer {
+  border-top-style: none;
+}
+.application-block .container #myModal .modal-content .modal-body h6 {
+  background: #FFA200;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 14px;
+  padding: 5px 40px;
+  margin: 20px auto 30px;
+}
+.application-block .container #myModal .modal-content .modal-body .sub-title {
+  color: black;
+  font-weight: bold;
+}
+.application-block .container #myModal .modal-content .modal-body .inline {
+  display: inline-block;
+}
+.application-block .container #myModal .modal-content .modal-body p {
+  text-indent: 1rem;
+  margin-bottom: 10px;
+}
+.application-block .container .row .title {
+  color: #FFA200;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+.application-block .container .row button {
+  font-size: 20px;
+  background-color: #FFA200;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.application-block .container .row .sub-title {
+  color: #FFA200;
+}
+.application-block .container .row .sub-title span {
+  padding: 0 10px;
+}
+.application-block .container .row .col-special4 {
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding: 0 20px;
+}
+.application-block .container .row .col-special6 {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+.application-block .container .row p {
+  margin-top: 15px;
+}
+
+.icon-maple {
+  box-sizing: border-box;
+  background: url("../images/planning/ico-2-planning.png") no-repeat;
+  background-size: cover;
+  width: 15px;
+  /* Width of new image */
+  height: 15px;
+  /* Height of new image */
+  padding-left: 15px;
+  /* Equal to width of new image */
+  margin-right: 10px;
+}
+
+/****************************************************************************/
+/*********************  End of  case studies and application block CSS         **************************/
+/****************************************************************************/
+.training-four-steps {
   background-color: #00a396;
   padding: 50px 0;
 }
-#career-training .training-four-steps .row {
+.training-four-steps .row {
   background-color: #FFFFFF;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 40px;
 }
-#career-training .training-four-steps .row h3 {
+.training-four-steps .row h3 {
   color: #FFA200;
 }
-#career-training .training-four-steps .row p {
+.training-four-steps .row p {
   color: #00a396;
 }
-#career-training .training-four-steps .row p .fa-canadian-maple-leaf {
+.training-four-steps .row p .fa-canadian-maple-leaf {
   color: #FFA200;
 }
-#career-training .training-four-steps .row button {
+.training-four-steps .row button {
   background-color: #FFA200;
   border: none;
   color: white;

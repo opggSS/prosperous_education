@@ -10,7 +10,7 @@
 <div id="banner-main-block" class="section position-relative" >
     {{-- <img id="banner-bg" class="w-100 position-relative" src="../images/about_us/bg-gallery.png" alt="image"> --}}
     <div class="container">
-        <img width="100%" src="../images/application/bg-main-apply.png" alt="banner" center>
+        <img width="100%" src="../images/planning/banner-1-planning.png" alt="banner" center>
         {{-- <div class="center-center">
             <img src="../images/logo.png" alt="" width="100">
             <div class="divider"></div>
@@ -23,57 +23,112 @@
     @include('layout._congratulation')
 </div>
 
+
+@php 
+$planning_modules = [
+        [
+            'title' => '海外监护',
+            'para' => '随着留学低龄化成为海外留学的一大趋势，低龄留学生在海外生活和监护成为了许多家长担忧的两个基本方面。作为专业从事国际教育交流的公司，宏图教育充分发挥本地优势，承担起父母在海外的监护责任，构筑连接家长、学生、寄宿家庭及海外院校之间的沟通桥梁，为学生在海外留学生活提供一体式的监护服务。该服务包括学业管理、生活监管、法律监护，全程跟踪孩子海外学业与生活情况，确保学生在加拿大拥有安全、健康、快乐的留学生活品质，为您的孩子在温哥华的留学人生写下光辉的第一篇章。',
+            'model' => 'myModal1',
+            'image' => '../images/planning/banner-2-planning.png'
+        ],
+
+        [
+            'title' => '学业规划',
+            'para' => '宏图教育学业生涯全程规划服务项目是根据每个学生在加拿大求学阶段的需要进行设立，旨在通过我们专业的规划、指导和培训，帮助赴加读中学的中国留学生在学业上和生活上充分利用加拿大学校资源以及社会资源，有效地提升个人核心竞争力，最终顺利完成学业，并考取理想的大学。',
+            'model' => 'myModal2',
+            'image' => '../images/planning/banner-3-planning.png'
+        ]
+    ];
+
+$modules = [
+    [
+        'title' => '海外监护',
+        'image' =>'../images/application/ico-figure.png',
+        'classname' => 'c1'
+    ],
+    [
+        'title' => '学业规划',
+        'image' =>'../images/application/ico-figure.png',
+        'classname' => 'c2'
+    ],
+    [
+        'title' => '学科辅导',
+        'image' =>'../images/application/ico-figure.png',
+        'classname' => 'c3'
+    ],
+    [
+        'title' => '语言培训',
+        'image' =>'../images/application/ico-figure.png',
+        'classname' => 'c4'
+    ],
+    [
+        'title' => '背景提升',
+        'image' =>'../images/application/ico-figure.png',
+        'classname' => 'c5'
+    ],
+    [
+        'title' => '留学管家',
+        'image' =>'../images/application/ico-figure.png',
+        'classname' => 'c6'
+    ],
+    [
+        'title' => '贵族私校',
+        'image' =>'../images/application/ico-figure.png',
+        'classname' => 'c7'
+    ],
+    [
+        'title' => '菁英计划',
+        'image' =>'../images/application/ico-figure.png',
+        'classname' => 'c8'
+    ],
+]
+@endphp
+
+
+
 <div class="container text-center study">
     <div class="tit public w-100 d-block mt-5 mb-3 center">
       <span class="tit-y d-inline-block pl-4">
-        公司介绍
-        <span class="tit-g d-inline-block py-2 px-4">COMPANY PROFILE</span>
+        规划模块
+        <span class="tit-g d-inline-block py-2 px-4">planning module</span>
       </span>
     </div>
-    <p>宏图教育 15 年来专注加拿大教育留学申请，开发出独具特色的加拿大名校申请“六极管理体系”，涵盖了从学龄前到硕博留学申请全阶段服务，对不同阶段的学生匹配与之最适合的团队和服务项目，确保每个学生都得到 “6:1” 以上团队的呵护。</p>
+    <p>宏图教育学业生涯全程规划服务项目是根据每个学生在加拿大求学阶段的需要进行设立，旨在通过我们专业的规划、指导和培训，帮助赴加读中学的中国留学生在学业上和生活上充分利用加拿大学校资源以及社会资源，有效地提升个人核心竞争力，最终顺利完成学业，并考取理想的大学。</p>
     
     <div class="row">
-        <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png"  width="70%" >
-            <p>低龄留学申请</p>
+        @foreach($modules as $module)
+        <div class="col col-special8 col-3 text-center {{$module['classname']}}">
+            <img src="{{$module['image']}}"  width="70%" >
+            <p>{{$module['title']}}</p>
         </div>
-        <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png" width="70%" >
-            <p>高中留学申请辅导</p>
-        </div>
-        <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png" width="70%">
-            <p>本科留学申请</p>
-        </div>
-        <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png" width="70%">
-            <p>硕博留学申请</p>
-        </div>
-        <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png" width="70%">
-            <p>宏图菁英计划</p>
-        </div>
-
+        @endforeach
     </div>
 
 </div>
-<div class="third  text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col col-special4">
-                <p class="title">低龄留学申请</p>
-                <h6 class="sub-title">
-                    5-13岁学前及中小学生
-                </h6>
-                <p>宏图教育致力于帮助低龄学子实现加拿大留学前规划、入学申请及后续生活和学业监管服务。尤其全面关注低龄学生学习、心理和能力成长教育。我们的国际化视野和资源，能够为低龄留学家庭提供充分的支持。</p>
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Learn More</button>
-            </div>
-            <div class="col col-special6">
-                <img src="../images/application/bg-1-apply.png" class="w-100">
-            </div>
 
+<div class="application-block text-center">
+    <div class="container">
+        <div class="swiper-container s1">
+            <div class="swiper-wrapper">
+                @foreach($planning_modules as $module )
+                <div class="swiper-slide">
+                    <div class="row">
+                        <div class="col col-special4">
+                            <p class="title"><span class="icon-maple" style="padding-left: 27px;"></span>{{$module['title']}}<span class="icon-maple" style="margin-left: 10px; padding-left: 27px"></span></p>
+                            <p>{{$module['para']}}</p>
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#{{$module['model']}}">Learn More</button>
+                        </div>
+                        <div class="col col-special6">
+                            <img src="{{$module['image']}}" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
         </div>
-        <div class="modal fade text-left" id="myModal" role="dialog">
+    </div>
+        <div class="modal fade text-left" id="myModal1" role="dialog">
             <div class="modal-dialog modal-lg">
               <!-- Modal content-->
               <div class="modal-content">
@@ -83,56 +138,68 @@
  --}}                </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <h6>低龄留学生为何偏爱加拿大</h6>
+                        <h6>宏图教育学业规划的特色</h6>
+                    </div>
+                    <p>全方位跟踪学业、一站式规划服务，全面的学术指导、个性化的社区实践活动计划、制定战略性的升学申请方案。</p>
+                    <div class="text-center">
+                        <h6>宏图教育学业规划的宗旨</h6>
+                    </div>
+                    <p><span class="icon-maple"></span>用我们的专业为每位学生规划成功的海外求学道路。</p>
+                    <p><span class="icon-maple"></span>用我们的真心去承担起教书育人责任。</p>
+                    <p><span class="icon-maple"></span>用我们的爱去点燃学生心中的智慧阳光。</p>
+                    <div class="text-center">
+                        <h6>学习规划的适合对象</h6>
                     </div>
                     
-                    <span class="sub-title">
-                        先进教育机制适合孩子成长
-                    </span>
-                    <p>
-                        在加拿大读小学，没有竞争压力，选修课丰富，注意培养学生的兴趣及综合素质，课外活动多样
-                    </p>
-                    <span class="sub-title">
-                        安全的学习生活环境
-                    </span>
-                    <p>
-                        对低龄留学生来说，家长们最关心的就是环境安全。加拿大社会治安非常好，暴力犯罪很少，而且加拿大的警方尤其重视保护青少年的人身安全。
-                    </p>
-                    <p>加拿大的食品安全世界第一，把控严格，对青少年在成长过程中的营养摄取尤其需要重视。</p>
-                    <p>在这里分数不代表一切，个人能力培养才是重点.</p>
-                    <span class="sub-title">给孩子一个纯正多元的语言环境</span>
-                    <p>越早留学可以为孩子提供一个良好的语言环境，对孩子学习越有利。</p>
-                    <p>另外加拿大是英法双语国家，不光英语天天耳濡目染，有语言天赋的小朋友也有良好机会学习纯正法语。</p>
-                    <span class="sub-title">
-                        家长陪读／移民政策宽松
-                    </span>
-                    <p>子女赴加留学，家长陪读极其容易获得长 10 年往返”超级签证“。</p>
-                    <p>加拿大也是一个移民国家，相对其他欧美国家，移民政策宽松，条件优越。</p>
-
+                    <p> 8 年级至 12 年级的学生。</p>
                     <div class="text-center">
-                        <h6>加拿大小学留学方案</h6>
+                        <h6>学习规划的服务内容</h6>
                     </div>
-                    <span class="sub-title d-inline-block" >适合人群：</span>
-                    <p class="d-inline-block">加拿大各公立幼儿园／小学欢迎 5 周岁或以上的中国学生入读。</p> <br>
-                    <span class="sub-title d-inline-block" >留学费用：</span>
-                    <p class="d-inline-block">约 30 万人民币／年（包含学生学费及父母陪读生活费）。</p><br>
-                    <span class="sub-title d-inline-block" >家长陪读：</span>
-                    <p class="d-inline-block">加拿大鼓励中国家长办理十年多次往返陪读签证，与孩子一起生活。家长陪读期间可以在加拿大学习英文或考取学位，家长持学习许可签证期间，子女就读公立学校可免除学费。</p><br>
-
-                    <div class="text-center">
-                        <h6>加拿大小学申请流程</h6>
-                    </div>
+                    <span class="sub-title">
+                        <span class="icon-maple"></span>初期服务阶段 
+                    </span>
                     <ol>
-                        <li>根据自身情况寻找台适教育局，并了解申清要求。</li>
-                        <li>开具目标教育局附近的居住证明，并准备其他申请材料。</li>
-                        <li>VPEA为学生在对应学区保留学位，获得教育局的录取通知书。</li>
-                        <li>家庭准备签证材料，向加拿大签证中心递交签证申请。</li>
-                        <li>学生与家长共同学习加拿大生活英语，协助家长完成移居加拿大后续安排。</li>
+                        <li>前期咨询，初步掌握学生学习情况及背景信息。</li>
+                        <li>学生自我认知测评（Self-Awareness Assessment）</li>
+                        <li>目标设置评估 (Goal Setting Assessment)</li>
+                    </ol>
+                    <span class="sub-title">
+                        <span class="icon-maple"></span>中期服务阶段 
+                    </span>
+                    <ol>
+                        <li>制定规划方案：根据学生学术背景进行评估与定位，量身策划升学规划方案。</li>
+                        <li>提供学业指导及课程辅导</li>
+                        <li>选课计划方案</li>
+                        <li>考试规划指导</li>
+                        <li>课外活动背景提升规划</li>
+                        <li>兴趣爱好发展计划</li>
+                        <li>假期安排提升</li>
+                        <li>社区实践活动规划</li>
+                        <li>阶段性目标调整</li>
+                        <li>青年核心素质培训课程
+                            <ul>
+                                <li>企业家创新精神</li>
+                                <li>团队协作</li>
+                                <li>青年领袖力</li>
+                                <li>公众演讲技巧</li>
+                                <li>世界公民意识大学申请阶段</li>
+                            </ul>
+                        </li>
                     </ol>
 
+                    <span class="sub-title">
+                        <span class="icon-maple"></span>大学申请阶段
+                    </span>
+                    <ol>
+                        <li>全程大学申请规划服务</li>
+                        <li>未来职业规划</li>
+                    </ol>
+                    <p>具体服务内容包括</p>
+                    <p>学术评估，考试计划，选课计划方案，学业和课业辅导，活动背景提升，兴趣爱好发展计划，假期安排提升，升学规划，名校申请。</p>
+                    
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
                 </div>
             </div>
               
@@ -140,46 +207,8 @@
         </div>
     </div>
 </div>   
-<div class="fourth text-center">
-    <div class="container">
-        <div class="tit public w-100 d-block mt-5 mb-3 center">
-            <span class="tit-y d-inline-block pl-4">
-            经典案例
-            <span class="tit-g d-inline-block py-2 px-4">Case Studies</span>
-          </span>
-        </div>
-        <h3>我们已为5000余名留学生开启了留学旅程</h3>
-        <p>经过 15 年的辛勤耕耘，宏图教育留学团队已成功帮助数万名留学生完成了留学梦想，帮助一个个萃萃学子抒写精彩的留学故事．成功案例让你和他们一样</p>
-    </div>
-</div>
+@include('layout._case_studies')
 
-<div class="fifth text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-special-center">
-                <img src="../images/application/ico-figure.png">
-                <p>该生于 2016 年 9 月入读加拿BC省9 年级，成绩一直不太理想。在万分沮丧的时候，家长来远播寻求帮助，我们的老师为她推荐了 20 17 暑假回国读日匕 C 课程，学生在暑期报读了数学 10 学分课，历时 50 课时，最终周同学以 95 ％的优异成绩通过学分课程， 1个月的时间，学生竟然实现了质的飞跃！家长连连称赞，在远播学习是正确的选择！</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col col-lg-1 offset-lg-1 padding-col"></div>
-            @for ($i = 0 ; $i<8; $i++)
-            <div class="col col-3 col-md-3 col-lg-1">
-                <img src="../images/application/ico-figure.png" class="w-100">
-            </div>
-            @endfor
-        </div>
-
-        <div class="row">
-            <div class="col col-lg-1 offset-lg-1 padding-col"></div>
-            @for ($i = 0 ; $i<8; $i++)
-            <div class="col col-3 col-md-3 col-lg-1">
-                <img src="../images/application/ico-figure.png" class="w-100">
-            </div>
-            @endfor
-        </div>
-    </div>
-</div>
 <div class="sixth text-center">
     <div class="container">
         <div class="tit public w-100 d-block mt-5 mb-3 center">
@@ -192,4 +221,28 @@
     </div>
 </div>
 @include('layout._contact_form')
+@stop
+
+
+@section('js')
+<script>
+    var swiper1 = new Swiper('.s1', {
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: true,
+        },
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+
+    @foreach($modules as $key => $module )
+    document.querySelector('.{{$module['classname']}}').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper1.slideTo({{$key}}, 0);
+    });
+    @endforeach
+       
+</script>
 @stop

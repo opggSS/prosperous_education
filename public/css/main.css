@@ -226,6 +226,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 15px;
   margin: 0 8px;
 }
+@media only screen and (max-width : 576px) {
+  #home .banner-swiper .swiper-container .swiper-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+}
 #home .prosperous-services-container {
   margin-bottom: 75px;
 }

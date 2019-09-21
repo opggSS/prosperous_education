@@ -353,6 +353,10 @@ body{
         .prosperous-services-top-warp{
           margin-bottom: -4px;
 
+          @media #{$phone-sm} {
+            margin: 0;
+          }
+
           .prosperous-services-lefttop-box{
             height: 100%;
           }
@@ -423,6 +427,10 @@ body{
         }
 
         .prosperous-services-buttom-box{
+          @media #{$phone-sm} {
+            margin: 0;
+          }
+
           .prosperous-services-leftbot-box{
             a {
               color: $color-white;
@@ -549,6 +557,11 @@ body{
       }
       h4{
         font-size: 1rem;
+      }
+    }
+    @media #{$phone-sm} {
+      h1{
+        font-size: 1.5rem;
       }
     }
   }

@@ -277,6 +277,11 @@ h1, h2, h3, h4, h5, h6 {
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp {
   margin-bottom: -4px;
 }
+@media only screen and (max-width : 576px) {
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp {
+    margin: 0;
+  }
+}
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-lefttop-box {
   height: 100%;
 }
@@ -326,6 +331,11 @@ h1, h2, h3, h4, h5, h6 {
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a:last-child div {
   background-image: url("../images/home/3.png");
   height: 32.9%;
+}
+@media only screen and (max-width : 576px) {
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box {
+    margin: 0;
+  }
 }
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a {
   color: #FFFFFF;
@@ -434,6 +444,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   #home .steward-title-container h4 {
     font-size: 1rem;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #home .steward-title-container h1 {
+    font-size: 1.5rem;
   }
 }
 #home .steward-service-container {

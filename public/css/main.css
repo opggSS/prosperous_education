@@ -61,6 +61,11 @@ h1, h2, h3, h4, h5, h6 {
 #menu #menu-bar .nav li a:hover {
   text-decoration: none;
 }
+@media only screen and (max-width : 768px) {
+  #menu #menu-bar .nav li a {
+    font-size: 13px;
+  }
+}
 #menu #menu-bar .nav li:not(:first-child) {
   position: relative;
 }
@@ -74,8 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 1px;
 }
-#menu #menu-bar .active {
-  color: #FFA200 !important;
+#menu #menu-bar .hamburger-btn {
+  font-size: 2rem;
+  color: #00a396;
 }
 #menu .menu-hover-detail {
   color: #FFA200;
@@ -107,6 +113,9 @@ h1, h2, h3, h4, h5, h6 {
 #menu .menu-hover-detail div p .fa-canadian-maple-leaf {
   color: #FFA200;
 }
+#menu .active {
+  color: #FFA200 !important;
+}
 
 #footer {
   background-color: #00a396;
@@ -123,6 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #footer img {
   width: 50%;
+}
+@media only screen and (max-width : 576px) {
+  #footer img {
+    width: 25%;
+  }
 }
 #footer a {
   color: #FFFFFF;
@@ -147,6 +161,22 @@ h1, h2, h3, h4, h5, h6 {
 .congratulation-container h4:first-child {
   color: #FFA200;
   font-size: 35px;
+}
+@media only screen and (max-width : 768px) {
+  .congratulation-container h4 {
+    font-size: 18px;
+  }
+  .congratulation-container h4:first-child {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width : 576px) {
+  .congratulation-container h4 {
+    font-size: 12px;
+  }
+  .congratulation-container h4:first-child {
+    font-size: 24px;
+  }
 }
 
 /*public contact form apply for multiple pages*/
@@ -231,6 +261,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #00a396;
   height: 4px;
 }
+@media only screen and (max-width : 768px) {
+  #home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:before, #home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:after {
+    width: 28%;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:before, #home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:after {
+    width: 15%;
+  }
+}
 #home .prosperous-services-container .prosperous-services-box {
   background-color: #00a396;
 }
@@ -269,6 +309,14 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   font-size: 12px;
 }
+@media only screen and (max-width : 768px) {
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a div {
+    padding-top: 26px;
+  }
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a div h6 > span {
+    font-size: 24px;
+  }
+}
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a:first-child div {
   background-image: url("../images/home/orange-bar.png");
 }
@@ -305,12 +353,26 @@ h1, h2, h3, h4, h5, h6 {
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div h6 span {
   font-size: 32px;
 }
+@media only screen and (max-width : 768px) {
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div {
+    padding: 28px 0 25px 35px;
+  }
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div h6 > span {
+    font-size: 24px;
+  }
+}
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div #elite-service-description {
   position: absolute;
   right: 15%;
   width: 55%;
   top: 30%;
   font-size: 14px;
+}
+@media only screen and (max-width : 768px) {
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div #elite-service-description {
+    right: 7%;
+    font-size: 11px;
+  }
 }
 #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div p {
   display: inline-block;
@@ -347,6 +409,14 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   font-size: 12px;
 }
+@media only screen and (max-width : 768px) {
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-rightbot-box a div {
+    padding: 36px 24px 0 0;
+  }
+  #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-rightbot-box a div h6 > span {
+    font-size: 24px;
+  }
+}
 #home .steward-title-container {
   color: #00a396;
   margin-bottom: 70px;
@@ -357,6 +427,14 @@ h1, h2, h3, h4, h5, h6 {
 #home .steward-title-container h4 {
   font-family: "kaiti";
   padding: 0 14%;
+}
+@media only screen and (max-width : 768px) {
+  #home .steward-title-container h1 {
+    font-size: 2rem;
+  }
+  #home .steward-title-container h4 {
+    font-size: 1rem;
+  }
 }
 #home .steward-service-container {
   background-color: #00a396;
@@ -388,6 +466,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home .steward-service-container .row {
   margin: 25px 0;
+}
+@media only screen and (max-width : 768px) {
+  #home .steward-service-container .row .col-md-3 {
+    flex: 0 0 32%;
+    max-width: 32%;
+  }
 }
 #home .steward-service-container * > div {
   justify-content: space-around;
@@ -428,6 +512,11 @@ h1, h2, h3, h4, h5, h6 {
 #home .steward-service-container * > * > div p .icon-rightside {
   margin-left: 20px;
 }
+@media only screen and (max-width : 768px) {
+  #home .steward-service-container * > * > div p .icon-rightside {
+    margin-left: 5px;
+  }
+}
 #home .six-level-title-container {
   color: #00a396;
   margin-bottom: 50px;
@@ -442,6 +531,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home .six-level-title-container h5 {
   font-family: "kaiti";
+}
+@media only screen and (max-width : 768px) {
+  #home .six-level-title-container h1 {
+    font-size: 2rem;
+  }
+  #home .six-level-title-container h5 {
+    font-size: 0.9rem;
+  }
 }
 #home .six-level-swiper {
   background-color: #EEEEEE;
@@ -501,6 +598,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div .card-detail p .icon-rightside {
   margin-left: 20px;
+}
+@media only screen and (max-width : 768px) {
+  #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row .col-md-3 {
+    flex: 0 0 32%;
+    max-width: 32%;
+  }
 }
 #home .six-level-swiper .s2 .swiper-switch div {
   display: inline-block;

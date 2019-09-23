@@ -735,6 +735,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 70.8%;
   left: 14.6%;
 }
+@media only screen and (max-width : 576px) {
+  #elite-program .section#banner-main-block {
+    margin-bottom: 5rem !important;
+  }
+  #elite-program .section#banner-main-block #banner-main {
+    left: 0;
+    width: 100%;
+  }
+}
 #elite-program .project-mission-container {
   background-color: #00a396;
   padding-top: 40px;
@@ -762,6 +771,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4px 30px 6px 30px;
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
+}
+@media only screen and (max-width : 576px) {
+  #elite-program .project-mission-container .project-mission-title {
+    margin-left: -182px;
+  }
+  #elite-program .project-mission-container .project-mission-title h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
 }
 #elite-program .project-mission-container .container-fluid h2 {
   color: #FFFFFF;
@@ -803,6 +822,13 @@ h1, h2, h3, h4, h5, h6 {
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
 }
+@media only screen and (max-width : 576px) {
+  #elite-program .training-container .training-title h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
 #elite-program .training-container .info-boxes .container .row {
   justify-content: space-around;
 }
@@ -832,6 +858,18 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(255, 162, 0, 0.8);
   padding: 15px 10px;
 }
+@media only screen and (max-width : 768px) {
+  #elite-program .training-container .info-boxes .container .row .col-md-3 {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #elite-program .training-container .info-boxes .container .row .col-md-3 {
+    flex: 0 0 90%;
+    max-width: 90%;
+  }
+}
 #elite-program .target-container h1 {
   color: #00a396;
 }
@@ -859,6 +897,13 @@ h1, h2, h3, h4, h5, h6 {
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
 }
+@media only screen and (max-width : 576px) {
+  #elite-program .elite-case-container .case-title h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
 #elite-program .elite-case-container .case-detail {
   background-color: #00a396;
 }
@@ -874,8 +919,18 @@ h1, h2, h3, h4, h5, h6 {
 #elite-program .elite-case-container .case-detail .container .row div:first-child img {
   width: 50%;
 }
+@media only screen and (max-width : 576px) {
+  #elite-program .elite-case-container .case-detail .container .row div:first-child img {
+    width: 30%;
+  }
+}
 #elite-program .elite-case-container .case-detail .container .row div:last-child p {
   text-align: left;
+}
+@media only screen and (max-width : 576px) {
+  #elite-program .elite-case-container .case-detail .container .row div:last-child h1 {
+    font-size: 1.5rem;
+  }
 }
 
 /****************************************************************************/

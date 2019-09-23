@@ -27,97 +27,27 @@
 @media screen and (min-width: 1024px) {
   .study p {
     width: 70%; } }
+.study .row .col {
+  padding-top: 15px; }
+  .study .row .col:hover {
+    cursor: pointer;
+    background-color: #00a396; }
+    .study .row .col:hover p {
+      color: white; }
 .study .row .col-special {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 20%;
   flex: 0 0 20%;
   max-width: 20%; }
+@media screen and (min-width: 1024px) {
+  .study .row .col-special8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 12.5%;
+    flex: 0 0 12.5%;
+    max-width: 12.5%; } }
 .study .row p {
   margin-top: 10px;
   color: #00a396; }
-
-.third {
-  background-color: #00a396;
-  padding-top: 40px;
-  padding-bottom: 40px; }
-  .third .container {
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 50px 30px; }
-    .third .container #myModal {
-      padding: 20px 1rem; }
-      .third .container #myModal .modal-content {
-        padding: 10px 1rem; }
-        .third .container #myModal .modal-content .modal-header {
-          border-bottom-style: none; }
-        .third .container #myModal .modal-content .modal-footer {
-          border-top-style: none; }
-        .third .container #myModal .modal-content .modal-body h6 {
-          background: #FFA200;
-          color: white;
-          display: inline-block;
-          border-radius: 14px;
-          padding: 5px 20px;
-          margin: 20px auto 30px; }
-        .third .container #myModal .modal-content .modal-body .sub-title {
-          color: black;
-          font-weight: bold; }
-        .third .container #myModal .modal-content .modal-body .inline {
-          display: inline-block; }
-        .third .container #myModal .modal-content .modal-body p {
-          text-indent: 1rem;
-          margin-bottom: 10px; }
-    .third .container .row .title {
-      color: #FFA200;
-      font-size: 26px;
-      margin-bottom: 5px; }
-    .third .container .row button {
-      font-size: 20px;
-      background-color: #FFA200;
-      border-radius: 15px;
-      display: inline-block;
-      padding: 5px 10px;
-      color: white;
-      font-weight: bold;
-      border: none; }
-    .third .container .row .sub-title {
-      color: #FFA200; }
-      .third .container .row .sub-title span {
-        padding: 0 10px; }
-    .third .container .row .col-special4 {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 40%;
-      flex: 0 0 40%;
-      max-width: 40%;
-      padding: 0 20px; }
-    .third .container .row .col-special6 {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 60%;
-      flex: 0 0 60%;
-      max-width: 60%; }
-    .third .container .row p {
-      margin-top: 15px; }
-
-.fifth {
-  background-color: #00a396;
-  padding-bottom: 40px; }
-  .fifth .container {
-    background: white;
-    padding-top: 40px;
-    padding-bottom: 40px; }
-    .fifth .container .row img {
-      max-width: 200px;
-      margin-bottom: 20px; }
-    .fifth .container .row .col-special-center {
-      margin: 0 auto; }
-    @media screen and (max-width: 1024px) {
-      .fifth .container .row .padding-col {
-        display: none; } }
-    @media screen and (min-width: 1024px) {
-      .fifth .container .row .col-special-center {
-        width: 40%; } }
-    .fifth .container .row p {
-      font-size: 14px; }
 
 .sixth {
   padding: 30px 0; }

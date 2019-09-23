@@ -47,6 +47,9 @@ h1, h2, h3, h4, h5, h6 {
       padding: 0 8px; }
       #menu #menu-bar .nav li a:hover {
         text-decoration: none; }
+      @media only screen and (max-width: 768px) {
+        #menu #menu-bar .nav li a {
+          font-size: 13px; } }
     #menu #menu-bar .nav li:not(:first-child) {
       position: relative; }
     #menu #menu-bar .nav li .border-left:before {
@@ -58,8 +61,9 @@ h1, h2, h3, h4, h5, h6 {
       bottom: auto;
       left: 0;
       width: 1px; }
-    #menu #menu-bar .active {
-      color: #FFA200 !important; }
+    #menu #menu-bar .hamburger-btn {
+      font-size: 2rem;
+      color: #00a396; }
   #menu .menu-hover-detail {
     color: #FFA200;
     background-color: rgba(0, 0, 0, 0.8);
@@ -83,6 +87,8 @@ h1, h2, h3, h4, h5, h6 {
         font-family: 'kaiti'; }
         #menu .menu-hover-detail div p .fa-canadian-maple-leaf {
           color: #FFA200; }
+  #menu .active {
+    color: #FFA200 !important; }
 
 #footer {
   background-color: #00a396;
@@ -96,6 +102,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px; }
   #footer img {
     width: 50%; }
+    @media only screen and (max-width: 576px) {
+      #footer img {
+        width: 25%; } }
   #footer a {
     color: #FFFFFF; }
   #footer .footer-hightlight {
@@ -115,6 +124,16 @@ h1, h2, h3, h4, h5, h6 {
     .congratulation-container h4:first-child {
       color: #FFA200;
       font-size: 35px; }
+    @media only screen and (max-width: 768px) {
+      .congratulation-container h4 {
+        font-size: 18px; }
+        .congratulation-container h4:first-child {
+          font-size: 28px; } }
+    @media only screen and (max-width: 576px) {
+      .congratulation-container h4 {
+        font-size: 12px; }
+        .congratulation-container h4:first-child {
+          font-size: 24px; } }
 
 /*public contact form apply for multiple pages*/
 .contact-form {
@@ -152,6 +171,10 @@ h1, h2, h3, h4, h5, h6 {
       width: 15px;
       height: 15px;
       margin: 0 8px; }
+      @media only screen and (max-width: 576px) {
+        #home .banner-swiper .swiper-container .swiper-pagination .swiper-pagination-bullet {
+          width: 8px;
+          height: 8px; } }
   #home .prosperous-services-container {
     margin-bottom: 75px; }
     #home .prosperous-services-container .prosperous-services-title {
@@ -180,10 +203,19 @@ h1, h2, h3, h4, h5, h6 {
           width: 30%;
           background-color: #00a396;
           height: 4px; }
+        @media only screen and (max-width: 768px) {
+          #home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:before, #home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:after {
+            width: 28%; } }
+        @media only screen and (max-width: 576px) {
+          #home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:before, #home .prosperous-services-container .prosperous-services-title .prosperous-services-title-wrap:after {
+            width: 15%; } }
     #home .prosperous-services-container .prosperous-services-box {
       background-color: #00a396; }
       #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp {
         margin-bottom: -4px; }
+        @media only screen and (max-width: 576px) {
+          #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp {
+            margin: 0; } }
         #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-lefttop-box {
           height: 100%; }
         #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a {
@@ -208,6 +240,11 @@ h1, h2, h3, h4, h5, h6 {
             #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a div p {
               display: inline-block;
               font-size: 12px; }
+            @media only screen and (max-width: 768px) {
+              #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a div {
+                padding-top: 26px; }
+                #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a div h6 > span {
+                  font-size: 24px; } }
           #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a:first-child div {
             background-image: url("../images/home/orange-bar.png"); }
           #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a:nth-child(2) div {
@@ -215,6 +252,9 @@ h1, h2, h3, h4, h5, h6 {
           #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-top-warp .prosperous-services-righttop-box a:last-child div {
             background-image: url("../images/home/3.png");
             height: 32.9%; }
+      @media only screen and (max-width: 576px) {
+        #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box {
+          margin: 0; } }
       #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a {
         color: #FFFFFF; }
         #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a:hover {
@@ -235,12 +275,21 @@ h1, h2, h3, h4, h5, h6 {
             font-size: 18px; }
             #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div h6 span {
               font-size: 32px; }
+          @media only screen and (max-width: 768px) {
+            #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div {
+              padding: 28px 0 25px 35px; }
+              #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div h6 > span {
+                font-size: 24px; } }
           #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div #elite-service-description {
             position: absolute;
             right: 15%;
             width: 55%;
             top: 30%;
             font-size: 14px; }
+            @media only screen and (max-width: 768px) {
+              #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div #elite-service-description {
+                right: 7%;
+                font-size: 11px; } }
           #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-leftbot-box a div p {
             display: inline-block;
             font-size: 12px; }
@@ -268,6 +317,11 @@ h1, h2, h3, h4, h5, h6 {
           #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-rightbot-box a div p {
             display: inline-block;
             font-size: 12px; }
+          @media only screen and (max-width: 768px) {
+            #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-rightbot-box a div {
+              padding: 36px 24px 0 0; }
+              #home .prosperous-services-container .prosperous-services-box .prosperous-services-box-wrap .prosperous-services-buttom-box .prosperous-services-rightbot-box a div h6 > span {
+                font-size: 24px; } }
   #home .steward-title-container {
     color: #00a396;
     margin-bottom: 70px; }
@@ -276,6 +330,14 @@ h1, h2, h3, h4, h5, h6 {
     #home .steward-title-container h4 {
       font-family: 'kaiti';
       padding: 0 14%; }
+    @media only screen and (max-width: 768px) {
+      #home .steward-title-container h1 {
+        font-size: 2rem; }
+      #home .steward-title-container h4 {
+        font-size: 1rem; } }
+    @media only screen and (max-width: 576px) {
+      #home .steward-title-container h1 {
+        font-size: 1.5rem; } }
   #home .steward-service-container {
     background-color: #00a396;
     padding-top: 40px;
@@ -302,6 +364,10 @@ h1, h2, h3, h4, h5, h6 {
         letter-spacing: 1px; }
     #home .steward-service-container .row {
       margin: 25px 0; }
+      @media only screen and (max-width: 768px) {
+        #home .steward-service-container .row .col-md-3 {
+          flex: 0 0 32%;
+          max-width: 32%; } }
     #home .steward-service-container * > div {
       justify-content: space-around; }
     #home .steward-service-container * > * > div {
@@ -333,6 +399,9 @@ h1, h2, h3, h4, h5, h6 {
           color: #FFA200; }
         #home .steward-service-container * > * > div p .icon-rightside {
           margin-left: 20px; }
+          @media only screen and (max-width: 768px) {
+            #home .steward-service-container * > * > div p .icon-rightside {
+              margin-left: 5px; } }
   #home .six-level-title-container {
     color: #00a396;
     margin-bottom: 50px; }
@@ -344,6 +413,11 @@ h1, h2, h3, h4, h5, h6 {
         letter-spacing: 10px; }
     #home .six-level-title-container h5 {
       font-family: 'kaiti'; }
+    @media only screen and (max-width: 768px) {
+      #home .six-level-title-container h1 {
+        font-size: 2rem; }
+      #home .six-level-title-container h5 {
+        font-size: .9rem; } }
   #home .six-level-swiper {
     background-color: #EEEEEE;
     padding: 30px 0;
@@ -392,6 +466,10 @@ h1, h2, h3, h4, h5, h6 {
               color: #FFA200; }
             #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div .card-detail p .icon-rightside {
               margin-left: 20px; }
+      @media only screen and (max-width: 768px) {
+        #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row .col-md-3 {
+          flex: 0 0 32%;
+          max-width: 32%; } }
     #home .six-level-swiper .s2 .swiper-switch div {
       display: inline-block;
       margin: 20px 20px 0 20px; }
@@ -641,5 +719,160 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4px 30px 6px 30px;
   border: 6px solid #FFFFFF;
   letter-spacing: 1px; }
+#career-training .four-steps-control .four-steps-button {
+  background-color: #FFA200;
+  display: inline-block;
+  color: white;
+  padding: 10px 60px 10px 70px;
+  position: relative;
+  border-radius: 30px;
+  margin-left: -20px; }
+  #career-training .four-steps-control .four-steps-button img {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    position: absolute;
+    left: 10px;
+    height: 30px;
+    top: 50%;
+    padding: 8px;
+    margin-top: -15px; }
+  #career-training .four-steps-control .four-steps-button .cro_right {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 25px;
+    right: 0;
+    top: 0; }
+
+/****************************************************************************/
+/*********************    case studies and application block CSS         **************************/
+/****************************************************************************/
+.case-study {
+  padding-bottom: 20px; }
+  .case-study h3 {
+    color: #00a396; }
+  .case-study p {
+    color: #00a396; }
+
+.case {
+  background-color: #00a396;
+  padding-bottom: 40px; }
+  .case .container {
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .case .container .row img {
+      max-width: 200px;
+      margin-bottom: 20px; }
+    .case .container .row .col-special-center {
+      margin: 0 auto; }
+    @media screen and (max-width: 1024px) {
+      .case .container .row .padding-col {
+        display: none; } }
+    @media screen and (min-width: 1024px) {
+      .case .container .row .col-special-center {
+        width: 40%; } }
+    .case .container .row p {
+      font-size: 14px; }
+
+.application-block {
+  background-color: #00a396;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .application-block .container {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 50px 30px; }
+    .application-block .container #myModal {
+      padding: 20px 1rem; }
+      .application-block .container #myModal .modal-content {
+        padding: 10px 1rem; }
+        .application-block .container #myModal .modal-content .modal-header {
+          border-bottom-style: none; }
+        .application-block .container #myModal .modal-content .modal-footer {
+          border-top-style: none; }
+        .application-block .container #myModal .modal-content .modal-body h6 {
+          background: #FFA200;
+          color: white;
+          font-size: 20px;
+          display: inline-block;
+          border-radius: 14px;
+          padding: 5px 40px;
+          margin: 20px auto 30px; }
+        .application-block .container #myModal .modal-content .modal-body .sub-title {
+          color: black;
+          font-weight: bold; }
+        .application-block .container #myModal .modal-content .modal-body .inline {
+          display: inline-block; }
+        .application-block .container #myModal .modal-content .modal-body p {
+          text-indent: 1rem;
+          margin-bottom: 10px; }
+    .application-block .container .row .title {
+      color: #FFA200;
+      font-size: 26px;
+      margin-bottom: 5px; }
+    .application-block .container .row button {
+      font-size: 20px;
+      background-color: #FFA200;
+      border-radius: 15px;
+      display: inline-block;
+      padding: 5px 10px;
+      color: white;
+      font-weight: bold;
+      border: none; }
+    .application-block .container .row .sub-title {
+      color: #FFA200; }
+      .application-block .container .row .sub-title span {
+        padding: 0 10px; }
+    .application-block .container .row .col-special4 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+      flex: 0 0 40%;
+      max-width: 40%;
+      padding: 0 20px; }
+    .application-block .container .row .col-special6 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+      flex: 0 0 60%;
+      max-width: 60%; }
+    .application-block .container .row p {
+      margin-top: 15px; }
+
+.icon-maple {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("../images/planning/ico-2-planning.png") no-repeat;
+  background-size: cover;
+  width: 15px;
+  /* Width of new image */
+  height: 15px;
+  /* Height of new image */
+  padding-left: 15px;
+  /* Equal to width of new image */
+  margin-right: 10px; }
+
+/****************************************************************************/
+/*********************  End of  case studies and application block CSS         **************************/
+/****************************************************************************/
+.training-four-steps {
+  background-color: #00a396;
+  padding: 50px 0; }
+  .training-four-steps .row {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 40px; }
+    .training-four-steps .row h3 {
+      color: #FFA200; }
+    .training-four-steps .row p {
+      color: #00a396; }
+      .training-four-steps .row p .fa-canadian-maple-leaf {
+        color: #FFA200; }
+    .training-four-steps .row button {
+      background-color: #FFA200;
+      border: none;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */

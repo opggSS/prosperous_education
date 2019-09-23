@@ -247,7 +247,7 @@
         </div>
     </div>
     <div class="process-container text-center">
-        <div class="process-title">
+        <div class="process-title mb-3">
             <h3>服务流程 <span>Our Process</span></h3>
         </div>
         <div class="process-graph">
@@ -264,7 +264,7 @@
     <div class="promise-container">
         <div class="container text-center">
             <div class="row">
-                <div class="col-md-8 offset-md-2">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <img src="{{asset('images/home/6.png')}}" width="100%">
                 </div>
             </div>
@@ -314,6 +314,7 @@
         loop: true,
         pagination: {
             el: '.swiper-pagination',
+            clickable: true,
         },
     });
     var swiper2 = new Swiper('.s2', {

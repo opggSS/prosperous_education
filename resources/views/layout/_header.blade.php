@@ -28,14 +28,14 @@
 <div id="menu" class="row no-gutters sticky-top">
     <div class="row no-gutters text-right" id="contact-bar">
         <span>加拿大服务热线：604-957-5877</span>
-        <span id="subscribe-wechat"><img src="{{asset('images/wechat-logo.png')}}">关注微信</span>
-        <span id="contact-top-bar"><img src="{{asset('images/address-pin.png')}}">联系我们</span>
+        <span id="subscribe-wechat" class="d-none d-md-inline-block"><img src="{{asset('images/wechat-logo.png')}}">关注微信</span>
+        <span id="contact-top-bar" class="d-none d-md-inline-block"><img src="{{asset('images/address-pin.png')}}">联系我们</span>
     </div>
     <div class="row" id="menu-bar">
-        <div class="offset-md-1 col-md-2" id="menu-logo">
+        <div class="offset-lg-1 col-lg-2 col-4 col-md-2 offset-1" id="menu-logo">
             <a href="{{url('/')}}"><img src="{{url('/images/logo.png')}}" alt="logo"></a>
         </div>
-        <div class="offset-md-1 col-md-7">
+        <div class="offset-lg-1 col-lg-7 col-9 d-none d-md-block">
                 <ul class="nav">
                     <li><a class="{{Request::is('/') ? 'active' : ''}}" href="{{url('/')}}">首页</a></li>
                     <li><div class="border-left"></div><a class="{{Request::is('about_us') ? 'active' : ''}} menu-about-us" href="{{url('/about_us')}}">关于我们</a></li>
@@ -47,7 +47,39 @@
                     <li><div class="border-left"></div><a class="{{Request::is('summer_camp') ? 'active' : ''}} menu-summer" href="{{url('/summer_camp')}}">特色夏令营</a></li>
                 </ul>
         </div>
+        <div class="col-2 offset-4 text-right d-block d-sm-none">
+            <button class="hamburger-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                            class="fas fa-bars fa-1x"></i></span></button>
+        </div>
     </div>
+    <nav class="navbar navbar-light light-blue lighten-4 d-block d-sm-none">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="{{Request::is('/') ? 'active' : ''}} nav-link" href="{{url('/')}}">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="{{Request::is('about_us') ? 'active' : ''}} nav-link" href="{{url('/about_us')}}">关于我们</a>
+                </li>
+                <li class="nav-item">
+                    <a class="{{Request::is('education_planning') ? 'active' : ''}} nav-link" href="{{url('/education_planning')}}">升学规划</a>
+                </li>
+                <li class="nav-item">
+                    <a class="{{Request::is('visa_services') ? 'active' : ''}} nav-link" href="{{url('/visa_services')}}">签证服务</a>
+                </li>
+                <li class="nav-item">
+                    <a class="{{Request::is('overseas_services') ? 'active' : ''}} nav-link" href="{{url('/overseas_services')}}">境外服务</a>
+                </li>
+                <li class="nav-item">
+                    <a class="{{Request::is('career_training') ? 'active' : ''}} nav-link" href="{{url('/career_training')}}">职业培训</a>
+                </li>
+                <li class="nav-item">
+                    <a class="{{Request::is('summer_camp') ? 'active' : ''}} nav-link" href="{{url('/summer_camp')}}">特色夏令营</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="menu-hover-detail">
         <div id="hover-about-us" hidden>
             <h5 id="eng-title">ABOUT US</h5><img class="ml-4" src="{{asset('images/home/sample-icon.png')}}" width="30px">

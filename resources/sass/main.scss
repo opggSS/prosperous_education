@@ -600,6 +600,18 @@ body{
         border: 6px solid $color-white;
         letter-spacing: 1px;
       }
+
+      @media #{$phone-sm} {
+        margin-left: -176px;
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
+        span{
+
+        }
+      }
     }
 
     .row{
@@ -609,6 +621,14 @@ body{
         .col-md-3{
           flex: 0 0 32%;
           max-width: 32%;
+        }
+      }
+
+      @media #{$phone-sm} {
+        .col-md-3{
+          flex: 0 0 90%;
+          max-width: 90%;
+          margin-bottom: 20px;
         }
       }
     }
@@ -690,6 +710,18 @@ body{
         font-size: .9rem;
       }
     }
+
+    @media #{$phone-sm} {
+      h1{
+        font-size: 1.5rem;
+        padding: 0 20px;
+      }
+
+      h5{
+        font-size: .9rem;
+        padding: 0 20px;
+      }
+    }
   }
 
   .six-level-swiper{
@@ -768,6 +800,14 @@ body{
                 max-width: 32%;
               }
             }
+
+            @media #{$phone-sm} {
+              .col-md-3{
+                flex:0 0 90%;
+                max-width: 90%;
+                margin-bottom: 20px;
+              }
+            }
           }
         }
       }
@@ -811,6 +851,14 @@ body{
         border: 6px solid $color-white;
         letter-spacing: 1px;
       }
+
+      @media #{$phone-sm} {
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
+      }
     }
   }
 
@@ -832,6 +880,10 @@ body{
     .row{
       .col-md-2{
         padding: 0 14px;
+      }
+
+      .col-3{
+        padding: 0 4px;
       }
     }
   }

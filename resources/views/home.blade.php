@@ -277,22 +277,22 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="row no-gutters">
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2 d-sm-block d-none">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2 d-sm-block d-none">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
                     </div>

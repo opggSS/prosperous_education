@@ -485,6 +485,16 @@ h1, h2, h3, h4, h5, h6 {
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
 }
+@media only screen and (max-width : 576px) {
+  #home .steward-service-container .steward-service-title {
+    margin-left: -176px;
+  }
+  #home .steward-service-container .steward-service-title h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
 #home .steward-service-container .row {
   margin: 25px 0;
 }
@@ -492,6 +502,13 @@ h1, h2, h3, h4, h5, h6 {
   #home .steward-service-container .row .col-md-3 {
     flex: 0 0 32%;
     max-width: 32%;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #home .steward-service-container .row .col-md-3 {
+    flex: 0 0 90%;
+    max-width: 90%;
+    margin-bottom: 20px;
   }
 }
 #home .steward-service-container * > div {
@@ -561,6 +578,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.9rem;
   }
 }
+@media only screen and (max-width : 576px) {
+  #home .six-level-title-container h1 {
+    font-size: 1.5rem;
+    padding: 0 20px;
+  }
+  #home .six-level-title-container h5 {
+    font-size: 0.9rem;
+    padding: 0 20px;
+  }
+}
 #home .six-level-swiper {
   background-color: #EEEEEE;
   padding: 30px 0;
@@ -626,6 +653,13 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 32%;
   }
 }
+@media only screen and (max-width : 576px) {
+  #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row .col-md-3 {
+    flex: 0 0 90%;
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+}
 #home .six-level-swiper .s2 .swiper-switch div {
   display: inline-block;
   margin: 20px 20px 0 20px;
@@ -657,6 +691,13 @@ h1, h2, h3, h4, h5, h6 {
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
 }
+@media only screen and (max-width : 576px) {
+  #home .process-container .process-title h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
 #home .promise-container {
   background-color: #00a396;
   margin-bottom: 50px;
@@ -672,6 +713,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home .partnership-container .row .col-md-2 {
   padding: 0 14px;
+}
+#home .partnership-container .row .col-3 {
+  padding: 0 4px;
 }
 
 /****************************************************************************/

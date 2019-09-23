@@ -967,6 +967,13 @@ h1, h2, h3, h4, h5, h6 {
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
 }
+@media only screen and (max-width : 576px) {
+  #summer-camp .summer-camp-intro h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
 #summer-camp #banner-2-block {
   background: #00a396;
 }
@@ -992,6 +999,13 @@ h1, h2, h3, h4, h5, h6 {
 #summer-camp #banner-2-block .col .container .img-container {
   height: 30%;
   overflow: hidden;
+}
+@media only screen and (max-width : 576px) {
+  #summer-camp #banner-2-block .col {
+    flex: 0 0 90%;
+    max-width: 90%;
+    margin: 0 0 20px 5%;
+  }
 }
 #summer-camp #banner-2-block a {
   color: #FFA200;
@@ -1072,9 +1086,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 
-/****************************************************************************/
+/**************************************************************************************************/
 /*********************    case studies and application block CSS         **************************/
-/****************************************************************************/
+/**************************************************************************************************/
 .case-study {
   padding-bottom: 20px;
 }

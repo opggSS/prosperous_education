@@ -1053,6 +1053,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 70.8%;
   left: 14.6%;
 }
+@media only screen and (max-width : 576px) {
+  #career-training .section#banner-main-block {
+    margin-bottom: 3.7rem !important;
+  }
+  #career-training .section#banner-main-block #banner-main {
+    left: 0;
+    width: 100%;
+  }
+}
 #career-training .training-intro .training-title {
   color: #FFFFFF;
 }
@@ -1069,6 +1078,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4px 30px 6px 30px;
   border: 6px solid #FFFFFF;
   letter-spacing: 1px;
+}
+@media only screen and (max-width : 576px) {
+  #career-training .training-intro h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
 }
 #career-training .four-steps-control .four-steps-button {
   background-color: #FFA200;
@@ -1098,6 +1114,23 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
   right: 0;
   top: 0;
+}
+@media only screen and (max-width : 768px) {
+  #career-training .four-steps-control .four-steps-button {
+    font-size: 0.75rem;
+    padding: 10px 50px 10px 60px;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #career-training .four-steps-control .four-steps-button {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #career-training .training-four-steps .swiper-slide {
+    width: 90% !important;
+    margin: 0 5%;
+  }
 }
 
 /**************************************************************************************************/

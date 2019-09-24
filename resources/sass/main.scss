@@ -1020,7 +1020,7 @@ body{
         .row{
           justify-content: space-around;
 
-          .col-md-3{
+          .col-sm-3{
             color: $color-white;
             padding: 10px;
 
@@ -1164,6 +1164,13 @@ body{
         width: 70.8%;
         left: 14.6%;
       }
+      @media #{$phone-sm} {
+        margin-bottom:3.5rem !important;
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -1200,6 +1207,14 @@ body{
 
   #banner-2-block {
     background: $color-green;
+
+    .swiper-slide{
+      @media #{$phone-md}{
+        .container{
+          max-width: 768px;
+        }
+      }
+    }
 
     .col {
       .container {

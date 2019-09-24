@@ -36,7 +36,7 @@
                 <div class="swiper-slide">
                     <div class="container">
                         <div class="row">
-                            <div class="col col-4">
+                            <div class="col col-sm-4">
                                 <div class="board container p-3">
                                     <h3>雅思训练营</h3>
                                     <div class="content mt-3">
@@ -57,7 +57,7 @@
 
                             </div>
 
-                            <div class="col col-4">
+                            <div class="col col-sm-4">
                                 <div class="board container p-3">
                                     <h3>学术夏令营</h3>
                                     <div class="content mt-3">
@@ -78,7 +78,7 @@
 
                             </div>
 
-                            <div class="col col-4">
+                            <div class="col col-sm-4">
                                 <div class="board container p-3">
                                     <h3>世界行者</h3>
                                     <div class="content mt-3">

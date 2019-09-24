@@ -86,7 +86,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-1.png')}}" width="100%"></div>
                     <h5>留学申请</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 低龄留学申请</p><br>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-2.png')}}" width="100%"></div>
                     <h5>升学规划</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 海外监护 <i class="fas fa-star icon-rightside"></i> 背景提升 </p><br>
@@ -107,7 +107,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-3.png')}}" width="100%"></div>
                     <h5>签证服务</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 入境签证申请</p><br>
@@ -119,7 +119,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-4.png')}}" width="100%"></div>
                     <h5>境外服务</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 行前指导 <i class="fas fa-star icon-rightside"></i> 监护服务 </p><br>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-5.png')}}" width="100%"></div>
                     <h5>职业培训</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 规划职业方向 <i class="fas fa-star icon-rightside"></i> 获得内推机会 </p><br>
@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-6.png')}}" width="100%"></div>
                     <h5>特色夏令营</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 少儿科学探秘夏令营</p><br>
@@ -167,7 +167,7 @@
                         <div class="row no-gutters text-center">
                             <div class="col-md-3">
                                 <h5><span>1</span><span>级</span> 咨询及留学测评</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <div class="img-div"><img src="{{asset('images/home/icon-7.png')}}" width="100%"></div>
                                 <h4>定位申请学校及专业</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 性格测评</p><br>

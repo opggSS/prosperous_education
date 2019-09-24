@@ -1144,6 +1144,361 @@ body{
 }
 
 /****************************************************************************/
+/********************    OVERSEA SERVICE CSS         ************************/
+/****************************************************************************/
+#overseas-service{
+  .section {
+    background-color: #fff;
+
+    &#banner-main-block {
+
+      #banner-main {
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 70.8%;
+        left: 14.6%;
+      }
+    }
+
+    &#intro-block {
+
+      .tit-block {
+        color: $color-white;
+
+        h3{
+          letter-spacing: 10px;
+          background-color: $color-orange;
+          border-radius: 30px;
+          display: inline-block;
+          padding: 4px 0 4px 30px;
+        }
+
+        span{
+          background-color: $color-green;
+          border-radius: 26px;
+          padding: 4px 30px 6px 30px;
+          border: 6px solid $color-white;
+          letter-spacing: 1px;
+        }
+
+        @media #{$phone-sm} {
+          h3{
+            letter-spacing: 4px;
+            font-size: 1rem;
+            padding-top: 7px;
+          }
+        }
+      }
+
+      .content-block {
+        background: #fff;
+
+        .container {
+          p {
+            text-indent: 2rem;
+            line-height: 2rem;
+            color: #000;
+            font-weight: 100;
+          }
+        }
+
+      }
+    }
+
+    &#banner-11-block{
+      .tit-block {
+        color: $color-white;
+
+        h3{
+          letter-spacing: 10px;
+          background-color: $color-orange;
+          border-radius: 30px;
+          display: inline-block;
+          padding: 4px 0 4px 30px;
+        }
+
+        span{
+          background-color: $color-green;
+          border-radius: 26px;
+          padding: 4px 30px 6px 30px;
+          border: 6px solid $color-white;
+          letter-spacing: 1px;
+        }
+
+        @media #{$phone-sm} {
+          h3{
+            letter-spacing: 4px;
+            font-size: 1rem;
+            padding-top: 7px;
+          }
+        }
+      }
+    }
+
+    &#slider-block {
+      background: #f3f3f3;
+      .tit-block {
+        color: $color-white;
+
+        h3{
+          letter-spacing: 10px;
+          background-color: $color-orange;
+          border-radius: 30px;
+          display: inline-block;
+          padding: 4px 0 4px 30px;
+        }
+
+        span{
+          background-color: $color-green;
+          border-radius: 26px;
+          padding: 4px 30px 6px 30px;
+          border: 6px solid #f3f3f3;
+          letter-spacing: 1px;
+        }
+
+        @media #{$phone-sm} {
+          h3{
+            letter-spacing: 4px;
+            font-size: 1rem;
+            padding-top: 7px;
+          }
+        }
+      }
+    }
+  }
+
+  .third {
+    background-color:$color-green;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .container{
+      border-radius: 15px;
+      background-color: rgba(255,255,255,.7);
+      padding: 50px 30px;
+      #myModal{
+        padding: 20px 1rem;
+        .modal-content{
+          padding: 10px 1rem;
+          .modal-header{
+            border-bottom-style: none;
+          }
+          .modal-footer{
+            border-top-style: none;
+          }
+          .modal-body{
+
+            h6{
+              background: $color-orange;
+              color: white;
+              display: inline-block;
+              border-radius: 14px;
+              padding: 5px 20px;
+              margin: 20px auto 30px;
+            }
+            .sub-title{
+              color:black;
+              font-weight: bold;
+            }
+            .inline{
+              display: inline-block;
+            }
+            p{
+              text-indent: 1rem;
+              margin-bottom: 10px;
+            }
+
+          }
+        }
+
+      }
+      .row{
+        .title{
+          color: $color-orange;
+          font-size: 26px;
+          margin-bottom: 5px;
+        }
+        button{
+          font-size: 20px;
+          background-color: $color-orange;
+          border-radius: 15px ;
+          display: inline-block;
+          padding: 5px 10px;
+          color: white;
+          font-weight: bold;
+          border: none;
+        }
+
+        .sub-title{
+          color: $color-orange;
+          span{
+            padding:0 10px;
+          }
+        }
+        .col-special4{
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+          max-width: 40%;
+          padding: 0 20px;
+        }
+        .col-special6{
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+          max-width: 60%;
+        }
+        p{
+          margin-top: 15px;
+        }
+
+        @media #{$phone-md} {
+          .col-special4{
+            -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+            max-width: 60%;
+          }
+          .col-special6{
+            -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+            max-width: 40%;
+          }
+        }
+        @media #{$phone-sm} {
+          .col-special4{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+          }
+          .col-special6{
+            -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
+            max-width: 80%;
+            margin: 3rem 0 0 10%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/****************************************************************************/
+/********************    CAREER TRAINING CSS         ************************/
+/****************************************************************************/
+#career-training{
+  p{
+    font-family: 'kaiti';
+    font-size: 18px;
+  }
+
+  .section {
+    background-color: #fff;
+
+    &#banner-main-block {
+
+      #banner-main {
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 70.8%;
+        left: 14.6%;
+      }
+      @media #{$phone-sm} {
+        margin-bottom:3.7rem !important;
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .training-intro {
+    .training-title{
+      color: $color-white;
+    }
+
+
+    h3{
+      letter-spacing: 10px;
+      background-color: $color-orange;
+      border-radius: 30px;
+      display: inline-block;
+      padding: 4px 0 4px 30px;
+    }
+
+    span{
+      background-color: $color-green;
+      border-radius: 26px;
+      padding: 4px 30px 6px 30px;
+      border: 6px solid $color-white;
+      letter-spacing: 1px;
+    }
+
+    @media #{$phone-sm} {
+      h3{
+        letter-spacing: 4px;
+        font-size: 1rem;
+        padding-top: 7px;
+      }
+    }
+  }
+
+  .four-steps-control{
+    .four-steps-button{
+      background-color: $color-orange;
+      display: inline-block;
+      color: white;
+      padding: 10px 60px 10px 70px;
+      position: relative;
+      border-radius: 30px;
+      margin-left: -20px;
+
+      img{
+        background-color: white;
+        border-radius: 50%;
+        width: 30px;
+        position: absolute;
+        left: 10px;
+        height: 30px;
+        top: 50%;
+        padding: 8px;
+        margin-top: -15px;
+
+      }
+
+      .cro_right{
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        height: 100%;
+        width: 25px;
+        right: 0;
+        top:0;
+      }
+
+      @media #{$phone-md} {
+        font-size: 0.75rem;
+        padding: 10px 50px 10px 60px;
+      }
+      @media #{$phone-sm} {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .training-four-steps{
+    @media #{$phone-sm} {
+      .swiper-slide{
+        width: 90% !important;
+        margin: 0 5%;
+      }
+    }
+  }
+}
+
+/****************************************************************************/
 /*********************     SUMMER CAMP CSS         **************************/
 /****************************************************************************/
 #summer-camp{
@@ -1275,123 +1630,6 @@ body{
       }
     }
   }
-}
-
-
-/****************************************************************************/
-/********************    CAREER TRAINING CSS         ************************/
-/****************************************************************************/
-#career-training{
-  p{
-    font-family: 'kaiti';
-    font-size: 18px;
-  }
-
-  .section {
-    background-color: #fff;
-
-    &#banner-main-block {
-
-      #banner-main {
-        top: 0;
-        right: 0;
-        background-color: #fff;
-        width: 70.8%;
-        left: 14.6%;
-      }
-      @media #{$phone-sm} {
-        margin-bottom:3.7rem !important;
-        #banner-main{
-          left:0;
-          width: 100%;
-        }
-      }
-    }
-  }
-
-  .training-intro {
-    .training-title{
-      color: $color-white;
-    }
-
-
-    h3{
-      letter-spacing: 10px;
-      background-color: $color-orange;
-      border-radius: 30px;
-      display: inline-block;
-      padding: 4px 0 4px 30px;
-    }
-
-    span{
-      background-color: $color-green;
-      border-radius: 26px;
-      padding: 4px 30px 6px 30px;
-      border: 6px solid $color-white;
-      letter-spacing: 1px;
-    }
-
-    @media #{$phone-sm} {
-      h3{
-        letter-spacing: 4px;
-        font-size: 1rem;
-        padding-top: 7px;
-      }
-    }
-  }
-
-  .four-steps-control{
-    .four-steps-button{
-      background-color: $color-orange;
-      display: inline-block;
-      color: white;
-      padding: 10px 60px 10px 70px;
-      position: relative;
-      border-radius: 30px;
-      margin-left: -20px;
-
-      img{
-        background-color: white;
-        border-radius: 50%;
-        width: 30px;
-        position: absolute;
-        left: 10px;
-        height: 30px;
-        top: 50%;
-        padding: 8px;
-        margin-top: -15px;
-
-      }
-
-      .cro_right{
-        position: absolute;
-        background-color: white;
-        border-radius: 50%;
-        height: 100%;
-        width: 25px;
-        right: 0;
-        top:0;
-      }
-
-      @media #{$phone-md} {
-        font-size: 0.75rem;
-        padding: 10px 50px 10px 60px;
-      }
-      @media #{$phone-sm} {
-        margin-bottom: 10px;
-      }
-    }
-  }
-
-  .training-four-steps{
-    @media #{$phone-sm} {
-      .swiper-slide{
-        width: 90% !important;
-        margin: 0 5%;
-      }
-    }
-  }
-
 }
 
 /**************************************************************************************************/

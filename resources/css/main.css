@@ -627,33 +627,33 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 7px; } }
   #elite-program .training-container .info-boxes .container .row {
     justify-content: space-around; }
-    #elite-program .training-container .info-boxes .container .row .col-md-3 {
+    #elite-program .training-container .info-boxes .container .row .col-sm-3 {
       color: #FFFFFF;
       padding: 10px; }
-      #elite-program .training-container .info-boxes .container .row .col-md-3:first-child {
+      #elite-program .training-container .info-boxes .container .row .col-sm-3:first-child {
         background: url("../images/elite/banner-4-elite.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center; }
-      #elite-program .training-container .info-boxes .container .row .col-md-3:nth-child(2) {
+      #elite-program .training-container .info-boxes .container .row .col-sm-3:nth-child(2) {
         background: url("../images/elite/banner-5-elite.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center; }
-      #elite-program .training-container .info-boxes .container .row .col-md-3:last-child {
+      #elite-program .training-container .info-boxes .container .row .col-sm-3:last-child {
         background: url("../images/elite/banner-6-elite.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center; }
-      #elite-program .training-container .info-boxes .container .row .col-md-3 .inner-bg {
+      #elite-program .training-container .info-boxes .container .row .col-sm-3 .inner-bg {
         background-color: rgba(255, 162, 0, 0.8);
         padding: 15px 10px; }
       @media only screen and (max-width: 768px) {
-        #elite-program .training-container .info-boxes .container .row .col-md-3 {
+        #elite-program .training-container .info-boxes .container .row .col-sm-3 {
           flex: 0 0 30%;
           max-width: 30%; } }
       @media only screen and (max-width: 576px) {
-        #elite-program .training-container .info-boxes .container .row .col-md-3 {
+        #elite-program .training-container .info-boxes .container .row .col-sm-3 {
           flex: 0 0 90%;
           max-width: 90%; } }
 #elite-program .target-container h1 {
@@ -715,6 +715,12 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     width: 70.8%;
     left: 14.6%; }
+  @media only screen and (max-width: 576px) {
+    #summer-camp .section#banner-main-block {
+      margin-bottom: 3.5rem !important; }
+      #summer-camp .section#banner-main-block #banner-main {
+        left: 0;
+        width: 100%; } }
 #summer-camp .summer-camp-intro .camp-intro-title {
   color: #FFFFFF; }
 #summer-camp .summer-camp-intro h3 {
@@ -736,6 +742,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 7px; } }
 #summer-camp #banner-2-block {
   background: #00a396; }
+  @media only screen and (max-width: 768px) {
+    #summer-camp #banner-2-block .swiper-slide .container {
+      max-width: 768px; } }
   #summer-camp #banner-2-block .col .container {
     height: 100%; }
     #summer-camp #banner-2-block .col .container.board {

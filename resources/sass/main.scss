@@ -608,9 +608,6 @@ body{
           font-size: 1rem;
           padding-top: 7px;
         }
-        span{
-
-        }
       }
     }
 
@@ -910,6 +907,15 @@ body{
         width: 70.8%;
         left: 14.6%;
       }
+
+      @media #{$phone-sm} {
+        margin-bottom:5rem !important;
+
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -941,6 +947,14 @@ body{
         padding: 4px 30px 6px 30px;
         border: 6px solid $color-white;
         letter-spacing: 1px;
+      }
+      @media #{$phone-sm} {
+        margin-left: -182px;
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
       }
     }
     .container-fluid{
@@ -991,6 +1005,14 @@ body{
         border: 6px solid $color-white;
         letter-spacing: 1px;
       }
+
+      @media #{$phone-sm} {
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
+      }
     }
 
     .info-boxes{
@@ -1024,6 +1046,16 @@ body{
             .inner-bg{
               background-color: rgba(255, 162, 0, .8);
               padding: 15px 10px;
+            }
+
+            @media #{$phone-md} {
+              flex: 0 0 30%;
+              max-width: 30%;
+            }
+
+            @media #{$phone-sm} {
+              flex: 0 0 90%;
+              max-width: 90%;
             }
           }
         }
@@ -1063,6 +1095,14 @@ body{
         border: 6px solid $color-white;
         letter-spacing: 1px;
       }
+
+      @media #{$phone-sm} {
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
+      }
     }
 
     .case-detail{
@@ -1080,12 +1120,20 @@ body{
 
               img{
                 width: 50%;
+                @media #{$phone-sm} {
+                  width: 30%;
+                }
               }
             }
 
             &:last-child{
               p{
                 text-align: left;
+              }
+              @media #{$phone-sm} {
+                h1{
+                  font-size: 1.5rem;
+                }
               }
             }
           }
@@ -1140,6 +1188,14 @@ body{
       border: 6px solid $color-white;
       letter-spacing: 1px;
     }
+
+    @media #{$phone-sm} {
+      h3{
+        letter-spacing: 4px;
+        font-size: 1rem;
+        padding-top: 7px;
+      }
+    }
   }
 
   #banner-2-block {
@@ -1177,7 +1233,11 @@ body{
         }
 
       }
-
+      @media #{$phone-sm} {
+        flex: 0 0 90%;
+        max-width: 90%;
+        margin: 0 0 20px 5%;
+      }
     }
 
     a {
@@ -1288,9 +1348,9 @@ body{
 
 }
 
-/****************************************************************************/
+/**************************************************************************************************/
 /*********************    case studies and application block CSS         **************************/
-/****************************************************************************/ 
+/**************************************************************************************************/
 
 .case-study{
   padding-bottom: 20px;

@@ -47,13 +47,13 @@
                     <li><div class="border-left"></div><a class="{{Request::is('summer_camp') ? 'active' : ''}} menu-summer" href="{{url('/summer_camp')}}">特色夏令营</a></li>
                 </ul>
         </div>
-        <div class="col-2 offset-4 text-right d-block d-sm-none">
+        <div class="col-2 offset-4 text-right d-block d-md-none">
             <button class="hamburger-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
                     aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
                             class="fas fa-bars fa-1x"></i></span></button>
         </div>
     </div>
-    <nav class="navbar navbar-light light-blue lighten-4 d-block d-sm-none">
+    <nav class="navbar navbar-light light-blue lighten-4 d-block d-md-none">
         <div class="collapse navbar-collapse" id="navbarSupportedContent1">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">

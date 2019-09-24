@@ -1299,6 +1299,13 @@ body{
         width: 70.8%;
         left: 14.6%;
       }
+      @media #{$phone-sm} {
+        margin-bottom:3.7rem !important;
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -1322,6 +1329,14 @@ body{
       padding: 4px 30px 6px 30px;
       border: 6px solid $color-white;
       letter-spacing: 1px;
+    }
+
+    @media #{$phone-sm} {
+      h3{
+        letter-spacing: 4px;
+        font-size: 1rem;
+        padding-top: 7px;
+      }
     }
   }
 
@@ -1357,9 +1372,25 @@ body{
         right: 0;
         top:0;
       }
+
+      @media #{$phone-md} {
+        font-size: 0.75rem;
+        padding: 10px 50px 10px 60px;
+      }
+      @media #{$phone-sm} {
+        margin-bottom: 10px;
+      }
     }
   }
 
+  .training-four-steps{
+    @media #{$phone-sm} {
+      .swiper-slide{
+        width: 90% !important;
+        margin: 0 5%;
+      }
+    }
+  }
 
 }
 

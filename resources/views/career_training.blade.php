@@ -41,7 +41,7 @@
                 <div class="swiper-slide">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4 offset-md-2">
+                            <div class="col-md-4 offset-md-2 col-sm-5 offset-sm-1">
                                 <h3>培训内容</h3>
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
@@ -49,7 +49,7 @@
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
                                 <button>Learn More</button>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4 offset-sm-1">
                                 <img src="{{asset('images/training/four-step-1.png')}}" alt="" width="100%">
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                 <div class="swiper-slide">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4 offset-md-2">
+                            <div class="col-md-4 offset-md-2 col-sm-5 offset-sm-1">
                                 <h3>培训内容</h3>
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
@@ -66,7 +66,7 @@
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
                                 <button>Learn More</button>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4 offset-sm-1">
                                 <img src="{{asset('images/training/four-step-1.png')}}" alt="" width="100%">
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                 <div class="swiper-slide">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4 offset-md-2">
+                            <div class="col-md-4 offset-md-2 col-sm-5 offset-sm-1">
                                 <h3>培训内容</h3>
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
@@ -83,7 +83,7 @@
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
                                 <button>Learn More</button>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4 offset-sm-1">
                                 <img src="{{asset('images/training/four-step-1.png')}}" alt="" width="100%">
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                 <div class="swiper-slide">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-4 offset-md-2">
+                            <div class="col-md-4 offset-md-2 col-sm-5 offset-sm-1">
                                 <h3>培训内容</h3>
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
@@ -100,7 +100,7 @@
                                 <p><i class="fab fa-canadian-maple-leaf"></i>Job Market</p>
                                 <button>Learn More</button>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4 offset-sm-1">
                                 <img src="{{asset('images/training/four-step-1.png')}}" alt="" width="100%">
                             </div>
                         </div>
@@ -111,22 +111,22 @@
     </div>
     <div class="container mb-5">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 col-4">
                 <img src="{{asset('images/training/six-banner-1.png')}}" alt="" width="100%">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-4">
                 <img src="{{asset('images/training/six-banner-2.png')}}" alt="" width="100%">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-4">
                 <img src="{{asset('images/training/six-banner-3.png')}}" alt="" width="100%">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-4">
                 <img src="{{asset('images/training/six-banner-4.png')}}" alt="" width="100%">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-4">
                 <img src="{{asset('images/training/six-banner-5.png')}}" alt="" width="100%">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 col-4">
                 <img src="{{asset('images/training/six-banner-6.png')}}" alt="" width="100%">
             </div>
         </div>

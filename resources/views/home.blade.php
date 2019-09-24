@@ -289,10 +289,10 @@
                         <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-3 col-md-2 d-sm-block d-none">
+                        <div class="col-3 col-md-2 d-md-block d-none">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-3 col-md-2 d-sm-block d-none">
+                        <div class="col-3 col-md-2 d-md-block d-none">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
                     </div>

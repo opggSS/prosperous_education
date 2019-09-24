@@ -934,6 +934,418 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /****************************************************************************/
+/********************      VISA SERVICE CSS          ************************/
+/****************************************************************************/
+@media (min-width: 768px) {
+  #visa-services .seven-cols .col-md-1,
+#visa-services .seven-cols .col-sm-1,
+#visa-services .seven-cols .col-lg-1 {
+    width: 100%;
+    *width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  #visa-services .seven-cols .col-md-1,
+#visa-services .seven-cols .col-sm-1,
+#visa-services .seven-cols .col-lg-1 {
+    width: 14.2857142857%;
+    *width: 14.2857142857%;
+    max-width: 14.2857142857% !important;
+    flex: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #visa-services .seven-cols .col-md-1,
+#visa-services .seven-cols .col-sm-1,
+#visa-services .seven-cols .col-lg-1 {
+    width: 14.2857142857%;
+    *width: 14.2857142857%;
+    max-width: 14.2857142857% !important;
+    flex: none !important;
+  }
+}
+#visa-services ul li {
+  list-style: none;
+}
+#visa-services .public.tit {
+  letter-spacing: 0.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+#visa-services .public.tit span {
+  border-radius: 3rem;
+}
+#visa-services .public.tit span.tit-y {
+  background: #FFA200;
+}
+#visa-services .public.tit span.tit-y .tit-g {
+  background: #00a396;
+  border: 6px solid #fff;
+}
+#visa-services .tit-block {
+  background: #fff;
+}
+#visa-services .section {
+  background-color: #fff;
+}
+#visa-services .section#banner-main-block #banner-main {
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 70.8%;
+  left: 14.6%;
+}
+#visa-services .section#banner-2-block {
+  background: #00a396;
+}
+#visa-services .section#banner-2-block .col .container {
+  height: 100%;
+}
+#visa-services .section#banner-2-block .col .container.board {
+  background: #fff;
+  box-shadow: 0 10px 13px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+#visa-services .section#banner-2-block .col .container .content {
+  height: 50%;
+}
+#visa-services .section#banner-2-block .col .container h3 {
+  color: #FFA200;
+}
+#visa-services .section#banner-2-block .col .container .img-container {
+  height: 30%;
+  overflow: hidden;
+}
+#visa-services .section#banner-2-block a {
+  color: #FFA200;
+}
+#visa-services .section#banner-3-block .img-container {
+  position: relative;
+  width: 6rem;
+  margin: auto;
+  height: 6rem;
+  border: 2px solid #FFA200;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#visa-services .section#banner-3-block h3 {
+  color: #FFA200;
+}
+#visa-services .congratulation-container {
+  margin-bottom: 0;
+}
+#visa-services .swiper-switch div {
+  display: inline-block;
+  margin: 20px 20px 0 20px;
+}
+#visa-services .swiper-switch div .fa-caret-square-left, #visa-services .swiper-switch div .fa-caret-square-right {
+  color: #FFA200;
+  font-size: 30px;
+}
+#visa-services .swiper-switch .swiper-button-disabled {
+  opacity: 0.5;
+}
+
+/****************************************************************************/
+/********************    OVERSEA SERVICE CSS         ************************/
+/****************************************************************************/
+#overseas-service .section {
+  background-color: #fff;
+}
+#overseas-service .section#banner-main-block #banner-main {
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 70.8%;
+  left: 14.6%;
+}
+@media only screen and (max-width : 576px) {
+  #overseas-service .section#banner-main-block {
+    margin-bottom: 3.7rem !important;
+  }
+  #overseas-service .section#banner-main-block #banner-main {
+    left: 0;
+    width: 100%;
+  }
+}
+#overseas-service .section#intro-block .tit-block {
+  color: #FFFFFF;
+}
+#overseas-service .section#intro-block .tit-block h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+#overseas-service .section#intro-block .tit-block span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width : 576px) {
+  #overseas-service .section#intro-block .tit-block h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
+#overseas-service .section#intro-block .content-block {
+  background: #fff;
+}
+#overseas-service .section#intro-block .content-block .container p {
+  text-indent: 2rem;
+  line-height: 2rem;
+  color: #000;
+  font-weight: 100;
+}
+#overseas-service .section#banner-11-block .tit-block {
+  color: #FFFFFF;
+}
+#overseas-service .section#banner-11-block .tit-block h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+#overseas-service .section#banner-11-block .tit-block span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width : 576px) {
+  #overseas-service .section#banner-11-block .tit-block h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
+#overseas-service .section#slider-block {
+  background: #f3f3f3;
+}
+#overseas-service .section#slider-block .tit-block {
+  color: #FFFFFF;
+}
+#overseas-service .section#slider-block .tit-block h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+#overseas-service .section#slider-block .tit-block span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #f3f3f3;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width : 576px) {
+  #overseas-service .section#slider-block .tit-block h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
+#overseas-service .third {
+  background-color: #00a396;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#overseas-service .third .container {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px 30px;
+}
+#overseas-service .third .container #myModal {
+  padding: 20px 1rem;
+}
+#overseas-service .third .container #myModal .modal-content {
+  padding: 10px 1rem;
+}
+#overseas-service .third .container #myModal .modal-content .modal-header {
+  border-bottom-style: none;
+}
+#overseas-service .third .container #myModal .modal-content .modal-footer {
+  border-top-style: none;
+}
+#overseas-service .third .container #myModal .modal-content .modal-body h6 {
+  background: #FFA200;
+  color: white;
+  display: inline-block;
+  border-radius: 14px;
+  padding: 5px 20px;
+  margin: 20px auto 30px;
+}
+#overseas-service .third .container #myModal .modal-content .modal-body .sub-title {
+  color: black;
+  font-weight: bold;
+}
+#overseas-service .third .container #myModal .modal-content .modal-body .inline {
+  display: inline-block;
+}
+#overseas-service .third .container #myModal .modal-content .modal-body p {
+  text-indent: 1rem;
+  margin-bottom: 10px;
+}
+#overseas-service .third .container .row .title {
+  color: #FFA200;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+#overseas-service .third .container .row button {
+  font-size: 20px;
+  background-color: #FFA200;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+#overseas-service .third .container .row .sub-title {
+  color: #FFA200;
+}
+#overseas-service .third .container .row .sub-title span {
+  padding: 0 10px;
+}
+#overseas-service .third .container .row .col-special4 {
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding: 0 20px;
+}
+#overseas-service .third .container .row .col-special6 {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+#overseas-service .third .container .row p {
+  margin-top: 15px;
+}
+@media only screen and (max-width : 768px) {
+  #overseas-service .third .container .row .col-special4 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  #overseas-service .third .container .row .col-special6 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #overseas-service .third .container .row .col-special4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #overseas-service .third .container .row .col-special6 {
+    flex: 0 0 80%;
+    max-width: 80%;
+    margin: 3rem 0 0 10%;
+  }
+}
+
+/****************************************************************************/
+/********************    CAREER TRAINING CSS         ************************/
+/****************************************************************************/
+#career-training p {
+  font-family: "kaiti";
+  font-size: 18px;
+}
+#career-training .section {
+  background-color: #fff;
+}
+#career-training .section#banner-main-block #banner-main {
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 70.8%;
+  left: 14.6%;
+}
+@media only screen and (max-width : 576px) {
+  #career-training .section#banner-main-block {
+    margin-bottom: 3.7rem !important;
+  }
+  #career-training .section#banner-main-block #banner-main {
+    left: 0;
+    width: 100%;
+  }
+}
+#career-training .training-intro .training-title {
+  color: #FFFFFF;
+}
+#career-training .training-intro h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+#career-training .training-intro span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width : 576px) {
+  #career-training .training-intro h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
+#career-training .four-steps-control .four-steps-button {
+  background-color: #FFA200;
+  display: inline-block;
+  color: white;
+  padding: 10px 60px 10px 70px;
+  position: relative;
+  border-radius: 30px;
+  margin-left: -20px;
+}
+#career-training .four-steps-control .four-steps-button img {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  position: absolute;
+  left: 10px;
+  height: 30px;
+  top: 50%;
+  padding: 8px;
+  margin-top: -15px;
+}
+#career-training .four-steps-control .four-steps-button .cro_right {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 25px;
+  right: 0;
+  top: 0;
+}
+@media only screen and (max-width : 768px) {
+  #career-training .four-steps-control .four-steps-button {
+    font-size: 0.75rem;
+    padding: 10px 50px 10px 60px;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #career-training .four-steps-control .four-steps-button {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width : 576px) {
+  #career-training .training-four-steps .swiper-slide {
+    width: 90% !important;
+    margin: 0 5%;
+  }
+}
+
+/****************************************************************************/
 /*********************     SUMMER CAMP CSS         **************************/
 /****************************************************************************/
 #summer-camp p {
@@ -1034,103 +1446,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 #summer-camp #banner-2-block .swiper-switch .swiper-button-disabled {
   opacity: 0.5;
-}
-
-/****************************************************************************/
-/********************    CAREER TRAINING CSS         ************************/
-/****************************************************************************/
-#career-training p {
-  font-family: "kaiti";
-  font-size: 18px;
-}
-#career-training .section {
-  background-color: #fff;
-}
-#career-training .section#banner-main-block #banner-main {
-  top: 0;
-  right: 0;
-  background-color: #fff;
-  width: 70.8%;
-  left: 14.6%;
-}
-@media only screen and (max-width : 576px) {
-  #career-training .section#banner-main-block {
-    margin-bottom: 3.7rem !important;
-  }
-  #career-training .section#banner-main-block #banner-main {
-    left: 0;
-    width: 100%;
-  }
-}
-#career-training .training-intro .training-title {
-  color: #FFFFFF;
-}
-#career-training .training-intro h3 {
-  letter-spacing: 10px;
-  background-color: #FFA200;
-  border-radius: 30px;
-  display: inline-block;
-  padding: 4px 0 4px 30px;
-}
-#career-training .training-intro span {
-  background-color: #00a396;
-  border-radius: 26px;
-  padding: 4px 30px 6px 30px;
-  border: 6px solid #FFFFFF;
-  letter-spacing: 1px;
-}
-@media only screen and (max-width : 576px) {
-  #career-training .training-intro h3 {
-    letter-spacing: 4px;
-    font-size: 1rem;
-    padding-top: 7px;
-  }
-}
-#career-training .four-steps-control .four-steps-button {
-  background-color: #FFA200;
-  display: inline-block;
-  color: white;
-  padding: 10px 60px 10px 70px;
-  position: relative;
-  border-radius: 30px;
-  margin-left: -20px;
-}
-#career-training .four-steps-control .four-steps-button img {
-  background-color: white;
-  border-radius: 50%;
-  width: 30px;
-  position: absolute;
-  left: 10px;
-  height: 30px;
-  top: 50%;
-  padding: 8px;
-  margin-top: -15px;
-}
-#career-training .four-steps-control .four-steps-button .cro_right {
-  position: absolute;
-  background-color: white;
-  border-radius: 50%;
-  height: 100%;
-  width: 25px;
-  right: 0;
-  top: 0;
-}
-@media only screen and (max-width : 768px) {
-  #career-training .four-steps-control .four-steps-button {
-    font-size: 0.75rem;
-    padding: 10px 50px 10px 60px;
-  }
-}
-@media only screen and (max-width : 576px) {
-  #career-training .four-steps-control .four-steps-button {
-    margin-bottom: 10px;
-  }
-}
-@media only screen and (max-width : 576px) {
-  #career-training .training-four-steps .swiper-slide {
-    width: 90% !important;
-    margin: 0 5%;
-  }
 }
 
 /**************************************************************************************************/

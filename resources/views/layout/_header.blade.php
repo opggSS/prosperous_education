@@ -63,6 +63,9 @@
                     <a class="{{Request::is('about_us') ? 'active' : ''}} nav-link" href="{{url('/about_us')}}">关于我们</a>
                 </li>
                 <li class="nav-item">
+                    <a class="{{Request::is('application') ? 'active' : ''}} nav-link" href="{{url('/application')}}">留学申请</a>
+                </li>
+                <li class="nav-item">
                     <a class="{{Request::is('education_planning') ? 'active' : ''}} nav-link" href="{{url('/education_planning')}}">升学规划</a>
                 </li>
                 <li class="nav-item">

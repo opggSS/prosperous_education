@@ -62,8 +62,8 @@
   </div>
 </div>
 
-<div id="banner-4-block" class="section pb-5">
-  <div class="w-100 text-center position-relative w-75 pb-5">
+<div id="banner-4-block" class="section">
+  <div class="w-100 text-center position-relative w-75">
     <img class="w-100 position-relative" id="banner-2" src="../images/about_us/banner-4-about.jpg" alt="">
     <div class="content position-absolute w-100 text-center">
       <p>“</p>
@@ -73,8 +73,16 @@
     </div>
   </div>
 
-  <div class="container w-100 mt-5">
-    <div class="row mt-5">
+  <div class="container w-100">
+
+    <div class="row">
+      <div class="col col-12 col-sm-6 col-md-3" style="height: 300px;overflow:hidden;">
+        <img class="h-100" src="images/about_us/step-1.jpg" alt="">
+      </div>
+    </div>
+
+
+    <!-- <div class="row mt-5">
       <div class="col col-5 p-0">
         <div class="img-container">
           <img class="w-100 h-100" src="../images/about_us/banner-5-about.png" alt="">
@@ -132,13 +140,10 @@
           <img class="w-100 h-100" src="../images/about_us/banner-8-about.png" alt="">
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="row mt-5">
-      <div class="col col-12 p-0">
-        <img class="w-100" src="../images/about_us/banner-10-about.png" alt="">
-      </div>
-    </div>
+
+
   </div>
 </div>
 

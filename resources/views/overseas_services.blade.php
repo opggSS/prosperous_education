@@ -31,39 +31,39 @@
         <div class="row">
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
+              <img class="w-100" src="{{asset('images/oversea/icon-overseas-29.png')}}" alt="">
             </div>
             <p>行前指导</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
+              <img class="w-100" src="{{asset('images/oversea/icon-overseas-30.png')}}" alt="">
             </div>
-            <p>行前指导</p>
+            <p>落地协助</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
+              <img class="w-100" src="{{asset('images/oversea/icon-overseas-31.png')}}" alt="">
             </div>
-            <p>行前指导</p>
+            <p>寄宿家庭安置</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
+              <img class="w-100" src="{{asset('images/oversea/icon-overseas-34.png')}}" alt="">
             </div>
-            <p>行前指导</p>
+            <p>监护服务</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
+              <img class="w-100" src="{{asset('images/oversea/icon-overseas-32.png')}}" alt="">
             </div>
-            <p>行前指导</p>
+            <p>证件办理</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
+              <img class="w-100" src="{{asset('images/oversea/icon-overseas-33.png')}}" alt="">
             </div>
-            <p>行前指导</p>
+            <p>家长服务</p>
           </div>
         </div>
       </div>

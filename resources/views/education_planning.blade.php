@@ -24,7 +24,7 @@
 </div>
 
 
-@php 
+@php
 $planning_modules = [
         [
             'title' => '海外监护',
@@ -44,42 +44,42 @@ $planning_modules = [
 $modules = [
     [
         'title' => '海外监护',
-        'image' =>'../images/application/ico-figure.png',
+        'image' =>'../images/planning/icon-planning-22.png',
         'classname' => 'c1'
     ],
     [
         'title' => '学业规划',
-        'image' =>'../images/application/ico-figure.png',
+        'image' =>'../images/planning/icon-planning-23.png',
         'classname' => 'c2'
     ],
     [
         'title' => '学科辅导',
-        'image' =>'../images/application/ico-figure.png',
+        'image' =>'../images/planning/icon-planning-24.png',
         'classname' => 'c3'
     ],
     [
         'title' => '语言培训',
-        'image' =>'../images/application/ico-figure.png',
+        'image' =>'../images/planning/icon-planning-25.png',
         'classname' => 'c4'
     ],
     [
         'title' => '背景提升',
-        'image' =>'../images/application/ico-figure.png',
+        'image' =>'../images/planning/icon-planning-26.png',
         'classname' => 'c5'
     ],
     [
         'title' => '留学管家',
-        'image' =>'../images/application/ico-figure.png',
+        'image' =>'../images/planning/icon-planning-27.png',
         'classname' => 'c6'
     ],
     [
         'title' => '贵族私校',
-        'image' =>'../images/application/ico-figure.png',
+        'image' =>'../images/planning/icon-planning-28.png',
         'classname' => 'c7'
     ],
     [
         'title' => '菁英计划',
-        'image' =>'../images/application/ico-figure.png',
+        'image' =>'../images/planning/icon-planning-29.png',
         'classname' => 'c8'
     ],
 ]
@@ -92,7 +92,7 @@ $modules = [
         <h3>规划模块 <span>MODULE PLANNING</span></h3>
     </div>
     <p>宏图教育学业生涯全程规划服务项目是根据每个学生在加拿大求学阶段的需要进行设立，旨在通过我们专业的规划、指导和培训，帮助赴加读中学的中国留学生在学业上和生活上充分利用加拿大学校资源以及社会资源，有效地提升个人核心竞争力，最终顺利完成学业，并考取理想的大学。</p>
-    
+
     <div class="row">
         @foreach($modules as $module)
         <div class="col col-special8 col-3 text-center {{$module['classname']}}">
@@ -131,8 +131,8 @@ $modules = [
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
-{{--                   <h4 class="modal-title">Modal Header</h4>
- --}}                </div>
+                  <h4 class="modal-title">Modal Header</h4>
+                </div>
                 <div class="modal-body">
                     <div class="text-center">
                         <h6>宏图教育学业规划的特色</h6>
@@ -147,13 +147,13 @@ $modules = [
                     <div class="text-center">
                         <h6>学习规划的适合对象</h6>
                     </div>
-                    
+
                     <p> 8 年级至 12 年级的学生。</p>
                     <div class="text-center">
                         <h6>学习规划的服务内容</h6>
                     </div>
                     <span class="sub-title">
-                        <span class="icon-maple"></span>初期服务阶段 
+                        <span class="icon-maple"></span>初期服务阶段
                     </span>
                     <ol>
                         <li>前期咨询，初步掌握学生学习情况及背景信息。</li>
@@ -161,7 +161,7 @@ $modules = [
                         <li>目标设置评估 (Goal Setting Assessment)</li>
                     </ol>
                     <span class="sub-title">
-                        <span class="icon-maple"></span>中期服务阶段 
+                        <span class="icon-maple"></span>中期服务阶段
                     </span>
                     <ol>
                         <li>制定规划方案：根据学生学术背景进行评估与定位，量身策划升学规划方案。</li>
@@ -193,17 +193,17 @@ $modules = [
                     </ol>
                     <p>具体服务内容包括</p>
                     <p>学术评估，考试计划，选课计划方案，学业和课业辅导，活动背景提升，兴趣爱好发展计划，假期安排提升，升学规划，名校申请。</p>
-                    
+
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
                 </div>
             </div>
-              
+
             </div>
         </div>
     </div>
-</div>   
+</div>
 @include('layout._case_studies')
 
 <div class="sixth text-center">
@@ -217,7 +217,7 @@ $modules = [
         <div class="title-block text-center mb-4">
             <h3>在线预约 <span>RESERVATION</span></h3>
         </div>
-        
+
     </div>
 </div>
 @include('layout._contact_form')
@@ -243,6 +243,6 @@ $modules = [
       swiper1.slideTo({{$key}}, 0);
     });
     @endforeach
-       
+
 </script>
 @stop

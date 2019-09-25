@@ -1523,6 +1523,31 @@ h1, h2, h3, h4, h5, h6 {
 /**************************************************************************************************/
 /*********************    case studies and application block CSS         **************************/
 /**************************************************************************************************/
+.title-block {
+  color: #FFFFFF;
+}
+.title-block h3 {
+  letter-spacing: 10px;
+  background-color: #FFA200;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 4px 0 4px 30px;
+}
+.title-block span {
+  background-color: #00a396;
+  border-radius: 26px;
+  padding: 4px 30px 6px 30px;
+  border: 6px solid #FFFFFF;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width : 768px) {
+  .title-block h3 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding-top: 7px;
+  }
+}
+
 .case-study {
   padding-bottom: 20px;
 }
@@ -1631,9 +1656,34 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 40%;
   padding: 0 20px;
 }
+@media only screen and (max-width : 768px) {
+  .application-block .container .row .col-special4 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
+@media only screen and (max-width : 576px) {
+  .application-block .container .row .col-special4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 .application-block .container .row .col-special6 {
   flex: 0 0 60%;
   max-width: 60%;
+}
+@media only screen and (max-width : 768px) {
+  .application-block .container .row .col-special6 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+}
+@media only screen and (max-width : 576px) {
+  .application-block .container .row .col-special6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 2rem;
+  }
 }
 .application-block .container .row p {
   margin-top: 15px;

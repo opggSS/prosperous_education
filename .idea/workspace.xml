@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3a32783c-735e-4a4c-9d7d-ec608ffc1589" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/application.css" afterPath="$PROJECT_DIR$/public/css/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/application.scss" afterPath="$PROJECT_DIR$/resources/sass/application.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/main.scss" afterPath="$PROJECT_DIR$/resources/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/visa_services.blade.php" afterPath="$PROJECT_DIR$/resources/views/visa_services.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/education_planning.blade.php" afterPath="$PROJECT_DIR$/resources/views/education_planning.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout/_case_studies.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout/_case_studies.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,28 +23,52 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="1319" column="23" lean-forward="false" selection-start-line="1319" selection-start-column="23" selection-end-line="1319" selection-end-column="23" />
+            <state relative-caret-position="245">
+              <caret line="1901" column="20" lean-forward="false" selection-start-line="1901" selection-start-column="20" selection-end-line="1901" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visa_services.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/visa_services.blade.php">
+      <file leaf-file-name="application.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/application.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="170" column="45" lean-forward="false" selection-start-line="170" selection-start-column="45" selection-end-line="170" selection-end-column="45" />
+            <state relative-caret-position="70">
+              <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_us.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/about_us.blade.php">
+      <file leaf-file-name="education_planning.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/education_planning.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-917">
-              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="59">
+              <caret line="106" column="46" lean-forward="false" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+              <folding>
+                <marker date="1569399725274" expanded="true" signature="842:2605" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="863:1579" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="873:1266" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="1279:1573" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="1595:2604" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="1601:1719" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="1727:1845" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="1853:1971" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="1979:2097" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="2105:2223" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="2231:2349" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="2357:2475" ph="..." />
+                <marker date="1569399725274" expanded="true" signature="2483:2601" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_case_studies.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout/_case_studies.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -50,8 +77,8 @@
       <file leaf-file-name="summer_camp.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/summer_camp.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="184">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -66,6 +93,9 @@
       <find>modal</find>
       <find>p-</find>
       <find>public</find>
+      <find>col-</find>
+      <find>col-special6</find>
+      <find>CASE</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -85,7 +115,6 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/about_us.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/application.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/education_planning.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/overseas_services.blade.php" />
         <option value="$PROJECT_DIR$/public/css/all.css" />
         <option value="$PROJECT_DIR$/public/js/all.js" />
@@ -103,6 +132,10 @@
         <option value="$PROJECT_DIR$/resources/sass/visa.scss" />
         <option value="$PROJECT_DIR$/resources/views/overseas_services.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/visa_services.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/application.scss" />
+        <option value="$PROJECT_DIR$/resources/views/layout/_case_studies.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/education_planning.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/main.scss" />
       </list>
     </option>
@@ -423,12 +456,12 @@
       <updated>1567381816096</updated>
       <workItem from="1567381818859" duration="788000" />
       <workItem from="1567632187769" duration="11271000" />
-      <workItem from="1567707895403" duration="117525000" />
+      <workItem from="1567707895403" duration="120923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129584000" />
+    <option name="totallyTimeSpent" value="132982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +473,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -552,14 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/education_planning.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -774,22 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/summer_camp.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/overseas_services.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3226">
@@ -800,24 +809,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/about_us.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-917">
-          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="1245">
+          <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/visa_services.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="170" column="45" lean-forward="false" selection-start-line="170" selection-start-column="45" selection-end-line="170" selection-end-column="45" />
+        <state relative-caret-position="294">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/summer_camp.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/_case_studies.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/education_planning.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="106" column="46" lean-forward="false" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
+          <folding>
+            <marker date="1569399725274" expanded="true" signature="842:2605" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="863:1579" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="873:1266" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="1279:1573" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="1595:2604" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="1601:1719" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="1727:1845" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="1853:1971" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="1979:2097" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="2105:2223" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="2231:2349" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="2357:2475" ph="..." />
+            <marker date="1569399725274" expanded="true" signature="2483:2601" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="1319" column="23" lean-forward="false" selection-start-line="1319" selection-start-column="23" selection-end-line="1319" selection-end-column="23" />
+        <state relative-caret-position="245">
+          <caret line="1901" column="20" lean-forward="false" selection-start-line="1901" selection-start-column="20" selection-end-line="1901" selection-end-column="20" />
           <folding />
         </state>
       </provider>

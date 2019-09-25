@@ -31,26 +31,26 @@
       </span>
     </div>
     <p>宏图教育 15 年来专注加拿大教育留学申请，开发出独具特色的加拿大名校申请“六极管理体系”，涵盖了从学龄前到硕博留学申请全阶段服务，对不同阶段的学生匹配与之最适合的团队和服务项目，确保每个学生都得到 “6:1” 以上团队的呵护。</p>
-    
+
     <div class="row">
         <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png"  width="70%" >
+            <img src="../images/application/icon-application-01.png"  width="70%" >
             <p>低龄留学申请</p>
         </div>
         <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png" width="70%" >
+            <img src="../images/application/icon-application-02.png" width="70%" >
             <p>高中留学申请辅导</p>
         </div>
         <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png" width="70%">
+            <img src="../images/application/icon-application-03.png" width="70%">
             <p>本科留学申请</p>
         </div>
         <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png" width="70%">
+            <img src="../images/application/icon-application-04.png" width="70%">
             <p>硕博留学申请</p>
         </div>
         <div class="col col-special text-center">
-            <img src="../images/application/ico-figure.png" width="70%">
+            <img src="../images/application/icon-application-05.png" width="70%">
             <p>宏图菁英计划</p>
         </div>
 
@@ -85,7 +85,7 @@
                     <div class="text-center">
                         <h6>低龄留学生为何偏爱加拿大</h6>
                     </div>
-                    
+
                     <span class="sub-title">
                         先进教育机制适合孩子成长
                     </span>
@@ -135,11 +135,11 @@
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
-              
+
             </div>
         </div>
     </div>
-</div>   
+</div>
 @include('layout._case_studies')
 
 
@@ -151,7 +151,7 @@
             <span class="tit-g d-inline-block py-2 px-4">Online Reservation</span>
           </span>
         </div>
-        
+
     </div>
 </div>
 @include('layout._contact_form')

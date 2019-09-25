@@ -48,3 +48,24 @@ Route::get('/elite_program', function () {
 });
 
 
+Route::post('/sendMessage', 'MessageController@store');
+
+
+Route::prefix('admin')->group(function(){
+
+
+	Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
+	Route::get('/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
+	
+	Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+	Route::get('/' ,'AdminController@index')->name('admin.dashboard');
+
+
+    Route::get('/messages', 'MessageController@index');
+    Route::get('/messages/unread', 'MessageController@unread');
+    Route::get('/messages/view/{id}', 'MessageController@view');
+    Route::post('/reply/{id}', 'MessageController@sendEmail');
+    
+    Route::resource('/galleries' , 'GalleryController');
+});
+

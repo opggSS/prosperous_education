@@ -167,7 +167,7 @@
                         <div class="row no-gutters text-center">
                             <div class="col-md-3">
                                 <h5><span>1</span><span>级</span> 咨询及留学测评</h5>
-                                <div class="img-div"><img src="{{asset('images/home/icon-7.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/icon-7.png')}}" width="100%"></div> -->
                                 <h4>定位申请学校及专业</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 性格测评</p><br>
@@ -178,7 +178,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h5><span>2</span><span>级</span> 留学方案定制</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>一对一方案设计<br>提高申请效率</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 加拿大留学方案</p><br>
@@ -188,7 +188,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h5><span>3</span><span>级</span> 留学背景提升</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>提升学术实践软实力背景<br>挖掘自身独特竞争力和价值</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 学科竞赛 <i class="far fa-check-square icon-rightside"></i> 学术类夏令营 </p><br>
@@ -205,7 +205,7 @@
                         <div class="row no-gutters text-center">
                             <div class="col-md-3">
                                 <h5><span>4</span><span>级</span> 升学规划陪伴</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>长期规划陪伴学生成长</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 专属教育培养计划</p><br>
@@ -216,7 +216,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h5><span>5</span><span>级</span> 个性化课程培训</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>私人定制提高学习成绩</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> ESL</p><br>
@@ -227,7 +227,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h5><span>6</span><span>级</span> 招生官审案把关</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>确保100%申请成功率</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 丰富的招生官资源</p><br>

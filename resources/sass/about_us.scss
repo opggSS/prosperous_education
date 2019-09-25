@@ -129,11 +129,56 @@ body {
   &#banner-4-block {
     background: $color-green;
 
+      img {
+        filter: brightness(.8);
+      }
+
+      #about-step {
+
+        img {
+          left: 50%;
+          transform: translateX(-50%);
+          filter: brightness(.4);
+          transition: all .3s ease-in;
+
+          &:hover {
+            cursor: pointer;
+            filter: brightness(.8);
+          }
+        }
+
+        .content {
+
+          pointer-events: none;
+          z-index: 999;
+          color: #fff;
+          left: 50%;
+          transform: translateX(-50%);
+
+          p {
+            font-size: 1rem;
+          }
+
+          span {
+            font-size: .5rem;
+            line-height: 1rem;
+            display: block;
+          }
+        }
+      }
+
       .content {
         top: 35%;
         font-size: 2rem;
         line-height: 1.6rem;
         color: #DEAB7B;
+      }
+
+      @media screen and (max-width: 900px) {
+        .content {
+          font-size: 1rem;
+          line-height: 1rem;
+        }
       }
 
       .content-block {

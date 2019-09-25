@@ -450,7 +450,8 @@ h1, h2, h3, h4, h5, h6 {
         color: #FFFFFF; }
         #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div .img-div {
           width: 20%;
-          margin: auto; }
+          margin: auto;
+          box-shadow: none !important; }
         #home .six-level-swiper .s2 .swiper-wrapper .swiper-slide .row div h4 {
           color: #00a396;
           margin: 15px auto 0 auto;

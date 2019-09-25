@@ -70,11 +70,37 @@ body {
     z-index: -1; }
   .section#banner-4-block {
     background: #00a396; }
+    .section#banner-4-block img {
+      filter: brightness(0.8); }
+    .section#banner-4-block #about-step img {
+      left: 50%;
+      transform: translateX(-50%);
+      filter: brightness(0.4);
+      transition: all .3s ease-in; }
+      .section#banner-4-block #about-step img:hover {
+        cursor: pointer;
+        filter: brightness(0.8); }
+    .section#banner-4-block #about-step .content {
+      pointer-events: none;
+      z-index: 999;
+      color: #fff;
+      left: 50%;
+      transform: translateX(-50%); }
+      .section#banner-4-block #about-step .content p {
+        font-size: 1rem; }
+      .section#banner-4-block #about-step .content span {
+        font-size: .5rem;
+        line-height: 1rem;
+        display: block; }
     .section#banner-4-block .content {
       top: 35%;
       font-size: 2rem;
       line-height: 1.6rem;
       color: #DEAB7B; }
+    @media screen and (max-width: 900px) {
+      .section#banner-4-block .content {
+        font-size: 1rem;
+        line-height: 1rem; } }
     .section#banner-4-block .content-block {
       background: url(../images/about_us/banner-9-about.png) no-repeat;
       background-size: cover;

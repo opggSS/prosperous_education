@@ -27,29 +27,6 @@ $color-gray: #444444;
   src : url('../fonts/minijianshoujinshu.ttf');
 }
 
-.public {
-
-  &.tit {
-    letter-spacing: .5rem;
-    font-size: 1rem;
-    color: #fff;
-
-    span {
-      border-radius: 3rem;
-
-      &.tit-y {
-        background: $color-orange;
-
-        .tit-g {
-          background: $color-green;
-          /*border-left: 3px solid #fff;*/
-        }
-      }
-    }
-  }
-}
-
-
 .study {
 
   p{

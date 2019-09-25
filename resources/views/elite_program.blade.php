@@ -32,35 +32,35 @@
                 <h2 class="text-center mt-4">培养未来世界级青年菁英</h2>
                 <h4 class="text-center mt-2">未来世界菁英具备的8大特质</h4>
                 <div class="row mb-5">
-                    <div class="icon-div col-md-1 offset-md-2">
+                    <div class="icon-div col-lg-1 offset-lg-2 col-sm-2 offset-sm-2 col-4">
                         <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="" width="100%">
                         <h6 class="mt-3">世界名牌大学学历</h6>
                     </div>
-                    <div class="icon-div col-md-1">
+                    <div class="icon-div col-lg-1 col-sm-2 col-4">
                         <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="" width="100%">
                         <h6 class="mt-3">精通三门或更多语言</h6>
                     </div>
-                    <div class="icon-div col-md-1">
+                    <div class="icon-div col-lg-1 col-sm-2 col-4">
                         <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="" width="100%">
                         <h6 class="mt-3">通行世界的发达国家护照</h6>
                     </div>
-                    <div class="icon-div col-md-1">
+                    <div class="icon-div col-lg-1 col-sm-2 col-4">
                         <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="" width="100%">
                         <h6 class="mt-3">卓越的领导力</h6>
                     </div>
-                    <div class="icon-div col-md-1">
+                    <div class="icon-div col-lg-1 offset-lg-0 col-sm-2 offset-sm-2 col-4">
                         <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="" width="100%">
                         <h6 class="mt-3">全球化战略眼光</h6>
                     </div>
-                    <div class="icon-div col-md-1">
+                    <div class="icon-div col-lg-1 col-sm-2 col-4">
                         <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="" width="100%">
                         <h6 class="mt-3">批判思维和创新能力</h6>
                     </div>
-                    <div class="icon-div col-md-1">
+                    <div class="icon-div col-lg-1 col-sm-2 offset-sm-0 col-4 offset-2">
                         <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="" width="100%">
                         <h6 class="mt-3">上流社会和菁英圈资源</h6>
                     </div>
-                    <div class="icon-div col-md-1">
+                    <div class="icon-div col-lg-1 col-sm-2 col-4">
                         <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="" width="100%">
                         <h6 class="mt-3">政商学等领域核心竞争力</h6>
                     </div>
@@ -79,21 +79,21 @@
             <div class="info-boxes text-center mb-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="inner-bg">
                                 <h4>知行合一</h4>
                                 <h6>Pioneer Plan</h6>
                                 <p>锻造优才品质<br>一路陪伴成长</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="inner-bg">
                                 <h4>领袖气质</h4>
                                 <h6>Chief Plan</h6>
                                 <p>养成领袖气质<br>成就卓越伟业</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-sm-3">
                             <div class="inner-bg">
                                 <h4>菁英性格</h4>
                                 <h6>Elite Plan</h6>

@@ -3,6 +3,9 @@ $color-orange: #FFA200;
 $color-white: #FFFFFF;
 $color-gray: #444444;
 $color-light-gray: #EEEEEE;
+$phone-sm: "only screen and (max-width : 576px)";
+$phone-md: "only screen and (max-width : 768px)";
+$phone-lg: "only screen and (max-width : 992px)";
 
 //主用字体
 @font-face{
@@ -84,6 +87,10 @@ h1,h2,h3,h4,h5,h6{
           &:hover{
             text-decoration: none;
           }
+
+          @media #{$phone-md} {
+            font-size: 13px;
+          }
         }
 
         &:not(:first-child){
@@ -103,8 +110,9 @@ h1,h2,h3,h4,h5,h6{
       }
     }
 
-    .active{
-      color: $color-orange !important;
+    .hamburger-btn{
+      font-size: 2rem;
+      color: $color-green;
     }
   }
 
@@ -143,6 +151,10 @@ h1,h2,h3,h4,h5,h6{
       }
     }
   }
+
+  .active{
+    color: $color-orange !important;
+  }
 }
 
 #footer{
@@ -162,6 +174,10 @@ h1,h2,h3,h4,h5,h6{
 
   img{
     width: 50%;
+
+    @media #{$phone-sm} {
+      width: 25%;
+    }
   }
 
   a{
@@ -189,6 +205,22 @@ h1,h2,h3,h4,h5,h6{
     &:first-child{
       color: $color-orange;
       font-size: 35px;
+    }
+
+    @media #{$phone-md} {
+      font-size: 18px;
+
+      &:first-child{
+        font-size: 28px;
+      }
+    }
+
+    @media #{$phone-sm} {
+      font-size: 12px;
+
+      &:first-child{
+        font-size: 24px;
+      }
     }
   }
 }
@@ -249,6 +281,11 @@ h1,h2,h3,h4,h5,h6{
           width: 15px;
           height: 15px;
           margin: 0 8px;
+
+          @media #{$phone-sm} {
+            width: 8px;
+            height: 8px;
+          }
         }
       }
     }
@@ -292,6 +329,18 @@ h1,h2,h3,h4,h5,h6{
           background-color: $color-green;
           height: 4px;
         }
+
+        @media #{$phone-md} {
+          &:before,&:after{
+            width: 28%;
+          }
+        }
+
+        @media #{$phone-sm} {
+          &:before,&:after{
+            width: 15%;
+          }
+        }
       }
     }
 
@@ -302,6 +351,10 @@ h1,h2,h3,h4,h5,h6{
 
         .prosperous-services-top-warp{
           margin-bottom: -4px;
+
+          @media #{$phone-sm} {
+            margin: 0;
+          }
 
           .prosperous-services-lefttop-box{
             height: 100%;
@@ -339,6 +392,14 @@ h1,h2,h3,h4,h5,h6{
                   display: inline-block;
                   font-size: 12px;
                 }
+
+                @media #{$phone-md} {
+                  padding-top: 26px;
+
+                  h6>span{
+                    font-size: 24px;
+                  }
+                }
               }
 
               &:first-child{
@@ -365,6 +426,10 @@ h1,h2,h3,h4,h5,h6{
         }
 
         .prosperous-services-buttom-box{
+          @media #{$phone-sm} {
+            margin: 0;
+          }
+
           .prosperous-services-leftbot-box{
             a {
               color: $color-white;
@@ -394,12 +459,25 @@ h1,h2,h3,h4,h5,h6{
                   }
                 }
 
+                @media #{$phone-md} {
+                  padding: 28px 0 25px 35px;
+
+                  h6>span{
+                    font-size: 24px;
+                  }
+                }
+
                 #elite-service-description{
                   position: absolute;
                   right: 15%;
                   width: 55%;
                   top: 30%;
                   font-size: 14px;
+
+                  @media #{$phone-md} {
+                    right: 7%;
+                    font-size: 11px;
+                  }
                 }
 
                 p{
@@ -444,6 +522,14 @@ h1,h2,h3,h4,h5,h6{
                   display: inline-block;
                   font-size: 12px;
                 }
+
+                @media #{$phone-md} {
+                  padding: 36px 24px 0 0;
+
+                  h6>span{
+                    font-size: 24px;
+                  }
+                }
               }
             }
           }
@@ -462,6 +548,20 @@ h1,h2,h3,h4,h5,h6{
     h4{
       font-family: 'kaiti';
       padding: 0 14%;
+    }
+
+    @media #{$phone-md} {
+      h1{
+        font-size: 2rem;
+      }
+      h4{
+        font-size: 1rem;
+      }
+    }
+    @media #{$phone-sm} {
+      h1{
+        font-size: 1.5rem;
+      }
     }
   }
 
@@ -494,10 +594,34 @@ h1,h2,h3,h4,h5,h6{
         border: 6px solid $color-white;
         letter-spacing: 1px;
       }
+
+      @media #{$phone-sm} {
+        margin-left: -176px;
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
+      }
     }
 
     .row{
       margin: 25px 0;
+
+      @media #{$phone-md} {
+        .col-md-3{
+          flex: 0 0 32%;
+          max-width: 32%;
+        }
+      }
+
+      @media #{$phone-sm} {
+        .col-md-3{
+          flex: 0 0 90%;
+          max-width: 90%;
+          margin-bottom: 20px;
+        }
+      }
     }
 
     *>div{
@@ -543,6 +667,9 @@ h1,h2,h3,h4,h5,h6{
 
         .icon-rightside{
           margin-left: 20px;
+          @media #{$phone-md} {
+            margin-left: 5px;
+          }
         }
       }
 
@@ -563,6 +690,28 @@ h1,h2,h3,h4,h5,h6{
     }
     h5{
       font-family: 'kaiti';
+    }
+
+    @media #{$phone-md} {
+      h1{
+        font-size: 2rem;
+      }
+
+      h5{
+        font-size: .9rem;
+      }
+    }
+
+    @media #{$phone-sm} {
+      h1{
+        font-size: 1.5rem;
+        padding: 0 20px;
+      }
+
+      h5{
+        font-size: .9rem;
+        padding: 0 20px;
+      }
     }
   }
 
@@ -586,6 +735,7 @@ h1,h2,h3,h4,h5,h6{
               .img-div{
                 width: 20%;
                 margin: auto;
+                box-shadow: none!important;
               }
 
               h4{
@@ -636,6 +786,20 @@ h1,h2,h3,h4,h5,h6{
                 }
               }
             }
+            @media #{$phone-md} {
+              .col-md-3{
+                flex:0 0 32%;
+                max-width: 32%;
+              }
+            }
+
+            @media #{$phone-sm} {
+              .col-md-3{
+                flex:0 0 90%;
+                max-width: 90%;
+                margin-bottom: 20px;
+              }
+            }
           }
         }
       }
@@ -679,6 +843,14 @@ h1,h2,h3,h4,h5,h6{
         border: 6px solid $color-white;
         letter-spacing: 1px;
       }
+
+      @media #{$phone-sm} {
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
+      }
     }
   }
 
@@ -700,6 +872,10 @@ h1,h2,h3,h4,h5,h6{
     .row{
       .col-md-2{
         padding: 0 14px;
+      }
+
+      .col-3{
+        padding: 0 4px;
       }
     }
   }
@@ -725,6 +901,15 @@ h1,h2,h3,h4,h5,h6{
         background-color: #fff;
         width: 70.8%;
         left: 14.6%;
+      }
+
+      @media #{$phone-sm} {
+        margin-bottom:5rem !important;
+
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
       }
     }
   }
@@ -757,6 +942,14 @@ h1,h2,h3,h4,h5,h6{
         padding: 4px 30px 6px 30px;
         border: 6px solid $color-white;
         letter-spacing: 1px;
+      }
+      @media #{$phone-sm} {
+        margin-left: -182px;
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
       }
     }
     .container-fluid{
@@ -807,6 +1000,14 @@ h1,h2,h3,h4,h5,h6{
         border: 6px solid $color-white;
         letter-spacing: 1px;
       }
+
+      @media #{$phone-sm} {
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
+      }
     }
 
     .info-boxes{
@@ -814,7 +1015,7 @@ h1,h2,h3,h4,h5,h6{
         .row{
           justify-content: space-around;
 
-          .col-md-3{
+          .col-sm-3{
             color: $color-white;
             padding: 10px;
 
@@ -840,6 +1041,16 @@ h1,h2,h3,h4,h5,h6{
             .inner-bg{
               background-color: rgba(255, 162, 0, .8);
               padding: 15px 10px;
+            }
+
+            @media #{$phone-md} {
+              flex: 0 0 30%;
+              max-width: 30%;
+            }
+
+            @media #{$phone-sm} {
+              flex: 0 0 90%;
+              max-width: 90%;
             }
           }
         }
@@ -879,6 +1090,14 @@ h1,h2,h3,h4,h5,h6{
         border: 6px solid $color-white;
         letter-spacing: 1px;
       }
+
+      @media #{$phone-sm} {
+        h3{
+          letter-spacing: 4px;
+          font-size: 1rem;
+          padding-top: 7px;
+        }
+      }
     }
 
     .case-detail{
@@ -896,12 +1115,20 @@ h1,h2,h3,h4,h5,h6{
 
               img{
                 width: 50%;
+                @media #{$phone-sm} {
+                  width: 30%;
+                }
               }
             }
 
             &:last-child{
               p{
                 text-align: left;
+              }
+              @media #{$phone-sm} {
+                h1{
+                  font-size: 1.5rem;
+                }
               }
             }
           }
@@ -911,35 +1138,89 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
+
 /****************************************************************************/
-/*********************     SUMMER CAMP CSS         **************************/
+/********************          ABOUT US CSS          ************************/
 /****************************************************************************/
-#summer-camp{
-  p{
-    font-family: 'kaiti';
-    font-size: 18px;
+#about-us{
+
+}
+
+/****************************************************************************/
+/********************      VISA SERVICE CSS          ************************/
+/****************************************************************************/
+#visa-services{
+  @media (min-width: 540px){
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1  {
+      width: 100%;
+      *width: 100%;
+    }
   }
-
-  .section {
-    background-color: #fff;
-
-    &#banner-main-block {
-
-      #banner-main {
-        top: 0;
-        right: 0;
-        background-color: #fff;
-        width: 70.8%;
-        left: 14.6%;
-      }
+  @media (min-width: 992px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 14.285714285714285714285714285714%;
+      *width: 14.285714285714285714285714285714%;
+      max-width: 14.285714285714285714285714285714% !important;
+      flex:none !important;
     }
   }
 
-  .summer-camp-intro {
-    .camp-intro-title{
-      color: $color-white;
+  @media (min-width: 1200px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 14.285714285714285714285714285714%;
+      *width: 14.285714285714285714285714285714%;
+      max-width: 14.285714285714285714285714285714% !important;
+      flex:none !important;
     }
+  }
 
+  @media #{$phone-lg} {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 14.285714285714285714285714285714%;
+      *width: 14.285714285714285714285714285714%;
+      max-width: 14.285714285714285714285714285714% !important;
+      flex:none !important;
+    }
+  }
+
+  @media #{$phone-md} {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 25%;
+      *width: 25%;
+      max-width: 25% !important;
+      flex:none !important;
+    }
+  }
+
+  @media #{$phone-sm} {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 50%;
+      *width: 50%;
+      max-width: 50% !important;
+      flex:none !important;
+    }
+  }
+
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+
+  .title-block{
+    color: $color-white;
 
     h3{
       letter-spacing: 10px;
@@ -956,63 +1237,390 @@ h1,h2,h3,h4,h5,h6{
       border: 6px solid $color-white;
       letter-spacing: 1px;
     }
+
+    @media #{$phone-sm} {
+      h3{
+        letter-spacing: 4px;
+        font-size: 1rem;
+        padding-top: 7px;
+      }
+    }
   }
 
-  #banner-2-block {
-    background: $color-green;
+  .section {
+    background-color: #fff;
 
-    .col {
-      .container {
-        height: 100%;
+    &#banner-main-block {
 
-        &.board {
-          background: #fff;
-          box-shadow: 0 10px 13px rgba(0,0,0,.15);
-          border-radius: 10px;
+      #banner-main {
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 70.8%;
+        left: 14.6%;
+      }
+
+      @media #{$phone-sm} {
+        margin-bottom:3.7rem !important;
+
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
+      }
+    }
+
+    &#banner-2-block {
+      background: $color-green;
+
+      @media #{$phone-md} {
+        .swiper-slide{
+          .container{
+            max-width: 768px;
+          }
+        }
+      }
+
+      .col {
+        .container {
+          height: 100%;
+
+          &.board {
+            background: #fff;
+            box-shadow: 0 10px 13px rgba(0,0,0,.15);
+            border-radius: 10px;
+          }
+
+          .content {
+            height: 50%;
+          }
+
+          h3 {
+            color: $color-orange;
+          }
+
+          .img-container {
+            height: 30%;
+            overflow: hidden;
+          }
+
+          @media #{$phone-md} {
+            .content{
+              height: 65%;
+            }
+            .img-container {
+              height: 15%;
+            }
+          }
+
+          @media #{$phone-sm} {
+            .content{
+              height: 55%;
+            }
+            .img-container {
+              height: 25%;
+            }
+          }
+
         }
 
-        .content {
-          height: 50%;
+      }
 
-          p{
-            .fa-canadian-maple-leaf{
-              color: $color-orange;
-              margin-right: 5px;
-            }
+      a {
+        color: $color-orange
+      }
+    }
+
+    &#banner-3-block {
+      .title-block{
+        h3{
+          letter-spacing: 2px;
+        }
+      }
+      .col-md-1{
+        .img-container {
+          position: relative;
+          width: 6rem;
+          margin: auto;
+          height: 6rem;
+          border: 2px solid $color-orange;
+          overflow: hidden;
+          border-radius: 50%;
+        }
+        h3 {
+          color: $color-orange;
+        }
+      }
+    }
+
+
+  }
+
+  .congratulation-container {
+    margin-bottom: 0;
+  }
+
+  .swiper-switch{
+    div{
+      display: inline-block;
+      margin: 20px 20px 0 20px;
+
+      .fa-caret-square-left,.fa-caret-square-right{
+        color: $color-orange;
+        font-size: 30px;
+      }
+    }
+
+    .swiper-button-disabled{
+      opacity: 0.5;
+    }
+  }
+}
+
+
+/****************************************************************************/
+/********************    OVERSEA SERVICE CSS         ************************/
+/****************************************************************************/
+#overseas-service{
+  .section {
+    background-color: #fff;
+
+    &#banner-main-block {
+
+      #banner-main {
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 70.8%;
+        left: 14.6%;
+      }
+
+      @media #{$phone-sm} {
+        margin-bottom:3.7rem !important;
+
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
+      }
+    }
+
+    &#intro-block {
+
+      .tit-block {
+        color: $color-white;
+
+        h3{
+          letter-spacing: 10px;
+          background-color: $color-orange;
+          border-radius: 30px;
+          display: inline-block;
+          padding: 4px 0 4px 30px;
+        }
+
+        span{
+          background-color: $color-green;
+          border-radius: 26px;
+          padding: 4px 30px 6px 30px;
+          border: 6px solid $color-white;
+          letter-spacing: 1px;
+        }
+
+        @media #{$phone-sm} {
+          h3{
+            letter-spacing: 4px;
+            font-size: 1rem;
+            padding-top: 7px;
+          }
+        }
+      }
+
+      .content-block {
+        background: #fff;
+
+        .container {
+          p {
+            text-indent: 2rem;
+            line-height: 2rem;
+            color: #000;
+            font-weight: 100;
           }
         }
 
-        h3 {
-          color: $color-orange;
-          text-align: center;
+      }
+    }
+
+    &#banner-11-block{
+      .tit-block {
+        color: $color-white;
+
+        h3{
+          letter-spacing: 10px;
+          background-color: $color-orange;
+          border-radius: 30px;
+          display: inline-block;
+          padding: 4px 0 4px 30px;
         }
 
-        .img-container {
-          height: 30%;
-          overflow: hidden;
+        span{
+          background-color: $color-green;
+          border-radius: 26px;
+          padding: 4px 30px 6px 30px;
+          border: 6px solid $color-white;
+          letter-spacing: 1px;
+        }
+
+        @media #{$phone-sm} {
+          h3{
+            letter-spacing: 4px;
+            font-size: 1rem;
+            padding-top: 7px;
+          }
+        }
+      }
+    }
+
+    &#slider-block {
+      background: #f3f3f3;
+      .tit-block {
+        color: $color-white;
+
+        h3{
+          letter-spacing: 10px;
+          background-color: $color-orange;
+          border-radius: 30px;
+          display: inline-block;
+          padding: 4px 0 4px 30px;
+        }
+
+        span{
+          background-color: $color-green;
+          border-radius: 26px;
+          padding: 4px 30px 6px 30px;
+          border: 6px solid #f3f3f3;
+          letter-spacing: 1px;
+        }
+
+        @media #{$phone-sm} {
+          h3{
+            letter-spacing: 4px;
+            font-size: 1rem;
+            padding-top: 7px;
+          }
+        }
+      }
+    }
+  }
+
+  .third {
+    background-color:$color-green;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .container{
+      border-radius: 15px;
+      background-color: rgba(255,255,255,.7);
+      padding: 50px 30px;
+      #myModal{
+        padding: 20px 1rem;
+        .modal-content{
+          padding: 10px 1rem;
+          .modal-header{
+            border-bottom-style: none;
+          }
+          .modal-footer{
+            border-top-style: none;
+          }
+          .modal-body{
+
+            h6{
+              background: $color-orange;
+              color: white;
+              display: inline-block;
+              border-radius: 14px;
+              padding: 5px 20px;
+              margin: 20px auto 30px;
+            }
+            .sub-title{
+              color:black;
+              font-weight: bold;
+            }
+            .inline{
+              display: inline-block;
+            }
+            p{
+              text-indent: 1rem;
+              margin-bottom: 10px;
+            }
+
+          }
         }
 
       }
-
-    }
-
-    a {
-      color: $color-orange
-    }
-
-    .swiper-switch{
-      div{
-        display: inline-block;
-        margin: 20px 20px 0 20px;
-
-        .fa-caret-square-left,.fa-caret-square-right{
+      .row{
+        .title{
           color: $color-orange;
-          font-size: 30px;
+          font-size: 26px;
+          margin-bottom: 5px;
         }
-      }
+        button{
+          font-size: 20px;
+          background-color: $color-orange;
+          border-radius: 15px ;
+          display: inline-block;
+          padding: 5px 10px;
+          color: white;
+          font-weight: bold;
+          border: none;
+        }
 
-      .swiper-button-disabled{
-        opacity: 0.5;
+        .sub-title{
+          color: $color-orange;
+          span{
+            padding:0 10px;
+          }
+        }
+        .col-special4{
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+          max-width: 40%;
+          padding: 0 20px;
+        }
+        .col-special6{
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+          max-width: 60%;
+        }
+        p{
+          margin-top: 15px;
+        }
+
+        @media #{$phone-md} {
+          .col-special4{
+            -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+            max-width: 60%;
+          }
+          .col-special6{
+            -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+            max-width: 40%;
+          }
+        }
+        @media #{$phone-sm} {
+          .col-special4{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+          }
+          .col-special6{
+            -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
+            max-width: 80%;
+            margin: 3rem 0 0 10%;
+          }
+        }
       }
     }
   }
@@ -1040,6 +1648,13 @@ h1,h2,h3,h4,h5,h6{
         width: 70.8%;
         left: 14.6%;
       }
+      @media #{$phone-sm} {
+        margin-bottom:3.7rem !important;
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -1063,6 +1678,14 @@ h1,h2,h3,h4,h5,h6{
       padding: 4px 30px 6px 30px;
       border: 6px solid $color-white;
       letter-spacing: 1px;
+    }
+
+    @media #{$phone-sm} {
+      h3{
+        letter-spacing: 4px;
+        font-size: 1rem;
+        padding-top: 7px;
+      }
     }
   }
 
@@ -1098,15 +1721,193 @@ h1,h2,h3,h4,h5,h6{
         right: 0;
         top:0;
       }
+
+      @media #{$phone-md} {
+        font-size: 0.75rem;
+        padding: 10px 50px 10px 60px;
+      }
+      @media #{$phone-sm} {
+        margin-bottom: 10px;
+      }
     }
   }
 
-
+  .training-four-steps{
+    @media #{$phone-sm} {
+      .swiper-slide{
+        width: 90% !important;
+        margin: 0 5%;
+      }
+    }
+  }
 }
 
 /****************************************************************************/
+/*********************     SUMMER CAMP CSS         **************************/
+/****************************************************************************/
+#summer-camp{
+  p{
+    font-family: 'kaiti';
+    font-size: 18px;
+  }
+
+  .section {
+    background-color: #fff;
+
+    &#banner-main-block {
+
+      #banner-main {
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        width: 70.8%;
+        left: 14.6%;
+      }
+      @media #{$phone-sm} {
+        margin-bottom:3.5rem !important;
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .summer-camp-intro {
+    .camp-intro-title{
+      color: $color-white;
+    }
+
+
+    h3{
+      letter-spacing: 10px;
+      background-color: $color-orange;
+      border-radius: 30px;
+      display: inline-block;
+      padding: 4px 0 4px 30px;
+    }
+
+    span{
+      background-color: $color-green;
+      border-radius: 26px;
+      padding: 4px 30px 6px 30px;
+      border: 6px solid $color-white;
+      letter-spacing: 1px;
+    }
+
+    @media #{$phone-sm} {
+      h3{
+        letter-spacing: 4px;
+        font-size: 1rem;
+        padding-top: 7px;
+      }
+    }
+  }
+
+  #banner-2-block {
+    background: $color-green;
+
+    .swiper-slide{
+      @media #{$phone-md}{
+        .container{
+          max-width: 768px;
+        }
+      }
+    }
+
+    .col {
+      .container {
+        height: 100%;
+
+        &.board {
+          background: #fff;
+          box-shadow: 0 10px 13px rgba(0,0,0,.15);
+          border-radius: 10px;
+        }
+
+        .content {
+          height: 50%;
+
+          p{
+            .fa-canadian-maple-leaf{
+              color: $color-orange;
+              margin-right: 5px;
+            }
+          }
+        }
+
+        h3 {
+          color: $color-orange;
+          text-align: center;
+        }
+
+        .img-container {
+          height: 30%;
+          overflow: hidden;
+        }
+
+      }
+      @media #{$phone-sm} {
+        flex: 0 0 90%;
+        max-width: 90%;
+        margin: 0 0 20px 5%;
+      }
+    }
+
+    a {
+      color: $color-orange
+    }
+
+    .swiper-switch{
+      div{
+        display: inline-block;
+        margin: 20px 20px 0 20px;
+
+        .fa-caret-square-left,.fa-caret-square-right{
+          color: $color-orange;
+          font-size: 30px;
+        }
+      }
+
+      .swiper-button-disabled{
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+/**************************************************************************************************/
 /*********************    case studies and application block CSS         **************************/
-/****************************************************************************/ 
+/**************************************************************************************************/
+
+.title-block {
+
+  color: $color-white;
+
+  h3{
+    letter-spacing: 10px;
+    background-color: $color-orange;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 4px 0 4px 30px;
+  }
+
+  span{
+    background-color: $color-green;
+    border-radius: 26px;
+    padding: 4px 30px 6px 30px;
+    border: 6px solid $color-white;
+    letter-spacing: 1px;
+  }
+
+  @media #{$phone-md} {
+    h3{
+      letter-spacing: 4px;
+      font-size: 1rem;
+      padding-top: 7px;
+    }
+  }
+}
 
 .case-study{
   padding-bottom: 20px;
@@ -1138,7 +1939,7 @@ h1,h2,h3,h4,h5,h6{
           display: none;
         }
       }
-      
+
       @media screen and (min-width: 1024px) {
       .col-special-center{
         width: 40%;
@@ -1179,7 +1980,7 @@ h1,h2,h3,h4,h5,h6{
             font-size: 20px;
             display: inline-block;
             border-radius: 14px;
-            padding: 5px 40px; 
+            padding: 5px 40px;
             margin: 20px auto 30px;
           }
           .sub-title{
@@ -1196,7 +1997,7 @@ h1,h2,h3,h4,h5,h6{
 
         }
       }
-      
+
     }
     .row{
       .title{
@@ -1218,7 +2019,7 @@ h1,h2,h3,h4,h5,h6{
       .sub-title{
         color: $color-orange;
         span{
-          padding:0 10px; 
+          padding:0 10px;
         }
       }
       .col-special4{
@@ -1227,12 +2028,39 @@ h1,h2,h3,h4,h5,h6{
         flex: 0 0 40%;
         max-width: 40%;
         padding: 0 20px;
+
+        @media #{$phone-md} {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+          max-width: 60%;
+        }
+        @media #{$phone-sm} {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
       }
       .col-special6{
         -webkit-box-flex: 0;
         -ms-flex: 0 0 60%;
         flex: 0 0 60%;
         max-width: 60%;
+
+        @media #{$phone-md} {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+          max-width: 40%;
+        }
+        @media #{$phone-sm} {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          max-width: 100%;
+          margin-top: 2rem;
+        }
       }
       p{
         margin-top: 15px;
@@ -1251,9 +2079,9 @@ h1,h2,h3,h4,h5,h6{
   margin-right: 10px;
 }
 
-/****************************************************************************/
+/********************************************************************************************************/
 /*********************  End of  case studies and application block CSS         **************************/
-/****************************************************************************/ 
+/********************************************************************************************************/
 
   .training-four-steps{
     background-color: $color-green;
@@ -1284,4 +2112,3 @@ h1,h2,h3,h4,h5,h6{
       }
     }
   }
-

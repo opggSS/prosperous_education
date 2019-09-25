@@ -62,8 +62,8 @@
   </div>
 </div>
 
-<div id="banner-4-block" class="section pb-5">
-  <div class="w-100 text-center position-relative w-75 pb-5">
+<div id="banner-4-block" class="section">
+  <div class="w-100 text-center position-relative w-75">
     <img class="w-100 position-relative" id="banner-2" src="../images/about_us/banner-4-about.jpg" alt="">
     <div class="content position-absolute w-100 text-center">
       <p>“</p>
@@ -73,8 +73,54 @@
     </div>
   </div>
 
-  <div class="container w-100 mt-5">
-    <div class="row mt-5">
+  <div id="about-step" class="container w-100 p-0" style="max-width:100%;">
+
+    <div class="row w-100 mx-0">
+
+      <div class="col col-12 col-md-6 col-lg-3 position-relative m-0" style="height:300px;overflow:hidden;">
+        <img class="h-100 position-absolute" src="images/about_us/step-1.jpg" alt="">
+        <div class="w-100 content px-5 position-relative text-center">
+          <h5>.01</h5>
+          <h5>MISSON 使命</h5>
+          <span>Your Gateway To Elite Education</span>
+          <p>通向菁英教育之门</p>
+        </div>
+      </div>
+
+      <div class="col col-12 col-md-6 col-lg-3 position-relative m-0" style="height:300px;overflow:hidden;">
+        <img class="h-100 position-absolute" src="images/about_us/step-2.jpg" alt="">
+        <div class="w-100 content px-5 position-relative text-center">
+          <h5>.02</h5>
+          <h5>VISION 愿景</h5>
+          <span>Become a Leading Brand in the North American Education Industry</span>
+          <p>成为加拿大教育留学行业领跑者</p>
+        </div>
+      </div>
+
+      <div class="col col-12 col-md-6 col-lg-3 position-relative m-0" style="height:300px;overflow:hidden;">
+        <img class="h-100 position-absolute" src="images/about_us/step-3.jpg" alt="">
+        <div class="w-100 content px-5 position-relative text-center">
+          <h5>.03</h5>
+          <h5>SLOGAN 口号</h5>
+          <span>Realize Your Ambition</span>
+          <p>成就梦想，大展宏图</p>
+        </div>
+      </div>
+
+      <div class="col col-12 col-md-6 col-lg-3 position-relative m-0" style="height:300px;overflow:hidden;">
+        <img class="h-100 position-absolute" src="images/about_us/step-4.jpg" alt="">
+        <div class="w-100 content px-5 position-relative text-center">
+          <h5>.04</h5>
+          <h5>PRINCIPLE 理念</h5>
+          <span>Service Based Price Transparency</span>
+          <p>客户为本，价格透明</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- <div class="row mt-5">
       <div class="col col-5 p-0">
         <div class="img-container">
           <img class="w-100 h-100" src="../images/about_us/banner-5-about.png" alt="">
@@ -132,13 +178,10 @@
           <img class="w-100 h-100" src="../images/about_us/banner-8-about.png" alt="">
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="row mt-5">
-      <div class="col col-12 p-0">
-        <img class="w-100" src="../images/about_us/banner-10-about.png" alt="">
-      </div>
-    </div>
+
+
   </div>
 </div>
 
@@ -244,7 +287,7 @@
 </div>
 
 
-<div id="map-block" class="section py-5">
+<!-- <div id="map-block" class="section py-5">
   <div class="container text-center">
     <div class="tit public w-100 d-block">
       <span class="tit-y d-inline-block pl-4">
@@ -253,7 +296,7 @@
       </span>
     </div>
   </div>
-</div>
+</div> -->
 @stop
 @section('js')
 <script src="../js/swiper.min.js"></script>

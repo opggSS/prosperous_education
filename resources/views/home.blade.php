@@ -86,7 +86,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-1.png')}}" width="100%"></div>
                     <h5>留学申请</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 低龄留学申请</p><br>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-2.png')}}" width="100%"></div>
                     <h5>升学规划</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 海外监护 <i class="fas fa-star icon-rightside"></i> 背景提升 </p><br>
@@ -107,7 +107,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-3.png')}}" width="100%"></div>
                     <h5>签证服务</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 入境签证申请</p><br>
@@ -119,7 +119,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-4.png')}}" width="100%"></div>
                     <h5>境外服务</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 行前指导 <i class="fas fa-star icon-rightside"></i> 监护服务 </p><br>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-5.png')}}" width="100%"></div>
                     <h5>职业培训</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 规划职业方向 <i class="fas fa-star icon-rightside"></i> 获得内推机会 </p><br>
@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                    <div><img src="{{asset('images/home/icon-6.png')}}" width="100%"></div>
                     <h5>特色夏令营</h5>
                     <div class="card-detail">
                         <p><i class="fas fa-star"></i> 少儿科学探秘夏令营</p><br>
@@ -167,7 +167,7 @@
                         <div class="row no-gutters text-center">
                             <div class="col-md-3">
                                 <h5><span>1</span><span>级</span> 咨询及留学测评</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/icon-7.png')}}" width="100%"></div> -->
                                 <h4>定位申请学校及专业</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 性格测评</p><br>
@@ -178,7 +178,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h5><span>2</span><span>级</span> 留学方案定制</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>一对一方案设计<br>提高申请效率</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 加拿大留学方案</p><br>
@@ -188,7 +188,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h5><span>3</span><span>级</span> 留学背景提升</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>提升学术实践软实力背景<br>挖掘自身独特竞争力和价值</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 学科竞赛 <i class="far fa-check-square icon-rightside"></i> 学术类夏令营 </p><br>
@@ -205,7 +205,7 @@
                         <div class="row no-gutters text-center">
                             <div class="col-md-3">
                                 <h5><span>4</span><span>级</span> 升学规划陪伴</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>长期规划陪伴学生成长</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 专属教育培养计划</p><br>
@@ -216,7 +216,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h5><span>5</span><span>级</span> 个性化课程培训</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>私人定制提高学习成绩</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> ESL</p><br>
@@ -227,7 +227,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h5><span>6</span><span>级</span> 招生官审案把关</h5>
-                                <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div>
+                                <!-- <div class="img-div"><img src="{{asset('images/home/sample-icon.png')}}" width="100%"></div> -->
                                 <h4>确保100%申请成功率</h4>
                                 <div class="card-detail">
                                     <p><i class="far fa-check-square"></i> 丰富的招生官资源</p><br>
@@ -247,7 +247,7 @@
         </div>
     </div>
     <div class="process-container text-center">
-        <div class="process-title">
+        <div class="process-title mb-3">
             <h3>服务流程 <span>Our Process</span></h3>
         </div>
         <div class="process-graph">
@@ -264,7 +264,7 @@
     <div class="promise-container">
         <div class="container text-center">
             <div class="row">
-                <div class="col-md-8 offset-md-2">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <img src="{{asset('images/home/6.png')}}" width="100%">
                 </div>
             </div>
@@ -277,22 +277,22 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="row no-gutters">
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2 d-md-block d-none">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-3 col-md-2 d-md-block d-none">
                             <a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" width="100%"></a>
                         </div>
                     </div>

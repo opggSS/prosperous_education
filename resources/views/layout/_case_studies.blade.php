@@ -1,11 +1,8 @@
+<div class="title-block text-center mb-4">
+    <h3>经典案例 <span>CASE STUDIES</span></h3>
+</div>
 <div class="case-study text-center">
     <div class="container">
-        <div class="tit public w-100 d-block mt-5 mb-3 center">
-            <span class="tit-y d-inline-block pl-4">
-            经典案例
-            <span class="tit-g d-inline-block py-2 px-4">Case Studies</span>
-          </span>
-        </div>
         <h3>我们已为5000余名留学生开启了留学旅程</h3>
         <p>经过 15 年的辛勤耕耘，宏图教育留学团队已成功帮助数万名留学生完成了留学梦想，帮助一个个萃萃学子抒写精彩的留学故事．成功案例让你和他们一样</p>
     </div>
@@ -21,18 +18,18 @@
         </div>
         <div class="row">
             <div class="col col-lg-1 offset-lg-1 padding-col"></div>
-            @for ($i = 0 ; $i<8; $i++)
+            @for ($i = 6 ; $i<14; $i++)
             <div class="col col-3 col-md-3 col-lg-1">
-                <img src="../images/application/ico-figure.png" class="w-100">
+                <img src="../images/application/icon-application-{{$i}}.png" class="w-100">
             </div>
             @endfor
         </div>
 
         <div class="row">
             <div class="col col-lg-1 offset-lg-1 padding-col"></div>
-            @for ($i = 0 ; $i<8; $i++)
+            @for ($i = 14 ; $i<22; $i++)
             <div class="col col-3 col-md-3 col-lg-1">
-                <img src="../images/application/ico-figure.png" class="w-100">
+                <img src="../images/application/icon-application-{{$i}}.png" class="w-100">
             </div>
             @endfor
         </div>

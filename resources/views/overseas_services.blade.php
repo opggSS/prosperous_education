@@ -4,8 +4,8 @@
 @section('content')
 <div id="overseas-service">
     <div id="banner-main-block" class="section position-relative">
-      <img id="banner-bg" class="w-100 position-relative" src="../images/about_us/bg-gallery.png" alt="image">
-      <img id="banner-main" class="position-absolute" src="../images/oversea/banner-main-abroad.png" alt="banner">
+      <img id="banner-bg" class="w-100 position-relative" src="{{asset('images/about_us/bg-gallery.png')}}" alt="image">
+      <img id="banner-main" class="position-absolute" src="{{asset('images/oversea/banner-main-abroad.png')}}" alt="banner">
 
       <div class="info-slide-block">
 
@@ -31,37 +31,37 @@
         <div class="row">
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="../images/oversea/ico-1-abroad.png" alt="">
+              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
             </div>
             <p>行前指导</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="../images/oversea/ico-1-abroad.png" alt="">
+              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
             </div>
             <p>行前指导</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="../images/oversea/ico-1-abroad.png" alt="">
+              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
             </div>
             <p>行前指导</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="../images/oversea/ico-1-abroad.png" alt="">
+              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
             </div>
             <p>行前指导</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="../images/oversea/ico-1-abroad.png" alt="">
+              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
             </div>
             <p>行前指导</p>
           </div>
           <div class="col col-4 col-sm-2 text-center">
             <div class="ico-container p-1 p-md-4">
-              <img class="w-100" src="../images/oversea/ico-1-abroad.png" alt="">
+              <img class="w-100" src="{{asset('images/oversea/ico-1-abroad.png')}}" alt="">
             </div>
             <p>行前指导</p>
           </div>
@@ -86,7 +86,7 @@
                     <button type="button" class="btn btn-info btn-lg mt-5" data-toggle="modal" data-target="#myModal">Learn More</button>
                 </div>
                 <div class="col col-special6">
-                    <img src="../images/oversea/banner-1-abroad.png" class="w-100">
+                    <img src="{{asset('images/oversea/banner-1-abroad.png')}}" class="w-100">
                 </div>
 
             </div>
@@ -162,7 +162,7 @@
          <h3>宏图优势 <span>OUR ADVANTAGES</span></h3>
       </div>
       <div class="container text-center">
-        <img class="w-100 mt-5" id="banner-11" src="../images/about_us/banner-11-about.png" alt="">
+        <img class="w-100 mt-5" id="banner-11" src="{{asset('images/about_us/banner-11-about.png')}}" alt="">
       </div>
     </div>
 
@@ -177,25 +177,25 @@
             <div class="container">
               <div class="row">
                 <div class="col col-3 text-center">
-                      <img class="w-100" src="../images/about_us/persona-1-about.png" alt="">
+                      <img class="w-100" src="{{asset('images/about_us/persona-1-about.png')}}" alt="">
                       <p class="mt-3 mb-0">宏图教育总监</p>
                       <p class="mt-1">Tommy Yao</p>
                 </div>
 
                 <div class="col col-3 text-center">
-                      <img class="w-100" src="../images/about_us/persona-2-about.png" alt="">
+                      <img class="w-100" src="{{asset('images/about_us/persona-2-about.png')}}" alt="">
                       <p class="mt-3 mb-0">宏图教育主管</p>
                       <p class="mt-1">Jessica Yen</p>
                 </div>
 
                 <div class="col col-3 text-center">
-                      <img class="w-100" src="../images/about_us/persona-3-about.png" alt="">
+                      <img class="w-100" src="{{asset('images/about_us/persona-3-about.png')}}" alt="">
                       <p class="mt-3 mb-0">宏图高级顾问</p>
                       <p class="mt-1">Angel Yeh</p>
                 </div>
 
                 <div class="col col-3 text-center">
-                      <img class="w-100" src="../images/about_us/persona-4-about.png" alt="">
+                      <img class="w-100" src="{{asset('images/about_us/persona-4-about.png')}}" alt="">
                       <p class="mt-3 mb-0">宏图高级顾问</p>
                       <p class="mt-1">Vivian Hou</p>
                 </div>
@@ -208,25 +208,25 @@
             <div class="container">
               <div class="row">
                 <div class="col col-3 text-center">
-                      <img class="w-100" src="../images/about_us/persona-1-about.png" alt="">
+                      <img class="w-100" src="{{asset('images/about_us/persona-1-about.png')}}" alt="">
                       <p class="mt-3 mb-0">宏图教育总监</p>
                       <p class="mt-1">Tommy Yao</p>
                 </div>
 
                 <div class="col col-3 text-center">
-                      <img class="w-100" src="../images/about_us/persona-2-about.png" alt="">
+                      <img class="w-100" src="{{asset('images/about_us/persona-2-about.png')}}" alt="">
                       <p class="mt-3 mb-0">宏图教育主管</p>
                       <p class="mt-1">Jessica Yen</p>
                 </div>
 
                 <div class="col col-3 text-center">
-                      <img class="w-100" src="../images/about_us/persona-3-about.png" alt="">
+                      <img class="w-100" src="{{asset('images/about_us/persona-3-about.png')}}" alt="">
                       <p class="mt-3 mb-0">宏图高级顾问</p>
                       <p class="mt-1">Angel Yeh</p>
                 </div>
 
                 <div class="col col-3 text-center">
-                      <img class="w-100" src="../images/about_us/persona-4-about.png" alt="">
+                      <img class="w-100" src="{{asset('images/about_us/persona-4-about.png')}}" alt="">
                       <p class="mt-3 mb-0">宏图高级顾问</p>
                       <p class="mt-1">Vivian Hou</p>
                 </div>
@@ -241,7 +241,6 @@
 </div>
 @stop
 @section('js')
-<script src="../js/swiper.min.js"></script>
 <script type="text/javascript">
   $(function(){
     // var height = $(window).height();

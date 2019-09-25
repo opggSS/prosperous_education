@@ -39,12 +39,6 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'heijianti';
 }
 
-body{
-  //@media #{$phone-md} {
-  //  overflow-x: hidden;
-  //}
-}
-
 #menu{
   z-index: 1000;
   background-color: white;
@@ -1145,10 +1139,17 @@ body{
 
 
 /****************************************************************************/
+/********************          ABOUT US CSS          ************************/
+/****************************************************************************/
+#about-us{
+
+}
+
+/****************************************************************************/
 /********************      VISA SERVICE CSS          ************************/
 /****************************************************************************/
 #visa-services{
-  @media (min-width: 768px){
+  @media (min-width: 540px){
     .seven-cols .col-md-1,
     .seven-cols .col-sm-1,
     .seven-cols .col-lg-1  {
@@ -1174,6 +1175,39 @@ body{
       width: 14.285714285714285714285714285714%;
       *width: 14.285714285714285714285714285714%;
       max-width: 14.285714285714285714285714285714% !important;
+      flex:none !important;
+    }
+  }
+
+  @media #{$phone-lg} {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 14.285714285714285714285714285714%;
+      *width: 14.285714285714285714285714285714%;
+      max-width: 14.285714285714285714285714285714% !important;
+      flex:none !important;
+    }
+  }
+
+  @media #{$phone-md} {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 25%;
+      *width: 25%;
+      max-width: 25% !important;
+      flex:none !important;
+    }
+  }
+
+  @media #{$phone-sm} {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 50%;
+      *width: 50%;
+      max-width: 50% !important;
       flex:none !important;
     }
   }
@@ -1238,6 +1272,14 @@ body{
     &#banner-2-block {
       background: $color-green;
 
+      @media #{$phone-md} {
+        .swiper-slide{
+          .container{
+            max-width: 768px;
+          }
+        }
+      }
+
       .col {
         .container {
           height: 100%;
@@ -1261,6 +1303,24 @@ body{
             overflow: hidden;
           }
 
+          @media #{$phone-md} {
+            .content{
+              height: 65%;
+            }
+            .img-container {
+              height: 15%;
+            }
+          }
+
+          @media #{$phone-sm} {
+            .content{
+              height: 55%;
+            }
+            .img-container {
+              height: 25%;
+            }
+          }
+
         }
 
       }
@@ -1271,6 +1331,11 @@ body{
     }
 
     &#banner-3-block {
+      .title-block{
+        h3{
+          letter-spacing: 2px;
+        }
+      }
       .col-md-1{
         .img-container {
           position: relative;
@@ -1957,9 +2022,9 @@ body{
   margin-right: 10px;
 }
 
-/****************************************************************************/
+/********************************************************************************************************/
 /*********************  End of  case studies and application block CSS         **************************/
-/****************************************************************************/ 
+/********************************************************************************************************/
 
   .training-four-steps{
     background-color: $color-green;

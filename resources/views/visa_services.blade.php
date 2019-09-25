@@ -20,10 +20,10 @@
 
     <div class="container mt-5">
       <div class="row">
-        <div class="col col-5">
+        <div class="col col-12 px-5 px-sm-0 mb-3 mb-sm-0 col-sm-5">
           <img class="w-100" src="{{asset('images/visa/banner-1-visa.png')}}" alt="">
         </div>
-        <div class="col col-7">
+        <div class="col col-12 col-sm-7">
           <ul>
             <li>
               <span>宏图教育签证办理团队经过多年磨练与实践，形成了成熟高效的工作流程，
@@ -60,7 +60,7 @@
         <div class="swiper-slide">
           <div class="container">
             <div class="row">
-              <div class="col col-4">
+              <div class="col col-12 mb-3 mb-sm-0 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大入境签证申请</h3>
                   <div class="content mt-3">
@@ -79,7 +79,7 @@
 
               </div>
 
-              <div class="col col-4">
+              <div class="col col-12 mb-3 mb-sm-0 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大入境签证申请</h3>
                   <div class="content mt-3">
@@ -100,7 +100,7 @@
 
               </div>
 
-              <div class="col col-4">
+              <div class="col col-12 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大入境签证申请</h3>
                   <div class="content mt-3">
@@ -128,7 +128,7 @@
         <div class="swiper-slide">
           <div class="container">
             <div class="row">
-              <div class="col col-4">
+              <div class="col col-12 mb-3 mb-sm-0 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大入境签证申请</h3>
                   <div class="content mt-3">
@@ -147,7 +147,7 @@
 
               </div>
 
-              <div class="col col-4">
+              <div class="col col-12 mb-3 mb-sm-0 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大学签和学签续签？</h3>
                   <div class="content mt-3">
@@ -168,7 +168,7 @@
 
               </div>
 
-              <div class="col col-4">
+              <div class="col col-12 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大留学毕业后工签</h3>
                   <div class="content mt-3">
@@ -203,9 +203,8 @@
 
   <div id="banner-3-block" class="section py-5">
     <div class="title-block text-center mb-5">
-       <h3>签证办理流程 <span>VISA APPLICATION PROCESS</span></h3>
+        <h3>签证办理流程 <span><i class="d-none d-sm-inline">APPLICATION</i> PROCESS</span></h3>
     </div>
-
 
     <div class="container text-center mt-5">
       <div class="row seven-cols">

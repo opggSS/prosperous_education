@@ -1879,6 +1879,35 @@ h1,h2,h3,h4,h5,h6{
 /*********************    case studies and application block CSS         **************************/
 /**************************************************************************************************/
 
+.title-block {
+
+  color: $color-white;
+
+  h3{
+    letter-spacing: 10px;
+    background-color: $color-orange;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 4px 0 4px 30px;
+  }
+
+  span{
+    background-color: $color-green;
+    border-radius: 26px;
+    padding: 4px 30px 6px 30px;
+    border: 6px solid $color-white;
+    letter-spacing: 1px;
+  }
+
+  @media #{$phone-md} {
+    h3{
+      letter-spacing: 4px;
+      font-size: 1rem;
+      padding-top: 7px;
+    }
+  }
+}
+
 .case-study{
   padding-bottom: 20px;
   h3{
@@ -1998,12 +2027,39 @@ h1,h2,h3,h4,h5,h6{
         flex: 0 0 40%;
         max-width: 40%;
         padding: 0 20px;
+
+        @media #{$phone-md} {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+          max-width: 60%;
+        }
+        @media #{$phone-sm} {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
       }
       .col-special6{
         -webkit-box-flex: 0;
         -ms-flex: 0 0 60%;
         flex: 0 0 60%;
         max-width: 60%;
+
+        @media #{$phone-md} {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+          max-width: 40%;
+        }
+        @media #{$phone-sm} {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+          max-width: 100%;
+          margin-top: 2rem;
+        }
       }
       p{
         margin-top: 15px;

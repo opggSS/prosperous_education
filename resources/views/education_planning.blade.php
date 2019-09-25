@@ -88,11 +88,8 @@ $modules = [
 
 
 <div class="container text-center study">
-    <div class="tit public w-100 d-block mt-5 mb-3 center">
-      <span class="tit-y d-inline-block pl-4">
-        规划模块
-        <span class="tit-g d-inline-block py-2 px-4">planning module</span>
-      </span>
+    <div class="title-block text-center mb-4">
+        <h3>规划模块 <span>MODULE PLANNING</span></h3>
     </div>
     <p>宏图教育学业生涯全程规划服务项目是根据每个学生在加拿大求学阶段的需要进行设立，旨在通过我们专业的规划、指导和培训，帮助赴加读中学的中国留学生在学业上和生活上充分利用加拿大学校资源以及社会资源，有效地提升个人核心竞争力，最终顺利完成学业，并考取理想的大学。</p>
     
@@ -107,7 +104,7 @@ $modules = [
 
 </div>
 
-<div class="application-block text-center">
+<div class="application-block text-center mb-5">
     <div class="container">
         <div class="swiper-container s1">
             <div class="swiper-wrapper">
@@ -213,9 +210,12 @@ $modules = [
     <div class="container">
         <div class="tit public w-100 d-block mt-5 mb-3 center">
             <span class="tit-y d-inline-block pl-4">
-                在线预约
-            <span class="tit-g d-inline-block py-2 px-4">Online Reservation</span>
+
+            <span class="tit-g d-inline-block py-2 px-4"></span>
           </span>
+        </div>
+        <div class="title-block text-center mb-4">
+            <h3>在线预约 <span>RESERVATION</span></h3>
         </div>
         
     </div>

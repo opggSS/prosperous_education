@@ -14,22 +14,6 @@
   font-family: "jianshoujinshu";
   src: url("../fonts/minijianshoujinshu.ttf");
 }
-.public.tit {
-  letter-spacing: 0.5rem;
-  font-size: 1rem;
-  color: #fff;
-}
-.public.tit span {
-  border-radius: 3rem;
-}
-.public.tit span.tit-y {
-  background: #FFA200;
-}
-.public.tit span.tit-y .tit-g {
-  background: #00a396;
-  /*border-left: 3px solid #fff;*/
-}
-
 .study p {
   margin: 30px auto;
 }

@@ -4,8 +4,8 @@
 @section('content')
 <div id="visa-services">
   <div id="banner-main-block" class="section position-relative">
-    <img id="banner-bg" class="w-100 position-relative" src="../images/visa/bg-gallery.png" alt="image">
-    <img id="banner-main" class="position-absolute" src="../images/visa/banner-main-visa.png" alt="banner">
+    <img id="banner-bg" class="w-100 position-relative" src="{{asset('images/visa/bg-gallery.png')}}" alt="image">
+    <img id="banner-main" class="position-absolute" src="{{asset('images/visa/banner-main-visa.png')}}" alt="banner">
 
     <div class="info-slide-block">
 
@@ -14,21 +14,16 @@
   @include('layout._congratulation')
 
   <div id="banner-1-block" class="section py-5">
-    <div class="container text-center">
-      <div class="tit public w-100 d-block">
-        <span class="tit-y d-inline-block pl-4">
-          签证服务
-          <span class="tit-g d-inline-block py-2 px-4">VISA SERVICES</span>
-        </span>
-      </div>
+    <div class="title-block text-center mb-4">
+       <h3>签证服务 <span>VISA SERVICES</span></h3>
     </div>
 
     <div class="container mt-5">
       <div class="row">
-        <div class="col col-5">
-          <img class="w-100" src="../images/visa/banner-1-visa.png" alt="">
+        <div class="col col-12 px-5 px-sm-0 mb-3 mb-sm-0 col-sm-5">
+          <img class="w-100" src="{{asset('images/visa/banner-1-visa.png')}}" alt="">
         </div>
-        <div class="col col-7">
+        <div class="col col-12 col-sm-7">
           <ul>
             <li>
               <span>宏图教育签证办理团队经过多年磨练与实践，形成了成熟高效的工作流程，
@@ -53,15 +48,8 @@
     </div>
   </div>
 
-  <div class="tit-block pb-5">
-    <div class="container text-center">
-      <div class="tit public w-100 d-block">
-        <span class="tit-y d-inline-block pl-4">
-          签证申请
-          <span class="tit-g d-inline-block py-2 px-4">VISA APPLICATION</span>
-        </span>
-      </div>
-    </div>
+  <div class="title-block text-center mb-5">
+      <h3>签证申请 <span>VISA APPLICATION</span></h3>
   </div>
 
   <div id="banner-2-block" class="section py-5">
@@ -72,7 +60,7 @@
         <div class="swiper-slide">
           <div class="container">
             <div class="row">
-              <div class="col col-4">
+              <div class="col col-12 mb-3 mb-sm-0 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大入境签证申请</h3>
                   <div class="content mt-3">
@@ -82,7 +70,7 @@
                   </div>
 
                   <div class="img-container">
-                    <img class="w-100" src="../images/visa/banner-2-visa.png" alt="">
+                    <img class="w-100" src="{{asset('images/visa/banner-2-visa.png')}}" alt="">
                   </div>
                   <div class="container text-center mt-3">
                     <a href="javascript:;">Learn More ></a>
@@ -91,7 +79,7 @@
 
               </div>
 
-              <div class="col col-4">
+              <div class="col col-12 mb-3 mb-sm-0 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大入境签证申请</h3>
                   <div class="content mt-3">
@@ -103,7 +91,7 @@
                   </div>
 
                   <div class="img-container">
-                    <img class="w-100" src="../images/visa/banner-3-visa.png" alt="">
+                    <img class="w-100" src="{{asset('images/visa/banner-3-visa.png')}}" alt="">
                   </div>
                   <div class="container text-center mt-3">
                     <a href="javascript:;">Learn More ></a>
@@ -112,7 +100,7 @@
 
               </div>
 
-              <div class="col col-4">
+              <div class="col col-12 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大入境签证申请</h3>
                   <div class="content mt-3">
@@ -123,7 +111,7 @@
                   </div>
 
                   <div class="img-container">
-                    <img class="w-100" src="../images/visa/banner-4-visa.png" alt="">
+                    <img class="w-100" src="{{asset('images/visa/banner-4-visa.png')}}" alt="">
                   </div>
                   <div class="container text-center mt-3">
                     <a href="javascript:;">Learn More ></a>
@@ -140,7 +128,7 @@
         <div class="swiper-slide">
           <div class="container">
             <div class="row">
-              <div class="col col-4">
+              <div class="col col-12 mb-3 mb-sm-0 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大入境签证申请</h3>
                   <div class="content mt-3">
@@ -150,7 +138,7 @@
                   </div>
 
                   <div class="img-container">
-                    <img class="w-100" src="../images/visa/banner-2-visa.png" alt="">
+                    <img class="w-100" src="{{asset('images/visa/banner-2-visa.png')}}" alt="">
                   </div>
                   <div class="container text-center mt-3">
                     <a href="javascript:;">Learn More ></a>
@@ -159,7 +147,7 @@
 
               </div>
 
-              <div class="col col-4">
+              <div class="col col-12 mb-3 mb-sm-0 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大学签和学签续签？</h3>
                   <div class="content mt-3">
@@ -171,7 +159,7 @@
                   </div>
 
                   <div class="img-container">
-                    <img class="w-100" src="../images/visa/banner-3-visa.png" alt="">
+                    <img class="w-100" src="{{asset('images/visa/banner-3-visa.png')}}" alt="">
                   </div>
                   <div class="container text-center mt-3">
                     <a href="javascript:;">Learn More ></a>
@@ -180,7 +168,7 @@
 
               </div>
 
-              <div class="col col-4">
+              <div class="col col-12 col-sm-4">
                 <div class="board container p-3">
                   <h3>加拿大留学毕业后工签</h3>
                   <div class="content mt-3">
@@ -191,7 +179,7 @@
                   </div>
 
                   <div class="img-container">
-                    <img class="w-100" src="../images/visa/banner-4-visa.png" alt="">
+                    <img class="w-100" src="{{asset('images/visa/banner-4-visa.png')}}" alt="">
                   </div>
                   <div class="container text-center mt-3">
                     <a href="javascript:;">Learn More ></a>
@@ -214,27 +202,22 @@
   </div>
 
   <div id="banner-3-block" class="section py-5">
-    <div class="container text-center">
-      <div class="tit public w-100 d-block">
-        <span class="tit-y d-inline-block pl-4">
-          签证办理流程
-          <span class="tit-g d-inline-block py-2 px-4">VISA APPLICATION PROCESS</span>
-        </span>
-      </div>
+    <div class="title-block text-center mb-5">
+        <h3>签证办理流程 <span><i class="d-none d-sm-inline">APPLICATION</i> PROCESS</span></h3>
     </div>
 
     <div class="container text-center mt-5">
       <div class="row seven-cols">
         <div class="col col-md-1">
           <div class="img-container mb-3">
-            <img class="h-50 mt-4" src="../images/visa/ico-1-visa.png" alt="">
+            <img class="h-50 mt-4" src="{{asset('images/visa/ico-1-visa.png')}}" alt="">
           </div>
           <h3>咨询预约</h3>
           <p>面对面或电话咨询，与宏图签证项目经理沟通确认预约办理业务。</p>
         </div>
         <div class="col col-md-1">
           <div class="img-container mb-3">
-            <img class="h-50 mt-4" src="../images/visa/ico-2-visa.png" alt="">
+            <img class="h-50 mt-4" src="{{asset('images/visa/ico-2-visa.png')}}" alt="">
           </div>
           <h3>签证启动</h3>
           <p>宏图签证主管对客户签证申请难易程度进行评估，并安排一对一签证专员与客户直接沟通，
@@ -242,35 +225,35 @@
         </div>
         <div class="col col-md-1">
           <div class="img-container mb-3">
-            <img class="h-50 mt-4" src="../images/visa/ico-3-visa.png" alt="">
+            <img class="h-50 mt-4" src="{{asset('images/visa/ico-3-visa.png')}}" alt="">
           </div>
           <h3>材料准备</h3>
           <p>宏图签证专员与客户沟通准备申请材料，并交由签证主管进行指导审核。</p>
         </div>
         <div class="col col-md-1">
           <div class="img-container mb-3">
-            <img class="h-50 mt-4" src="../images/visa/ico-4-visa.png" alt="">
+            <img class="h-50 mt-4" src="{{asset('images/visa/ico-4-visa.png')}}" alt="">
           </div>
           <h3>文案准备</h3>
           <p>签证材料准备完善后，由签证文案专员进行文案创作，以及申请表格填写、申请材料翻译。</p>
         </div>
         <div class="col col-md-1">
           <div class="img-container mb-3">
-            <img class="h-50 mt-4" src="../images/visa/ico-5-visa.png" alt="">
+            <img class="h-50 mt-4" src="{{asset('images/visa/ico-5-visa.png')}}" alt="">
           </div>
           <h3>审核递表</h3>
           <p>申请文件与材料备齐后，VPEA签证办理专员前往签证中心，提交签证材料。</p>
         </div>
         <div class="col col-md-1">
           <div class="img-container mb-3">
-            <img class="h-50 mt-4" src="../images/visa/ico-6-visa.png" alt="">
+            <img class="h-50 mt-4" src="{{asset('images/visa/ico-6-visa.png')}}" alt="">
           </div>
           <h3>等待审批</h3>
           <p>提交签证申请后，宏图签证办理专员会随时跟进签证办理进度，并及时告知客户。</p>
         </div>
         <div class="col col-md-1">
           <div class="img-container mb-3">
-            <img class="h-50 mt-4" src="../images/visa/ico-7-visa.png" alt="">
+            <img class="h-50 mt-4" src="{{asset('images/visa/ico-7-visa.png')}}" alt="">
           </div>
           <h3>获得签证</h3>
           <p>审批通过获签后,VPEA将在第一时间将签证邮递给客户。</p>
@@ -283,7 +266,6 @@
 @stop
 
 @section('js')
-<script src="../js/swiper.min.js"></script>
 <script type="text/javascript">
   $(function(){
     // var height = $(window).height();

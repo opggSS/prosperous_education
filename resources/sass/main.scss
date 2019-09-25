@@ -1184,30 +1184,32 @@ body{
     }
   }
 
-  .public {
+  .title-block{
+    color: $color-white;
 
-    &.tit {
-      letter-spacing: .5rem;
-      font-size: 1.2rem;
-      color: #fff;
+    h3{
+      letter-spacing: 10px;
+      background-color: $color-orange;
+      border-radius: 30px;
+      display: inline-block;
+      padding: 4px 0 4px 30px;
+    }
 
-      span {
-        border-radius: 3rem;
+    span{
+      background-color: $color-green;
+      border-radius: 26px;
+      padding: 4px 30px 6px 30px;
+      border: 6px solid $color-white;
+      letter-spacing: 1px;
+    }
 
-        &.tit-y {
-          background: $color-orange;
-
-          .tit-g {
-            background: $color-green;
-            border: 6px solid #fff;
-          }
-        }
+    @media #{$phone-sm} {
+      h3{
+        letter-spacing: 4px;
+        font-size: 1rem;
+        padding-top: 7px;
       }
     }
-  }
-
-  .tit-block {
-    background: #fff;
   }
 
   .section {
@@ -1221,6 +1223,15 @@ body{
         background-color: #fff;
         width: 70.8%;
         left: 14.6%;
+      }
+
+      @media #{$phone-sm} {
+        margin-bottom:3.7rem !important;
+
+        #banner-main{
+          left:0;
+          width: 100%;
+        }
       }
     }
 
@@ -1260,18 +1271,19 @@ body{
     }
 
     &#banner-3-block {
-      .img-container {
-        position: relative;
-        width: 6rem;
-        margin: auto;
-        height: 6rem;
-        border: 2px solid $color-orange;
-        overflow: hidden;
-        border-radius: 50%;
-      }
-
-      h3 {
-        color: $color-orange;
+      .col-md-1{
+        .img-container {
+          position: relative;
+          width: 6rem;
+          margin: auto;
+          height: 6rem;
+          border: 2px solid $color-orange;
+          overflow: hidden;
+          border-radius: 50%;
+        }
+        h3 {
+          color: $color-orange;
+        }
       }
     }
 

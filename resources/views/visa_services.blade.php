@@ -48,15 +48,8 @@
     </div>
   </div>
 
-  <div class="tit-block pb-5">
-    <div class="container text-center">
-      <div class="tit public w-100 d-block">
-        <span class="tit-y d-inline-block pl-4">
-          签证申请
-          <span class="tit-g d-inline-block py-2 px-4">VISA APPLICATION</span>
-        </span>
-      </div>
-    </div>
+  <div class="title-block text-center mb-5">
+      <h3>签证申请 <span>VISA APPLICATION</span></h3>
   </div>
 
   <div id="banner-2-block" class="section py-5">
@@ -209,14 +202,10 @@
   </div>
 
   <div id="banner-3-block" class="section py-5">
-    <div class="container text-center">
-      <div class="tit public w-100 d-block">
-        <span class="tit-y d-inline-block pl-4">
-          签证办理流程
-          <span class="tit-g d-inline-block py-2 px-4">VISA APPLICATION PROCESS</span>
-        </span>
-      </div>
+    <div class="title-block text-center mb-5">
+       <h3>签证办理流程 <span>VISA APPLICATION PROCESS</span></h3>
     </div>
+
 
     <div class="container text-center mt-5">
       <div class="row seven-cols">

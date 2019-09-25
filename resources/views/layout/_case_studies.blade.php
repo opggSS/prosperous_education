@@ -21,18 +21,18 @@
         </div>
         <div class="row">
             <div class="col col-lg-1 offset-lg-1 padding-col"></div>
-            @for ($i = 0 ; $i<8; $i++)
+            @for ($i = 6 ; $i<14; $i++)
             <div class="col col-3 col-md-3 col-lg-1">
-                <img src="../images/application/ico-figure.png" class="w-100">
+                <img src="../images/application/icon-application-{{$i}}.png" class="w-100">
             </div>
             @endfor
         </div>
 
         <div class="row">
             <div class="col col-lg-1 offset-lg-1 padding-col"></div>
-            @for ($i = 0 ; $i<8; $i++)
+            @for ($i = 14 ; $i<22; $i++)
             <div class="col col-3 col-md-3 col-lg-1">
-                <img src="../images/application/ico-figure.png" class="w-100">
+                <img src="../images/application/icon-application-{{$i}}.png" class="w-100">
             </div>
             @endfor
         </div>

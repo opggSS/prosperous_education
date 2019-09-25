@@ -702,9 +702,12 @@ h1, h2, h3, h4, h5, h6 {
           font-size: 1.5rem; } }
 
 /****************************************************************************/
+/********************          ABOUT US CSS          ************************/
+/****************************************************************************/
+/****************************************************************************/
 /********************      VISA SERVICE CSS          ************************/
 /****************************************************************************/
-@media (min-width: 768px) {
+@media (min-width: 540px) {
   #visa-services .seven-cols .col-md-1,
   #visa-services .seven-cols .col-sm-1,
   #visa-services .seven-cols .col-lg-1 {
@@ -726,21 +729,51 @@ h1, h2, h3, h4, h5, h6 {
     *width: 14.285714285714285714285714285714%;
     max-width: 14.285714285714285714285714285714% !important;
     flex: none !important; } }
+@media only screen and (max-width: 992px) {
+  #visa-services .seven-cols .col-md-1,
+  #visa-services .seven-cols .col-sm-1,
+  #visa-services .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+    max-width: 14.285714285714285714285714285714% !important;
+    flex: none !important; } }
+@media only screen and (max-width: 768px) {
+  #visa-services .seven-cols .col-md-1,
+  #visa-services .seven-cols .col-sm-1,
+  #visa-services .seven-cols .col-lg-1 {
+    width: 25%;
+    *width: 25%;
+    max-width: 25% !important;
+    flex: none !important; } }
+@media only screen and (max-width: 576px) {
+  #visa-services .seven-cols .col-md-1,
+  #visa-services .seven-cols .col-sm-1,
+  #visa-services .seven-cols .col-lg-1 {
+    width: 50%;
+    *width: 50%;
+    max-width: 50% !important;
+    flex: none !important; } }
 #visa-services ul li {
   list-style: none; }
-#visa-services .public.tit {
-  letter-spacing: .5rem;
-  font-size: 1.2rem;
-  color: #fff; }
-  #visa-services .public.tit span {
-    border-radius: 3rem; }
-    #visa-services .public.tit span.tit-y {
-      background: #FFA200; }
-      #visa-services .public.tit span.tit-y .tit-g {
-        background: #00a396;
-        border: 6px solid #fff; }
-#visa-services .tit-block {
-  background: #fff; }
+#visa-services .title-block {
+  color: #FFFFFF; }
+  #visa-services .title-block h3 {
+    letter-spacing: 10px;
+    background-color: #FFA200;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 4px 0 4px 30px; }
+  #visa-services .title-block span {
+    background-color: #00a396;
+    border-radius: 26px;
+    padding: 4px 30px 6px 30px;
+    border: 6px solid #FFFFFF;
+    letter-spacing: 1px; }
+  @media only screen and (max-width: 576px) {
+    #visa-services .title-block h3 {
+      letter-spacing: 4px;
+      font-size: 1rem;
+      padding-top: 7px; } }
 #visa-services .section {
   background-color: #fff; }
   #visa-services .section#banner-main-block #banner-main {
@@ -749,8 +782,17 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     width: 70.8%;
     left: 14.6%; }
+  @media only screen and (max-width: 576px) {
+    #visa-services .section#banner-main-block {
+      margin-bottom: 3.7rem !important; }
+      #visa-services .section#banner-main-block #banner-main {
+        left: 0;
+        width: 100%; } }
   #visa-services .section#banner-2-block {
     background: #00a396; }
+    @media only screen and (max-width: 768px) {
+      #visa-services .section#banner-2-block .swiper-slide .container {
+        max-width: 768px; } }
     #visa-services .section#banner-2-block .col .container {
       height: 100%; }
       #visa-services .section#banner-2-block .col .container.board {
@@ -764,9 +806,21 @@ h1, h2, h3, h4, h5, h6 {
       #visa-services .section#banner-2-block .col .container .img-container {
         height: 30%;
         overflow: hidden; }
+      @media only screen and (max-width: 768px) {
+        #visa-services .section#banner-2-block .col .container .content {
+          height: 65%; }
+        #visa-services .section#banner-2-block .col .container .img-container {
+          height: 15%; } }
+      @media only screen and (max-width: 576px) {
+        #visa-services .section#banner-2-block .col .container .content {
+          height: 55%; }
+        #visa-services .section#banner-2-block .col .container .img-container {
+          height: 25%; } }
     #visa-services .section#banner-2-block a {
       color: #FFA200; }
-  #visa-services .section#banner-3-block .img-container {
+  #visa-services .section#banner-3-block .title-block h3 {
+    letter-spacing: 2px; }
+  #visa-services .section#banner-3-block .col-md-1 .img-container {
     position: relative;
     width: 6rem;
     margin: auto;
@@ -774,7 +828,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #FFA200;
     overflow: hidden;
     border-radius: 50%; }
-  #visa-services .section#banner-3-block h3 {
+  #visa-services .section#banner-3-block .col-md-1 h3 {
     color: #FFA200; }
 #visa-services .congratulation-container {
   margin-bottom: 0; }
@@ -1212,9 +1266,9 @@ h1, h2, h3, h4, h5, h6 {
   /* Equal to width of new image */
   margin-right: 10px; }
 
-/****************************************************************************/
+/********************************************************************************************************/
 /*********************  End of  case studies and application block CSS         **************************/
-/****************************************************************************/
+/********************************************************************************************************/
 .training-four-steps {
   background-color: #00a396;
   padding: 50px 0; }

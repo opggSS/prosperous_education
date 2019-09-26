@@ -67,5 +67,6 @@ Route::prefix('admin')->group(function(){
     Route::post('/reply/{id}', 'MessageController@sendEmail');
     
     Route::resource('/galleries' , 'GalleryController');
+    Route::resource('/congrats' , 'CongratController');
 });
 
